@@ -1,67 +1,41 @@
-import { Router } from 'express';
+import { Hono } from 'hono';
+import { zValidator } from '@hono/zod-validator';
 import { z } from 'zod';
+import { eq } from 'drizzle-orm';
+import { createDb } from '../db';
+import { categories } from '../db/schema';
 import { requireAuth, requireAdmin } from '../middleware/auth';
-import { validate } from '../middleware/validate';
-import { AppError } from '../middleware/errorHandler';
-import prisma from '../lib/prisma';
+import type { Bindings, Variables } from '../index';
 
-const router = Router();
+const app = new Hono<{ Bindings: Bindings; Variables: Variables }>();
 
-const createCategorySchema = z.object({
-  name: z.string().min(1).max(50),
-  slug: z.string().min(1).max(50).regex(/^[a-z0-9-]+$/),
-  icon: z.string().optional(),
+const createSchema = z.object({
+  name:        z.string().min(1).max(50),
+  slug:        z.string().min(1).max(50).regex(/^[a-z0-9-]+$/),
+  icon:        z.string().optional(),
   description: z.string().max(200).optional(),
 });
 
 // GET /api/categories
-router.get('/', async (_req, res, next) => {
-  try {
-    const categories = await prisma.category.findMany({
-      orderBy: { name: 'asc' },
-      include: {
-        _count: { select: { markets: { where: { status: 'OPEN' } } } },
-      },
-    });
-
-    res.json(categories);
-  } catch (err) {
-    next(err);
-  }
+app.get('/', async (c) => {
+  const db = createDb(c.env.DATABASE_URL);
+  const rows = await db.select().from(categories).orderBy(categories.name);
+  return c.json(rows);
 });
 
 // GET /api/categories/:slug
-router.get('/:slug', async (req, res, next) => {
-  try {
-    const category = await prisma.category.findUnique({
-      where: { slug: req.params.slug },
-      include: {
-        _count: { select: { markets: true } },
-      },
-    });
-
-    if (!category) throw new AppError(404, 'Category not found');
-
-    res.json(category);
-  } catch (err) {
-    next(err);
-  }
+app.get('/:slug', async (c) => {
+  const db = createDb(c.env.DATABASE_URL);
+  const rows = await db.select().from(categories).where(eq(categories.slug, c.req.param('slug')));
+  if (!rows.length) return c.json({ error: 'Category not found' }, 404);
+  return c.json(rows[0]);
 });
 
 // POST /api/categories — admin only
-router.post(
-  '/',
-  requireAuth,
-  requireAdmin,
-  validate(createCategorySchema),
-  async (req, res, next) => {
-    try {
-      const category = await prisma.category.create({ data: req.body });
-      res.status(201).json(category);
-    } catch (err) {
-      next(err);
-    }
-  }
-);
+app.post('/', requireAuth, requireAdmin, zValidator('json', createSchema), async (c) => {
+  const db = createDb(c.env.DATABASE_URL);
+  const [cat] = await db.insert(categories).values(c.req.valid('json')).returning();
+  return c.json(cat, 201);
+});
 
-export default router;
+export default app;

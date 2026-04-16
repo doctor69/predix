@@ -1,126 +1,62 @@
-import { Request, Response, NextFunction } from 'express';
+import { Context, Next } from 'hono';
 import { jwtVerify, createRemoteJWKSet } from 'jose';
+import type { Bindings } from '../index';
 
-export interface AuthenticatedRequest extends Request {
-  user?: {
-    walletAddress: string;
-    privyUserId: string;
-  };
+export interface UserContext {
+  walletAddress: string;
+  privyUserId: string;
 }
 
-const PRIVY_APP_ID = process.env.PRIVY_APP_ID || '';
-const JWKS_URL = `https://auth.privy.io/api/v1/apps/${PRIVY_APP_ID}/jwks.json`;
+const jwksCache = new Map<string, ReturnType<typeof createRemoteJWKSet>>();
 
-let jwks: ReturnType<typeof createRemoteJWKSet> | null = null;
-
-function getJwks() {
-  if (!jwks) {
-    jwks = createRemoteJWKSet(new URL(JWKS_URL));
+function getJwks(appId: string) {
+  if (!jwksCache.has(appId)) {
+    jwksCache.set(
+      appId,
+      createRemoteJWKSet(new URL(`https://auth.privy.io/api/v1/apps/${appId}/jwks.json`))
+    );
   }
-  return jwks;
+  return jwksCache.get(appId)!;
 }
 
-export async function requireAuth(
-  req: AuthenticatedRequest,
-  res: Response,
-  next: NextFunction
-): Promise<void> {
-  const authHeader = req.headers.authorization;
-  if (!authHeader?.startsWith('Bearer ')) {
-    res.status(401).json({ error: 'Missing authorization header' });
-    return;
-  }
+function extractWallet(payload: Record<string, unknown>): string | null {
+  const accounts = (payload.linked_accounts as Array<{ type: string; address?: string }>) || [];
+  const wallet = accounts.find((a) => a.type === 'wallet' && a.address);
+  return wallet?.address?.toLowerCase() ?? null;
+}
 
-  const token = authHeader.slice(7);
+export async function requireAuth(c: Context<{ Bindings: Bindings }>, next: Next) {
+  const header = c.req.header('Authorization');
+  if (!header?.startsWith('Bearer ')) {
+    return c.json({ error: 'Missing authorization header' }, 401);
+  }
 
   try {
-    const { payload } = await jwtVerify(token, getJwks(), {
-      issuer: `privy.io`,
-      audience: PRIVY_APP_ID,
+    const token = header.slice(7);
+    const appId = c.env.PRIVY_APP_ID;
+    const { payload } = await jwtVerify(token, getJwks(appId), {
+      issuer: 'privy.io',
+      audience: appId,
     });
 
-    const walletAddress = extractWalletAddress(payload);
-    if (!walletAddress) {
-      res.status(401).json({ error: 'No wallet address in token' });
-      return;
-    }
+    const walletAddress = extractWallet(payload as Record<string, unknown>);
+    if (!walletAddress) return c.json({ error: 'No wallet address in token' }, 401);
 
-    req.user = {
-      walletAddress,
-      privyUserId: payload.sub as string,
-    };
-
-    next();
+    c.set('user', { walletAddress, privyUserId: payload.sub as string });
+    await next();
   } catch {
-    res.status(401).json({ error: 'Invalid or expired token' });
+    return c.json({ error: 'Invalid or expired token' }, 401);
   }
 }
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-function extractWalletAddress(payload: any): string | null {
-  // Privy embeds linked accounts in the JWT
-  const linkedAccounts: Array<{ type: string; address?: string }> =
-    payload.linked_accounts || [];
+export async function requireAdmin(c: Context<{ Bindings: Bindings }>, next: Next) {
+  const user = c.get('user') as UserContext | undefined;
+  if (!user) return c.json({ error: 'Authentication required' }, 401);
 
-  const wallet = linkedAccounts.find(
-    (a) => a.type === 'wallet' && a.address
-  );
-
-  return wallet?.address?.toLowerCase() || null;
-}
-
-export async function optionalAuth(
-  req: AuthenticatedRequest,
-  _res: Response,
-  next: NextFunction
-): Promise<void> {
-  const authHeader = req.headers.authorization;
-  if (!authHeader?.startsWith('Bearer ')) {
-    next();
-    return;
+  const admins = c.env.ADMIN_ADDRESSES.split(',').map((a) => a.trim().toLowerCase());
+  if (!admins.includes(user.walletAddress)) {
+    return c.json({ error: 'Admin access required' }, 403);
   }
 
-  const token = authHeader.slice(7);
-
-  try {
-    const { payload } = await jwtVerify(token, getJwks(), {
-      issuer: `privy.io`,
-      audience: PRIVY_APP_ID,
-    });
-
-    const walletAddress = extractWalletAddress(payload);
-    if (walletAddress) {
-      req.user = {
-        walletAddress,
-        privyUserId: payload.sub as string,
-      };
-    }
-  } catch {
-    // token invalid — continue as unauthenticated
-  }
-
-  next();
-}
-
-export function requireAdmin(
-  req: AuthenticatedRequest,
-  res: Response,
-  next: NextFunction
-): void {
-  const adminAddresses = (process.env.ADMIN_ADDRESSES || '')
-    .split(',')
-    .map((a) => a.trim().toLowerCase())
-    .filter(Boolean);
-
-  if (!req.user) {
-    res.status(401).json({ error: 'Authentication required' });
-    return;
-  }
-
-  if (!adminAddresses.includes(req.user.walletAddress)) {
-    res.status(403).json({ error: 'Admin access required' });
-    return;
-  }
-
-  next();
+  await next();
 }

@@ -1,168 +1,121 @@
-import { Router, Response } from 'express';
+import { Hono } from 'hono';
+import { zValidator } from '@hono/zod-validator';
 import { z } from 'zod';
-import { MarketStatus, Resolution } from '@prisma/client';
-import { requireAuth, requireAdmin, AuthenticatedRequest } from '../middleware/auth';
-import { validate } from '../middleware/validate';
-import { AppError } from '../middleware/errorHandler';
-import prisma from '../lib/prisma';
+import { eq, ilike, desc } from 'drizzle-orm';
+import { createDb } from '../db';
+import { markets, categories } from '../db/schema';
+import { requireAuth, requireAdmin } from '../middleware/auth';
+import type { Bindings, Variables } from '../index';
 
-const router = Router();
+const app = new Hono<{ Bindings: Bindings; Variables: Variables }>();
 
-const createMarketSchema = z.object({
-  id: z.string().min(1),
-  question: z.string().min(10).max(500),
-  categoryId: z.string().min(1),
-  imageUrl: z.string().url().optional(),
+const createSchema = z.object({
+  id:               z.string().min(1),
+  question:         z.string().min(10).max(500),
+  categoryId:       z.string().min(1),
+  imageUrl:         z.string().url().optional(),
   resolutionSource: z.string().min(1).max(500),
-  closingTime: z.string().datetime(),
-  resolutionTime: z.string().datetime(),
-  txHash: z.string().optional(),
-  yesPool: z.string().optional(),
-  noPool: z.string().optional(),
-  totalVolume: z.string().optional(),
+  closingTime:      z.string().datetime(),
+  resolutionTime:   z.string().datetime(),
+  txHash:           z.string().optional(),
+  yesPool:          z.string().optional(),
+  noPool:           z.string().optional(),
+  totalVolume:      z.string().optional(),
 });
 
-const updateMarketSchema = z.object({
-  yesPool: z.string().optional(),
-  noPool: z.string().optional(),
-  totalVolume: z.string().optional(),
-  status: z.nativeEnum(MarketStatus).optional(),
-  resolution: z.nativeEnum(Resolution).optional(),
-  resolvedAt: z.string().datetime().optional(),
+const updateSchema = z.object({
+  yesPool:       z.string().optional(),
+  noPool:        z.string().optional(),
+  totalVolume:   z.string().optional(),
+  status:        z.enum(['OPEN', 'CLOSED', 'RESOLVED', 'CANCELLED', 'DISPUTED']).optional(),
+  resolution:    z.enum(['YES', 'NO']).optional(),
+  resolvedAt:    z.string().datetime().optional(),
   resolveTxHash: z.string().optional(),
 });
 
 // GET /api/markets
-router.get('/', async (req, res, next) => {
-  try {
-    const page = Math.max(1, Number(req.query.page) || 1);
-    const limit = Math.min(100, Math.max(1, Number(req.query.limit) || 20));
-    const skip = (page - 1) * limit;
+app.get('/', async (c) => {
+  const db = createDb(c.env.DATABASE_URL);
+  const page  = Math.max(1, Number(c.req.query('page') || 1));
+  const limit = Math.min(100, Math.max(1, Number(c.req.query('limit') || 20)));
+  const offset = (page - 1) * limit;
 
-    const where: Record<string, unknown> = {};
+  const query = db.select().from(markets)
+    .innerJoin(categories, eq(markets.categoryId, categories.id))
+    .orderBy(desc(markets.createdAt))
+    .limit(limit)
+    .offset(offset);
 
-    if (req.query.status) {
-      where.status = req.query.status as MarketStatus;
-    }
-    if (req.query.category) {
-      where.category = { slug: req.query.category };
-    }
-    if (req.query.search) {
-      where.question = { contains: req.query.search as string, mode: 'insensitive' };
-    }
-
-    const [markets, total] = await Promise.all([
-      prisma.market.findMany({
-        where,
-        skip,
-        take: limit,
-        orderBy: { createdAt: 'desc' },
-        include: { category: true },
-      }),
-      prisma.market.count({ where }),
-    ]);
-
-    res.json({
-      markets,
-      pagination: {
-        page,
-        limit,
-        total,
-        pages: Math.ceil(total / limit),
-      },
-    });
-  } catch (err) {
-    next(err);
+  if (c.req.query('status')) {
+    query.where(eq(markets.status, c.req.query('status') as 'OPEN'));
   }
+  if (c.req.query('search')) {
+    query.where(ilike(markets.question, `%${c.req.query('search')}%`));
+  }
+
+  const rows = await query;
+  return c.json({ markets: rows, pagination: { page, limit, offset } });
+});
+
+// GET /api/markets/trending
+app.get('/trending', async (c) => {
+  const db = createDb(c.env.DATABASE_URL);
+  const rows = await db.select().from(markets)
+    .innerJoin(categories, eq(markets.categoryId, categories.id))
+    .where(eq(markets.status, 'OPEN'))
+    .orderBy(desc(markets.totalVolume))
+    .limit(10);
+  return c.json(rows);
 });
 
 // GET /api/markets/:id
-router.get('/:id', async (req, res, next) => {
-  try {
-    const market = await prisma.market.findUnique({
-      where: { id: req.params.id },
-      include: {
-        category: true,
-        evidence: { orderBy: { createdAt: 'desc' } },
-      },
-    });
+app.get('/:id', async (c) => {
+  const db = createDb(c.env.DATABASE_URL);
+  const rows = await db.select().from(markets)
+    .innerJoin(categories, eq(markets.categoryId, categories.id))
+    .where(eq(markets.id, c.req.param('id')));
 
-    if (!market) {
-      throw new AppError(404, 'Market not found');
-    }
-
-    res.json(market);
-  } catch (err) {
-    next(err);
-  }
+  if (!rows.length) return c.json({ error: 'Market not found' }, 404);
+  return c.json(rows[0]);
 });
 
 // POST /api/markets — admin only
-router.post(
-  '/',
-  requireAuth,
-  requireAdmin,
-  validate(createMarketSchema),
-  async (req: AuthenticatedRequest, res: Response, next) => {
-    try {
-      const market = await prisma.market.create({
-        data: {
-          ...req.body,
-          createdBy: req.user!.walletAddress,
-          closingTime: new Date(req.body.closingTime),
-          resolutionTime: new Date(req.body.resolutionTime),
-        },
-        include: { category: true },
-      });
+app.post('/', requireAuth, requireAdmin, zValidator('json', createSchema), async (c) => {
+  const db = createDb(c.env.DATABASE_URL);
+  const body = c.req.valid('json');
+  const user = c.get('user')!;
 
-      res.status(201).json(market);
-    } catch (err) {
-      next(err);
-    }
-  }
-);
+  const [market] = await db.insert(markets).values({
+    ...body,
+    createdBy:      user.walletAddress,
+    closingTime:    new Date(body.closingTime),
+    resolutionTime: new Date(body.resolutionTime),
+    yesPool:        body.yesPool    ?? '0',
+    noPool:         body.noPool     ?? '0',
+    totalVolume:    body.totalVolume ?? '0',
+  }).returning();
 
-// PATCH /api/markets/:id — admin only
-router.patch(
-  '/:id',
-  requireAuth,
-  requireAdmin,
-  validate(updateMarketSchema),
-  async (req: AuthenticatedRequest, res: Response, next) => {
-    try {
-      const existing = await prisma.market.findUnique({ where: { id: req.params.id } });
-      if (!existing) throw new AppError(404, 'Market not found');
-
-      const data: Record<string, unknown> = { ...req.body };
-      if (req.body.resolvedAt) data.resolvedAt = new Date(req.body.resolvedAt);
-
-      const market = await prisma.market.update({
-        where: { id: req.params.id },
-        data,
-        include: { category: true },
-      });
-
-      res.json(market);
-    } catch (err) {
-      next(err);
-    }
-  }
-);
-
-// GET /api/markets/trending — top markets by volume
-router.get('/meta/trending', async (_req, res, next) => {
-  try {
-    const markets = await prisma.market.findMany({
-      where: { status: 'OPEN' },
-      orderBy: { totalVolume: 'desc' },
-      take: 10,
-      include: { category: true },
-    });
-
-    res.json(markets);
-  } catch (err) {
-    next(err);
-  }
+  return c.json(market, 201);
 });
 
-export default router;
+// PATCH /api/markets/:id — admin only
+app.patch('/:id', requireAuth, requireAdmin, zValidator('json', updateSchema), async (c) => {
+  const db = createDb(c.env.DATABASE_URL);
+  const body = c.req.valid('json');
+
+  const existing = await db.select().from(markets).where(eq(markets.id, c.req.param('id')));
+  if (!existing.length) return c.json({ error: 'Market not found' }, 404);
+
+  const [updated] = await db.update(markets)
+    .set({
+      ...body,
+      resolvedAt: body.resolvedAt ? new Date(body.resolvedAt) : undefined,
+      updatedAt:  new Date(),
+    })
+    .where(eq(markets.id, c.req.param('id')))
+    .returning();
+
+  return c.json(updated);
+});
+
+export default app;

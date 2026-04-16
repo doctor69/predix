@@ -1,63 +1,52 @@
-import { Router, Response } from 'express';
+import { Hono } from 'hono';
+import { zValidator } from '@hono/zod-validator';
 import { z } from 'zod';
-import { requireAuth, AuthenticatedRequest } from '../middleware/auth';
-import { validate } from '../middleware/validate';
-import { AppError } from '../middleware/errorHandler';
-import prisma from '../lib/prisma';
+import { eq } from 'drizzle-orm';
+import { createDb } from '../db';
+import { users } from '../db/schema';
+import { requireAuth } from '../middleware/auth';
+import type { Bindings, Variables } from '../index';
 
-const router = Router();
+const app = new Hono<{ Bindings: Bindings; Variables: Variables }>();
 
-const updateUserSchema = z.object({
+const updateSchema = z.object({
   displayName: z.string().min(1).max(50).optional(),
-  avatarUrl: z.string().url().optional(),
+  avatarUrl:   z.string().url().optional(),
 });
 
 // GET /api/users/:address
-router.get('/:address', async (req, res, next) => {
-  try {
-    const address = req.params.address.toLowerCase();
-    const user = await prisma.user.findUnique({ where: { walletAddress: address } });
-
-    if (!user) throw new AppError(404, 'User not found');
-
-    res.json(user);
-  } catch (err) {
-    next(err);
-  }
+app.get('/:address', async (c) => {
+  const db = createDb(c.env.DATABASE_URL);
+  const address = c.req.param('address').toLowerCase();
+  const rows = await db.select().from(users).where(eq(users.walletAddress, address));
+  if (!rows.length) return c.json({ error: 'User not found' }, 404);
+  return c.json(rows[0]);
 });
 
-// POST /api/users/me — upsert profile on first login
-router.post('/me', requireAuth, async (req: AuthenticatedRequest, res: Response, next) => {
-  try {
-    const user = await prisma.user.upsert({
-      where: { walletAddress: req.user!.walletAddress },
-      update: { updatedAt: new Date() },
-      create: { walletAddress: req.user!.walletAddress },
-    });
+// POST /api/users/me — upsert on first login
+app.post('/me', requireAuth, async (c) => {
+  const db = createDb(c.env.DATABASE_URL);
+  const address = c.get('user')!.walletAddress;
 
-    res.json(user);
-  } catch (err) {
-    next(err);
-  }
+  const existing = await db.select().from(users).where(eq(users.walletAddress, address));
+  if (existing.length) return c.json(existing[0]);
+
+  const [user] = await db.insert(users).values({ walletAddress: address }).returning();
+  return c.json(user, 201);
 });
 
-// PATCH /api/users/me — update own profile
-router.patch(
-  '/me',
-  requireAuth,
-  validate(updateUserSchema),
-  async (req: AuthenticatedRequest, res: Response, next) => {
-    try {
-      const user = await prisma.user.update({
-        where: { walletAddress: req.user!.walletAddress },
-        data: req.body,
-      });
+// PATCH /api/users/me
+app.patch('/me', requireAuth, zValidator('json', updateSchema), async (c) => {
+  const db = createDb(c.env.DATABASE_URL);
+  const address = c.get('user')!.walletAddress;
 
-      res.json(user);
-    } catch (err) {
-      next(err);
-    }
-  }
-);
+  const [user] = await db.update(users)
+    .set({ ...c.req.valid('json'), updatedAt: new Date() })
+    .where(eq(users.walletAddress, address))
+    .returning();
 
-export default router;
+  if (!user) return c.json({ error: 'User not found' }, 404);
+  return c.json(user);
+});
+
+export default app;

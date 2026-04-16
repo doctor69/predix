@@ -1,73 +1,56 @@
-import { Router, Response } from 'express';
+import { Hono } from 'hono';
+import { zValidator } from '@hono/zod-validator';
 import { z } from 'zod';
-import { Resolution } from '@prisma/client';
-import { requireAuth, requireAdmin, AuthenticatedRequest } from '../middleware/auth';
-import { validate } from '../middleware/validate';
-import { AppError } from '../middleware/errorHandler';
-import prisma from '../lib/prisma';
+import { eq, desc } from 'drizzle-orm';
+import { createDb } from '../db';
+import { markets, resolutionEvidence } from '../db/schema';
+import { requireAuth, requireAdmin } from '../middleware/auth';
+import type { Bindings, Variables } from '../index';
 
-const router = Router();
+const app = new Hono<{ Bindings: Bindings; Variables: Variables }>();
 
-const createEvidenceSchema = z.object({
-  marketId: z.string().min(1),
-  outcome: z.nativeEnum(Resolution),
+const createSchema = z.object({
+  marketId:    z.string().min(1),
+  outcome:     z.enum(['YES', 'NO']),
   evidenceUrl: z.string().url().optional(),
-  notes: z.string().max(2000).optional(),
+  notes:       z.string().max(2000).optional(),
 });
 
-// GET /api/evidence/:marketId — public audit log for a market
-router.get('/:marketId', async (req, res, next) => {
-  try {
-    const market = await prisma.market.findUnique({ where: { id: req.params.marketId } });
-    if (!market) throw new AppError(404, 'Market not found');
+// GET /api/evidence/:marketId — public audit log
+app.get('/:marketId', async (c) => {
+  const db = createDb(c.env.DATABASE_URL);
+  const marketRows = await db.select().from(markets).where(eq(markets.id, c.req.param('marketId')));
+  if (!marketRows.length) return c.json({ error: 'Market not found' }, 404);
 
-    const evidence = await prisma.resolutionEvidence.findMany({
-      where: { marketId: req.params.marketId },
-      orderBy: { createdAt: 'desc' },
-    });
+  const rows = await db.select().from(resolutionEvidence)
+    .where(eq(resolutionEvidence.marketId, c.req.param('marketId')))
+    .orderBy(desc(resolutionEvidence.createdAt));
 
-    res.json(evidence);
-  } catch (err) {
-    next(err);
-  }
+  return c.json(rows);
 });
 
-// POST /api/evidence — admin posts resolution evidence
-router.post(
-  '/',
-  requireAuth,
-  requireAdmin,
-  validate(createEvidenceSchema),
-  async (req: AuthenticatedRequest, res: Response, next) => {
-    try {
-      const market = await prisma.market.findUnique({ where: { id: req.body.marketId } });
-      if (!market) throw new AppError(404, 'Market not found');
+// POST /api/evidence — admin posts resolution evidence + marks market resolved
+app.post('/', requireAuth, requireAdmin, zValidator('json', createSchema), async (c) => {
+  const db = createDb(c.env.DATABASE_URL);
+  const body = c.req.valid('json');
+  const user = c.get('user')!;
 
-      const evidence = await prisma.resolutionEvidence.create({
-        data: {
-          marketId: req.body.marketId,
-          adminAddress: req.user!.walletAddress,
-          outcome: req.body.outcome,
-          evidenceUrl: req.body.evidenceUrl,
-          notes: req.body.notes,
-        },
-      });
+  const marketRows = await db.select().from(markets).where(eq(markets.id, body.marketId));
+  if (!marketRows.length) return c.json({ error: 'Market not found' }, 404);
 
-      // Also update market status to RESOLVED with the outcome
-      await prisma.market.update({
-        where: { id: req.body.marketId },
-        data: {
-          status: 'RESOLVED',
-          resolution: req.body.outcome,
-          resolvedAt: new Date(),
-        },
-      });
+  const [evidence] = await db.insert(resolutionEvidence).values({
+    marketId:     body.marketId,
+    adminAddress: user.walletAddress,
+    outcome:      body.outcome,
+    evidenceUrl:  body.evidenceUrl,
+    notes:        body.notes,
+  }).returning();
 
-      res.status(201).json(evidence);
-    } catch (err) {
-      next(err);
-    }
-  }
-);
+  await db.update(markets)
+    .set({ status: 'RESOLVED', resolution: body.outcome, resolvedAt: new Date(), updatedAt: new Date() })
+    .where(eq(markets.id, body.marketId));
 
-export default router;
+  return c.json(evidence, 201);
+});
+
+export default app;

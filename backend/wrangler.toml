@@ -1,0 +1,16 @@
+name = "predix-api"
+main = "src/index.ts"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+FRONTEND_URL = "https://predix.pages.dev"
+
+# Secrets — set via CLI before deploying:
+#   wrangler secret put DATABASE_URL
+#   wrangler secret put PRIVY_APP_ID
+#   wrangler secret put ADMIN_ADDRESSES
+
+[[routes]]
+pattern = "api.predix.xyz/*"
+zone_name = "predix.xyz"
