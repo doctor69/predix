@@ -62,10 +62,14 @@ export async function requireAuth(c: Context<HonoEnv>, next: Next) {
       audience: appId,
     });
 
-    // Try extracting wallet from JWT body first, fall back to Privy API
+    // Try extracting wallet from JWT body, then Privy API, then client header
     let walletAddress = extractWalletFromPayload(payload as Record<string, unknown>);
     if (!walletAddress) {
       walletAddress = await fetchWalletFromPrivy(token, appId);
+    }
+    if (!walletAddress) {
+      const headerWallet = c.req.header('X-Wallet-Address');
+      if (headerWallet?.startsWith('0x')) walletAddress = headerWallet.toLowerCase();
     }
 
     if (!walletAddress) return c.json({ error: 'No wallet address found for user' }, 401);
