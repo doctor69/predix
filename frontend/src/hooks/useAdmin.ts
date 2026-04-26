@@ -22,10 +22,17 @@ export function useIsAdmin() {
     query: { enabled: CONTRACT_DEPLOYED },
   });
 
+  // Fallback: check against NEXT_PUBLIC_ADMIN_ADDRESSES when contract isn't deployed yet
+  const envAdmins = (process.env.NEXT_PUBLIC_ADMIN_ADDRESSES ?? '')
+    .split(',')
+    .map((a) => a.trim().toLowerCase())
+    .filter(Boolean);
+
   const isAdmin =
     !!address &&
     (address.toLowerCase() === (adminAddress as string)?.toLowerCase() ||
-      address.toLowerCase() === (ownerAddress as string)?.toLowerCase());
+      address.toLowerCase() === (ownerAddress as string)?.toLowerCase() ||
+      envAdmins.includes(address.toLowerCase()));
 
   return {
     isAdmin,
