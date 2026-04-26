@@ -21,10 +21,31 @@ function getJwks(appId: string) {
   return jwksCache.get(appId)!;
 }
 
-function extractWallet(payload: Record<string, unknown>): string | null {
+function extractWalletFromPayload(payload: Record<string, unknown>): string | null {
   const accounts = (payload.linked_accounts as Array<{ type: string; address?: string }>) || [];
-  const wallet = accounts.find((a) => a.type === 'wallet' && a.address);
+  const wallet = accounts.find(
+    (a) => (a.type === 'wallet' || a.type === 'ethereum_wallet' || a.type === 'smart_wallet') && a.address
+  );
   return wallet?.address?.toLowerCase() ?? null;
+}
+
+async function fetchWalletFromPrivy(token: string, appId: string): Promise<string | null> {
+  try {
+    const res = await fetch('https://auth.privy.io/api/v1/users/me', {
+      headers: {
+        'Authorization': `Bearer ${token}`,
+        'privy-app-id': appId,
+      },
+    });
+    if (!res.ok) return null;
+    const user = await res.json() as { linked_accounts?: Array<{ type: string; address?: string }> };
+    const wallet = (user.linked_accounts ?? []).find(
+      (a) => (a.type === 'wallet' || a.type === 'ethereum_wallet') && a.address
+    );
+    return wallet?.address?.toLowerCase() ?? null;
+  } catch {
+    return null;
+  }
 }
 
 export async function requireAuth(c: Context<HonoEnv>, next: Next) {
@@ -41,8 +62,13 @@ export async function requireAuth(c: Context<HonoEnv>, next: Next) {
       audience: appId,
     });
 
-    const walletAddress = extractWallet(payload as Record<string, unknown>);
-    if (!walletAddress) return c.json({ error: 'No wallet address in token' }, 401);
+    // Try extracting wallet from JWT body first, fall back to Privy API
+    let walletAddress = extractWalletFromPayload(payload as Record<string, unknown>);
+    if (!walletAddress) {
+      walletAddress = await fetchWalletFromPrivy(token, appId);
+    }
+
+    if (!walletAddress) return c.json({ error: 'No wallet address found for user' }, 401);
 
     c.set('user', { walletAddress, privyUserId: payload.sub as string });
     await next();
