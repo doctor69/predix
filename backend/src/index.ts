@@ -30,7 +30,7 @@ app.use('*', async (c, next) => {
   return cors({
     origin: c.env.FRONTEND_URL,
     allowMethods: ['GET', 'POST', 'PATCH', 'DELETE', 'OPTIONS'],
-    allowHeaders: ['Content-Type', 'Authorization'],
+    allowHeaders: ['Content-Type', 'Authorization', 'X-Wallet-Address'],
     credentials: true,
   })(c, next);
 });

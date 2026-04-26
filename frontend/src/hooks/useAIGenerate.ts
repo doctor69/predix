@@ -1,5 +1,6 @@
 import { useState, useCallback } from 'react';
 import { usePrivy } from '@privy-io/react-auth';
+import { useAccount } from 'wagmi';
 
 export interface AISuggestion {
   question: string;
@@ -20,6 +21,7 @@ const API_URL = process.env.NEXT_PUBLIC_API_URL ?? 'https://predix-api.predix.xy
 
 export function useAIGenerate() {
   const { getAccessToken } = usePrivy();
+  const { address } = useAccount();
   const [suggestions, setSuggestions] = useState<AISuggestion[]>([]);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -37,6 +39,8 @@ export function useAIGenerate() {
           headers: {
             'Content-Type': 'application/json',
             Authorization: `Bearer ${token}`,
+            // Send connected wallet address as fallback for JWT extraction
+            'X-Wallet-Address': address ?? '',
           },
           body: JSON.stringify({
             topic: opts.topic || undefined,
@@ -58,7 +62,7 @@ export function useAIGenerate() {
         setIsLoading(false);
       }
     },
-    [getAccessToken],
+    [getAccessToken, address],
   );
 
   return { generate, suggestions, isLoading, error };

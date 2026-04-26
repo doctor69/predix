@@ -30,6 +30,14 @@ jobs:
 
       - name: Build
         run: npm run build:cf
+        env:
+          NEXT_PUBLIC_API_URL: https://predix-api.enterprisebizz.workers.dev
+          NEXT_PUBLIC_CHAIN_ID: "80002"
+          NEXT_PUBLIC_CONTRACT_ADDRESS: ${{ vars.NEXT_PUBLIC_CONTRACT_ADDRESS }}
+          NEXT_PUBLIC_PRIVY_APP_ID: ${{ secrets.NEXT_PUBLIC_PRIVY_APP_ID }}
+          NEXT_PUBLIC_POLYGON_RPC: https://polygon-rpc.com
+          NEXT_PUBLIC_AMOY_RPC: https://rpc-amoy.polygon.technology
+          NEXT_PUBLIC_ADMIN_ADDRESSES: ${{ vars.NEXT_PUBLIC_ADMIN_ADDRESSES }}
 
       - name: Deploy to Pages
         uses: cloudflare/wrangler-action@v3
