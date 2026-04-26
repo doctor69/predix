@@ -12,6 +12,7 @@ FRONTEND_URL = "https://predix.pages.dev"
 #   wrangler secret put ADMIN_ADDRESSES
 #   wrangler secret put ANTHROPIC_API_KEY
 
-[[routes]]
-pattern = "api.predix.xyz/*"
-zone_name = "predix.xyz"
+# Uncomment after you point predix.xyz to Cloudflare:
+# [[routes]]
+# pattern = "api.predix.xyz/*"
+# zone_name = "predix.xyz"
