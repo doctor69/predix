@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import clsx from 'clsx';
@@ -6,6 +6,7 @@ import { useAuth } from '@/context/auth';
 import { Layout } from '@/components/Layout';
 import { useMarkets } from '@/hooks/useMarkets';
 import { useIsAdmin, useCreateMarket, useResolveMarket, useCancelMarket } from '@/hooks/useAdmin';
+import { useAIGenerate, type AISuggestion } from '@/hooks/useAIGenerate';
 import { CATEGORIES, Outcome } from '@/lib/config';
 import { formatUSDCShort, formatDateTime } from '@/lib/format';
 
@@ -29,12 +30,23 @@ const EMPTY_FORM: CreateForm = {
   resolutionTime: '',
 };
 
+function isoToDatetimeLocal(iso: string): string {
+  try {
+    const d = new Date(iso);
+    const pad = (n: number) => String(n).padStart(2, '0');
+    return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}T${pad(d.getHours())}:${pad(d.getMinutes())}`;
+  } catch {
+    return '';
+  }
+}
+
 // ─── Page ─────────────────────────────────────────────────────────────────────
 
 export default function AdminPage() {
   const { authenticated, login } = useAuth();
   const { isAdmin, adminAddress } = useIsAdmin();
   const { markets, isLoading: marketsLoading } = useMarkets();
+  const [prefill, setPrefill] = useState<Partial<CreateForm> | null>(null);
 
   const unresolvedMarkets = markets.filter((m) => m.outcome === Outcome.UNRESOLVED);
 
@@ -91,8 +103,17 @@ export default function AdminPage() {
           </span>
         </div>
 
+        {/* AI generate questions */}
+        <AIGeneratePanel onUse={(s) => setPrefill({
+          question: s.question,
+          category: s.category,
+          resolutionSource: s.resolutionSource,
+          closingTime: isoToDatetimeLocal(s.closingTime),
+          resolutionTime: isoToDatetimeLocal(s.resolutionTime),
+        })} />
+
         {/* Create market */}
-        <CreateMarketForm />
+        <CreateMarketForm prefill={prefill} />
 
         {/* Resolve / cancel markets */}
         <div>
@@ -124,11 +145,154 @@ export default function AdminPage() {
   );
 }
 
+// ─── AI Generate Panel ────────────────────────────────────────────────────────
+
+function AIGeneratePanel({ onUse }: { onUse: (s: AISuggestion) => void }) {
+  const { generate, suggestions, isLoading, error } = useAIGenerate();
+  const [topic, setTopic] = useState('');
+  const [category, setCategory] = useState('');
+  const [count, setCount] = useState(5);
+  const [usedIdx, setUsedIdx] = useState<Set<number>>(new Set());
+
+  function handleGenerate() {
+    setUsedIdx(new Set());
+    generate({ topic: topic.trim() || undefined, category: category || undefined, count });
+  }
+
+  function handleUse(s: AISuggestion, idx: number) {
+    onUse(s);
+    setUsedIdx((prev) => new Set(prev).add(idx));
+  }
+
+  return (
+    <div className="rounded-xl border border-accent/30 bg-bg-card p-5">
+      <div className="mb-4 flex items-center gap-2">
+        <span className="text-lg">✨</span>
+        <h2 className="text-lg font-semibold text-white">Generate with AI</h2>
+        <span className="ml-auto rounded bg-accent/20 px-2 py-0.5 text-xs font-medium text-accent">
+          Claude Opus 4.7
+        </span>
+      </div>
+
+      <div className="mb-4 grid grid-cols-3 gap-3">
+        <div className="col-span-2">
+          <Field label="Topic (optional)">
+            <input
+              type="text"
+              placeholder="e.g. Ethereum ETF, NBA Finals, US inflation..."
+              value={topic}
+              onChange={(e) => setTopic(e.target.value)}
+              className={inputClass}
+              onKeyDown={(e) => e.key === 'Enter' && handleGenerate()}
+            />
+          </Field>
+        </div>
+
+        <Field label="Category">
+          <select
+            value={category}
+            onChange={(e) => setCategory(e.target.value)}
+            className={inputClass}
+          >
+            <option value="">Any</option>
+            {CATEGORIES.map((c) => (
+              <option key={c} value={c}>{c}</option>
+            ))}
+          </select>
+        </Field>
+      </div>
+
+      <div className="mb-4 flex items-center gap-3">
+        <Field label="Count">
+          <select
+            value={count}
+            onChange={(e) => setCount(Number(e.target.value))}
+            className={clsx(inputClass, 'w-24')}
+          >
+            {[1, 3, 5, 8, 10].map((n) => (
+              <option key={n} value={n}>{n}</option>
+            ))}
+          </select>
+        </Field>
+
+        <button
+          onClick={handleGenerate}
+          disabled={isLoading}
+          className="mt-5 flex items-center gap-2 rounded-lg bg-accent px-5 py-2 text-sm font-semibold text-white hover:opacity-90 disabled:opacity-50"
+        >
+          {isLoading ? (
+            <>
+              <svg className="h-4 w-4 animate-spin" viewBox="0 0 24 24" fill="none">
+                <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+                <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8H4z" />
+              </svg>
+              Generating…
+            </>
+          ) : (
+            'Generate'
+          )}
+        </button>
+      </div>
+
+      {error && (
+        <p className="mb-3 rounded-lg bg-no-muted px-3 py-2 text-xs text-no">{error}</p>
+      )}
+
+      {suggestions.length > 0 && (
+        <div className="space-y-3">
+          {suggestions.map((s, i) => (
+            <div
+              key={i}
+              className={clsx(
+                'rounded-lg border p-3 transition-colors',
+                usedIdx.has(i)
+                  ? 'border-yes/30 bg-yes-muted/30'
+                  : 'border-bg-border bg-bg-primary',
+              )}
+            >
+              <div className="mb-1 flex items-start justify-between gap-2">
+                <p className="text-sm font-medium text-white">{s.question}</p>
+                <button
+                  onClick={() => handleUse(s, i)}
+                  className={clsx(
+                    'shrink-0 rounded px-3 py-1 text-xs font-semibold transition-colors',
+                    usedIdx.has(i)
+                      ? 'bg-yes/20 text-yes cursor-default'
+                      : 'bg-accent text-white hover:opacity-90',
+                  )}
+                >
+                  {usedIdx.has(i) ? '✓ Used' : 'Use this'}
+                </button>
+              </div>
+              <div className="mt-1.5 flex flex-wrap gap-2 text-xs text-text-secondary">
+                <span className="rounded bg-bg-card px-1.5 py-0.5">{s.category}</span>
+                <span>Closes {new Date(s.closingTime).toLocaleDateString()}</span>
+                <span>·</span>
+                <span className="truncate max-w-xs">{s.resolutionSource}</span>
+              </div>
+              {s.rationale && (
+                <p className="mt-1.5 text-xs text-text-muted italic">{s.rationale}</p>
+              )}
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
 // ─── Create Market Form ───────────────────────────────────────────────────────
 
-function CreateMarketForm() {
+function CreateMarketForm({ prefill }: { prefill?: Partial<CreateForm> | null }) {
   const [form, setForm] = useState<CreateForm>(EMPTY_FORM);
   const { createMarket, isPending, success, error } = useCreateMarket();
+
+  useEffect(() => {
+    if (prefill) {
+      setForm((f) => ({ ...f, ...prefill }));
+      document.getElementById('create-market-section')?.scrollIntoView({ behavior: 'smooth' });
+    }
+  }, [prefill]);
 
   function set(field: keyof CreateForm, value: string) {
     setForm((f) => ({ ...f, [field]: value }));
@@ -154,7 +318,7 @@ function CreateMarketForm() {
   }
 
   return (
-    <div className="rounded-xl border border-bg-border bg-bg-card p-5">
+    <div id="create-market-section" className="rounded-xl border border-bg-border bg-bg-card p-5">
       <h2 className="mb-4 text-lg font-semibold text-white">Create Market</h2>
 
       <form onSubmit={handleSubmit} className="space-y-4">
