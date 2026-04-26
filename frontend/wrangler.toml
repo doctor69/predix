@@ -4,5 +4,10 @@ compatibility_date = "2024-09-23"
 compatibility_flags = ["nodejs_compat"]
 
 [vars]
-# Public — safe to commit
-NEXT_PUBLIC_API_URL = "https://predix-api.predix.xyz"
+# Public — safe to commit (update values to match your deployment)
+NEXT_PUBLIC_API_URL         = "https://predix-api.predix.xyz"
+NEXT_PUBLIC_CHAIN_ID        = "80002"
+NEXT_PUBLIC_CONTRACT_ADDRESS = ""
+NEXT_PUBLIC_PRIVY_APP_ID    = ""
+NEXT_PUBLIC_POLYGON_RPC     = "https://polygon-rpc.com"
+NEXT_PUBLIC_AMOY_RPC        = "https://rpc-amoy.polygon.technology"
