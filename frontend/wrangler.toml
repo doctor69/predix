@@ -1,0 +1,13 @@
+name = "predix"
+pages_build_output_dir = ".vercel/output/static"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+# Public — safe to commit (update values to match your deployment)
+NEXT_PUBLIC_API_URL         = "https://predix-api.enterprisebizz.workers.dev"
+NEXT_PUBLIC_CHAIN_ID        = "80002"
+NEXT_PUBLIC_CONTRACT_ADDRESS = ""
+NEXT_PUBLIC_PRIVY_APP_ID    = "cmog8l42d02ez0cjj0hovtsnx"
+NEXT_PUBLIC_POLYGON_RPC     = "https://polygon-rpc.com"
+NEXT_PUBLIC_AMOY_RPC        = "https://rpc-amoy.polygon.technology"
