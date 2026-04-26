@@ -12,6 +12,8 @@
     "db:seed": "tsx src/db/seed.ts"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.91.1",
+    "@hono/zod-validator": "^0.7.6",
     "@neondatabase/serverless": "^0.10.4",
     "drizzle-orm": "^0.36.4",
     "hono": "^4.6.12",

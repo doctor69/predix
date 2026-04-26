@@ -1,11 +1,13 @@
 import { Context, Next } from 'hono';
 import { jwtVerify, createRemoteJWKSet } from 'jose';
-import type { Bindings } from '../index';
+import type { Bindings, Variables } from '../index';
 
 export interface UserContext {
   walletAddress: string;
   privyUserId: string;
 }
+
+type HonoEnv = { Bindings: Bindings; Variables: Variables };
 
 const jwksCache = new Map<string, ReturnType<typeof createRemoteJWKSet>>();
 
@@ -25,7 +27,7 @@ function extractWallet(payload: Record<string, unknown>): string | null {
   return wallet?.address?.toLowerCase() ?? null;
 }
 
-export async function requireAuth(c: Context<{ Bindings: Bindings }>, next: Next) {
+export async function requireAuth(c: Context<HonoEnv>, next: Next) {
   const header = c.req.header('Authorization');
   if (!header?.startsWith('Bearer ')) {
     return c.json({ error: 'Missing authorization header' }, 401);
@@ -49,8 +51,8 @@ export async function requireAuth(c: Context<{ Bindings: Bindings }>, next: Next
   }
 }
 
-export async function requireAdmin(c: Context<{ Bindings: Bindings }>, next: Next) {
-  const user = c.get('user') as UserContext | undefined;
+export async function requireAdmin(c: Context<HonoEnv>, next: Next) {
+  const user = c.get('user');
   if (!user) return c.json({ error: 'Authentication required' }, 401);
 
   const admins = c.env.ADMIN_ADDRESSES.split(',').map((a) => a.trim().toLowerCase());

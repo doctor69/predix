@@ -7,12 +7,14 @@ import marketsRoute from './routes/markets';
 import categoriesRoute from './routes/categories';
 import usersRoute from './routes/users';
 import evidenceRoute from './routes/evidence';
+import agentRoute from './routes/agent';
 
 export type Bindings = {
   DATABASE_URL: string;
   PRIVY_APP_ID: string;
   ADMIN_ADDRESSES: string;
   FRONTEND_URL: string;
+  ANTHROPIC_API_KEY: string;
 };
 
 export type Variables = {
@@ -39,6 +41,7 @@ app.route('/api/markets', marketsRoute);
 app.route('/api/categories', categoriesRoute);
 app.route('/api/users', usersRoute);
 app.route('/api/evidence', evidenceRoute);
+app.route('/api/agent', agentRoute);
 
 app.onError((err, c) => {
   console.error(err);
