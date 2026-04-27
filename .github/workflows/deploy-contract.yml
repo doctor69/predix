@@ -1,0 +1,59 @@
+name: Deploy Contract
+
+on:
+  workflow_dispatch:
+    inputs:
+      network:
+        description: 'Network to deploy to'
+        required: true
+        default: 'polygonAmoy'
+        type: choice
+        options:
+          - polygonAmoy
+          - polygon
+
+jobs:
+  deploy:
+    name: Deploy PredictionMarket to ${{ inputs.network }}
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: contracts
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: contracts/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Compile contract
+        run: npx hardhat compile
+
+      - name: Run tests
+        run: npx hardhat test
+
+      - name: Deploy to ${{ inputs.network }}
+        env:
+          PRIVATE_KEY:          ${{ secrets.DEPLOYER_PRIVATE_KEY }}
+          POLYGONSCAN_API_KEY:  ${{ secrets.POLYGONSCAN_API_KEY }}
+          ADMIN_ADDRESS:        ${{ vars.ADMIN_ADDRESS }}
+          FEE_WALLET:           ${{ vars.FEE_WALLET }}
+          AMOY_RPC:             ${{ vars.AMOY_RPC || 'https://rpc-amoy.polygon.technology' }}
+          POLYGON_RPC:          ${{ vars.POLYGON_RPC || 'https://polygon-rpc.com' }}
+        run: npx hardhat run scripts/deploy.ts --network ${{ inputs.network }}
+
+      - name: Show deployment record
+        run: cat deployments/${{ inputs.network }}.json
+
+      - name: Upload deployment artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: deployment-${{ inputs.network }}-${{ github.run_id }}
+          path: contracts/deployments/${{ inputs.network }}.json
+          retention-days: 90

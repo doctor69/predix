@@ -256,6 +256,13 @@ export const PREDICTION_MARKET_ABI = [
     inputs: [],
     outputs: [],
   },
+  {
+    type: 'function',
+    name: 'transferOwnership',
+    stateMutability: 'nonpayable',
+    inputs: [{ name: 'newOwner', type: 'address' }],
+    outputs: [],
+  },
 ] as const;
 
 // Minimal ERC20 ABI — just the functions we need for USDC approval
