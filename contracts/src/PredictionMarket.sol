@@ -312,6 +312,15 @@ contract PredictionMarket is ReentrancyGuard {
         emit MarketResolved(marketId, newOutcome, block.timestamp, m.finalizedAt);
     }
 
+    /**
+     * @notice Transfer contract ownership to a new address (e.g. hardware wallet).
+     *         Call this immediately after deploy to move owner off the hot deployer.
+     */
+    function transferOwnership(address newOwner) external onlyOwner {
+        require(newOwner != address(0), "Invalid new owner");
+        owner = newOwner;
+    }
+
     /// @notice Pause placeBet and claimWinnings.
     function emergencyPause() external onlyOwner {
         paused = true;

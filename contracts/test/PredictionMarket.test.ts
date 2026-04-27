@@ -681,7 +681,38 @@ describe("PredictionMarket", function () {
   });
 
   // ────────────────────────────────────────────────────────────────────────────
-  // 10. VIEW FUNCTIONS
+  // 10. TRANSFER OWNERSHIP
+  // ────────────────────────────────────────────────────────────────────────────
+  describe("transferOwnership", function () {
+    it("owner can transfer ownership", async function () {
+      await pm.connect(owner).transferOwnership(user1.address);
+      expect(await pm.owner()).to.equal(user1.address);
+    });
+
+    it("new owner can pause after transfer", async function () {
+      await pm.connect(owner).transferOwnership(user1.address);
+      await pm.connect(user1).emergencyPause();
+      expect(await pm.paused()).to.equal(true);
+    });
+
+    it("old owner loses access after transfer", async function () {
+      await pm.connect(owner).transferOwnership(user1.address);
+      await expect(pm.connect(owner).emergencyPause()).to.be.revertedWith("Not owner");
+    });
+
+    it("non-owner cannot transfer ownership", async function () {
+      await expect(pm.connect(attacker).transferOwnership(attacker.address))
+        .to.be.revertedWith("Not owner");
+    });
+
+    it("reverts if new owner is zero address", async function () {
+      await expect(pm.connect(owner).transferOwnership(ethers.ZeroAddress))
+        .to.be.revertedWith("Invalid new owner");
+    });
+  });
+
+  // ────────────────────────────────────────────────────────────────────────────
+  // 11. VIEW FUNCTIONS
   // ────────────────────────────────────────────────────────────────────────────
   describe("View functions", function () {
     it("getMarket reverts for non-existent market", async function () {
