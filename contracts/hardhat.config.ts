@@ -4,9 +4,9 @@ import * as dotenv from "dotenv";
 
 dotenv.config();
 
-const PRIVATE_KEY = process.env.PRIVATE_KEY ?? "0x" + "a".repeat(64);
-const POLYGON_RPC = process.env.POLYGON_RPC ?? "https://polygon-rpc.com";
-const AMOY_RPC    = process.env.AMOY_RPC    ?? "https://rpc-amoy.polygon.technology";
+const PRIVATE_KEY         = process.env.PRIVATE_KEY         ?? "0x" + "a".repeat(64);
+const POLYGON_RPC         = process.env.POLYGON_RPC         ?? "https://polygon-rpc.com";
+const AMOY_RPC            = process.env.AMOY_RPC            ?? "https://rpc-amoy.polygon.technology";
 const POLYGONSCAN_API_KEY = process.env.POLYGONSCAN_API_KEY ?? "";
 
 const config: HardhatUserConfig = {
@@ -15,7 +15,7 @@ const config: HardhatUserConfig = {
     settings: {
       optimizer: {
         enabled: true,
-        runs: 200,
+        runs:    200,
       },
     },
   },

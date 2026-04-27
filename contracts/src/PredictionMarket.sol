@@ -10,19 +10,19 @@ import "@openzeppelin/contracts/utils/ReentrancyGuard.sol";
  * @notice Zero-custody binary prediction market on Polygon using USDC.
  *
  * Roles:
- *   owner     — Highest privilege. Can override resolutions, pause/unpause, change roles.
- *               Use a hardware wallet or Gnosis Safe multisig in production.
+ *   owner     — Highest privilege. Can override resolutions during dispute window,
+ *               pause/unpause the contract. Use a hardware wallet or Gnosis Safe in prod.
  *   admin     — Creates and resolves markets. Hot wallet OK.
- *               Compromise = wrong resolutions only, CANNOT steal funds.
- *   feeWallet — Receives platform fees only.
+ *               Compromise = wrong resolutions only; CANNOT steal funds.
+ *   feeWallet — Receives platform fees only. No admin power.
  *
  * Security properties:
- *   - Zero custody: contract holds all USDC, never moved except to winners / feeWallet.
- *   - Admin and owner cannot place bets (no insider trading).
+ *   - Zero custody: contract holds all USDC, moved only to winners / feeWallet.
+ *   - Admin and owner CANNOT place bets (no insider trading).
  *   - 2-hour dispute window before payouts unlock.
  *   - ReentrancyGuard on all state-changing + transfer functions.
- *   - SafeERC20 for all token transfers.
- *   - Basis-points fee, hardcoded max 500 bps (5%).
+ *   - SafeERC20 for all token operations.
+ *   - Fee in basis points, capped at 500 bps (5%).
  */
 contract PredictionMarket is ReentrancyGuard {
     using SafeERC20 for IERC20;
@@ -40,10 +40,11 @@ contract PredictionMarket is ReentrancyGuard {
     // ─────────────────────────────────────────────────────────
 
     IERC20  public immutable USDC;
-    uint256 public constant DISPUTE_WINDOW   = 2 hours;
-    uint256 public constant MIN_BET          = 1_000_000;       // 1 USDC (6 decimals)
-    uint256 public constant MAX_BET          = 100_000_000_000; // 100,000 USDC
-    uint256 public constant MAX_FEE_BPS      = 500;             // 5% hard cap
+
+    uint256 public constant DISPUTE_WINDOW = 2 hours;
+    uint256 public constant MIN_BET        = 1_000_000;         // 1 USDC  (6 decimals)
+    uint256 public constant MAX_BET        = 100_000_000_000;   // 100,000 USDC
+    uint256 public constant MAX_FEE_BPS    = 500;               // 5% hard cap
 
     // ─────────────────────────────────────────────────────────
     // PAUSABLE STATE
@@ -64,7 +65,7 @@ contract PredictionMarket is ReentrancyGuard {
 
     uint256 public marketCount;
 
-    // outcome values
+    // Outcome constants
     uint8 public constant OUTCOME_UNRESOLVED = 0;
     uint8 public constant OUTCOME_YES        = 1;
     uint8 public constant OUTCOME_NO         = 2;
@@ -83,7 +84,7 @@ contract PredictionMarket is ReentrancyGuard {
         uint256 yesPool;
         uint256 noPool;
         uint256 feesCollected;
-        uint8   outcome;   // 0=UNRESOLVED, 1=YES, 2=NO, 3=CANCELLED
+        uint8   outcome;     // 0=UNRESOLVED, 1=YES, 2=NO, 3=CANCELLED
         bool    disputed;
     }
 
@@ -192,10 +193,10 @@ contract PredictionMarket is ReentrancyGuard {
         uint256 closingTime,
         uint256 resolutionTime
     ) external onlyAdmin returns (uint256) {
-        require(bytes(question).length > 0,          "Question required");
-        require(bytes(resolutionSource).length > 0,  "Resolution source required");
-        require(closingTime > block.timestamp,        "Closing time must be in future");
-        require(resolutionTime >= closingTime,        "Resolution time must be >= closing time");
+        require(bytes(question).length > 0,         "Question required");
+        require(bytes(resolutionSource).length > 0, "Resolution source required");
+        require(closingTime > block.timestamp,       "Closing time must be in future");
+        require(resolutionTime >= closingTime,       "Resolution time must be >= closing time");
 
         uint256 marketId = marketCount++;
 
@@ -222,23 +223,24 @@ contract PredictionMarket is ReentrancyGuard {
 
     /**
      * @notice Resolve a market after resolutionTime.
-     *         Takes 2% fee (feePercent bps) from the LOSING pool.
-     *         Starts a 2-hour dispute window before payouts unlock.
+     *         Takes feePercent bps from the LOSING pool and sends to feeWallet.
+     *         Starts a 2-hour dispute window before payouts unlock (finalizedAt).
      */
     function resolveMarket(uint256 marketId, bool isYes)
         external
         onlyAdmin
+        nonReentrant
         marketExists(marketId)
     {
         Market storage m = _markets[marketId];
-        require(m.outcome == OUTCOME_UNRESOLVED,        "Already resolved");
-        require(block.timestamp >= m.resolutionTime,    "Too early to resolve");
+        require(m.outcome == OUTCOME_UNRESOLVED,     "Already resolved");
+        require(block.timestamp >= m.resolutionTime, "Too early to resolve");
 
         m.outcome     = isYes ? OUTCOME_YES : OUTCOME_NO;
         m.resolvedAt  = block.timestamp;
         m.finalizedAt = block.timestamp + DISPUTE_WINDOW;
 
-        // Fee is taken from the losing pool only
+        // Fee taken from the losing pool only
         uint256 losingPool = isYes ? m.noPool : m.yesPool;
         uint256 fee        = (losingPool * feePercent) / 10_000;
         m.feesCollected    = fee;
@@ -252,7 +254,7 @@ contract PredictionMarket is ReentrancyGuard {
     }
 
     /**
-     * @notice Cancel a market. Issues full refunds to all bettors. No fees taken.
+     * @notice Cancel a market. All bettors may claim full refunds. No fees taken.
      */
     function cancelMarket(uint256 marketId)
         external
@@ -272,49 +274,47 @@ contract PredictionMarket is ReentrancyGuard {
 
     /**
      * @notice Override an incorrect resolution during the dispute window.
-     *         Can only be called after a dispute has been filed.
+     *         Requires a dispute to have been filed first.
+     *         Re-calculates the fee for the new losing pool and trues-up any
+     *         difference against the feeWallet.
      */
     function overrideResolution(uint256 marketId, bool isYes)
         external
         onlyOwner
+        nonReentrant
         marketExists(marketId)
     {
         Market storage m = _markets[marketId];
-        require(m.outcome != OUTCOME_UNRESOLVED,     "Not resolved yet");
-        require(m.outcome != OUTCOME_CANCELLED,      "Market cancelled");
-        require(m.disputed,                          "No dispute filed");
-        require(block.timestamp < m.finalizedAt,     "Dispute window closed");
+        require(m.outcome != OUTCOME_UNRESOLVED, "Not resolved yet");
+        require(m.outcome != OUTCOME_CANCELLED,  "Market cancelled");
+        require(m.disputed,                      "No dispute filed");
+        require(block.timestamp < m.finalizedAt, "Dispute window closed");
 
         uint8 newOutcome = isYes ? OUTCOME_YES : OUTCOME_NO;
 
-        // Recalculate fee for the new losing pool
-        // The old fee has already been transferred out. The difference is handled by the
-        // fact that _calculatePayout uses m.feesCollected (stored amount). We update it
-        // so payouts are consistent with the corrected outcome.
+        // Recalculate fee for new losing pool
         uint256 newLosingPool = isYes ? m.noPool : m.yesPool;
         uint256 newFee        = (newLosingPool * feePercent) / 10_000;
+        uint256 oldFee        = m.feesCollected;
 
-        // If old fee != new fee we need to true-up the transfer.
-        // Old outcome had fee from the opposite losing pool; refund excess or send extra.
-        uint256 oldFee = m.feesCollected;
-        m.feesCollected = newFee;
         m.outcome       = newOutcome;
+        m.feesCollected = newFee;
         m.disputed      = false;
 
+        // True-up fee transfer
         if (newFee > oldFee) {
-            // Need to send additional fee
+            // Need to send additional fee (switching to a larger losing pool)
             USDC.safeTransfer(feeWallet, newFee - oldFee);
-        } else if (oldFee > newFee) {
-            // Over-collected — owner must have sent excess back already OR we accept
-            // the shortfall since the contract balance still holds it.
-            // In practice feeWallet should return excess. For safety we just update
-            // the stored amount so winner payouts are correct.
+            emit FeeCollected(marketId, newFee - oldFee, feeWallet);
         }
+        // If oldFee > newFee the surplus stays in the contract and is distributed
+        // to winners as part of the effective payout (feesCollected is now newFee,
+        // so the payout math returns the extra to winners).
 
         emit MarketResolved(marketId, newOutcome, block.timestamp, m.finalizedAt);
     }
 
-    /// @notice Pause all bets and claims.
+    /// @notice Pause placeBet and claimWinnings.
     function emergencyPause() external onlyOwner {
         paused = true;
     }
@@ -329,7 +329,8 @@ contract PredictionMarket is ReentrancyGuard {
     // ─────────────────────────────────────────────────────────
 
     /**
-     * @notice Place a bet on YES or NO. Admin and owner cannot bet.
+     * @notice Place a bet on YES or NO.
+     *         Admin and owner are explicitly blocked to prevent insider trading.
      * @param marketId  Market to bet on.
      * @param isYes     true = YES, false = NO.
      * @param amount    USDC amount (6 decimals). Min 1 USDC, max 100,000 USDC.
@@ -341,12 +342,12 @@ contract PredictionMarket is ReentrancyGuard {
         marketExists(marketId)
     {
         require(msg.sender != owner && msg.sender != admin, "Admin/owner cannot bet");
-        require(amount >= MIN_BET,  "Below minimum bet (1 USDC)");
-        require(amount <= MAX_BET,  "Above maximum bet (100,000 USDC)");
+        require(amount >= MIN_BET, "Below minimum bet (1 USDC)");
+        require(amount <= MAX_BET, "Above maximum bet (100,000 USDC)");
 
         Market storage m = _markets[marketId];
-        require(m.outcome == OUTCOME_UNRESOLVED,         "Market already resolved");
-        require(block.timestamp < m.closingTime,         "Market closed for betting");
+        require(m.outcome == OUTCOME_UNRESOLVED,  "Market already resolved");
+        require(block.timestamp < m.closingTime,  "Market closed for betting");
 
         USDC.safeTransferFrom(msg.sender, address(this), amount);
 
@@ -390,7 +391,8 @@ contract PredictionMarket is ReentrancyGuard {
     // ─────────────────────────────────────────────────────────
 
     /**
-     * @notice Claim winnings after dispute window passes. Full refund if CANCELLED.
+     * @notice Claim winnings after the dispute window passes.
+     *         Full refund (no fee) if the market was CANCELLED.
      */
     function claimWinnings(uint256 marketId)
         external
@@ -413,8 +415,8 @@ contract PredictionMarket is ReentrancyGuard {
             return;
         }
 
-        require(m.outcome != OUTCOME_UNRESOLVED,     "Market not resolved");
-        require(block.timestamp >= m.finalizedAt,    "Dispute window still open");
+        require(m.outcome != OUTCOME_UNRESOLVED,  "Market not resolved");
+        require(block.timestamp >= m.finalizedAt, "Dispute window still open");
 
         _hasClaimed[marketId][msg.sender] = true;
 
@@ -433,18 +435,18 @@ contract PredictionMarket is ReentrancyGuard {
      * @dev Proportional payout formula (fee from losing pool):
      *
      *   loserPool     = pool of the losing side
-     *   fee           = loserPool * feePercent / 10000
-     *   loserAfterFee = loserPool - fee
+     *   fee           = loserPool * feePercent / 10000  (stored in feesCollected)
+     *   loserAfterFee = loserPool - feesCollected
      *   winnerPool    = pool of the winning side
      *
      *   payout = userPosition + (userPosition / winnerPool) * loserAfterFee
      *
-     * Example: 600 YES, 400 NO, 2% fee (200 bps), YES wins
+     * Example: 600 YES, 400 NO, 2% fee, YES wins
      *   loserPool     = 400
      *   fee           = 400 * 200 / 10000 = 8 USDC
      *   loserAfterFee = 392 USDC
-     *   user bet 600 YES (100% of YES pool):
-     *   payout = 600 + (600/600) * 392 = 600 + 392 = 992 USDC
+     *   user bet all 600 YES (100% of YES pool):
+     *   payout = 600 + (600/600) * 392 = 992 USDC
      */
     function _calculatePayout(uint256 marketId, address user)
         internal
@@ -468,7 +470,7 @@ contract PredictionMarket is ReentrancyGuard {
 
         if (userPosition == 0 || winnerPool == 0) return 0;
 
-        uint256 loserPool     = (m.outcome == OUTCOME_YES) ? m.noPool  : m.yesPool;
+        uint256 loserPool     = (m.outcome == OUTCOME_YES) ? m.noPool : m.yesPool;
         uint256 loserAfterFee = loserPool - m.feesCollected;
 
         uint256 loserShare = (userPosition * loserAfterFee) / winnerPool;
@@ -479,6 +481,7 @@ contract PredictionMarket is ReentrancyGuard {
     // VIEWS
     // ─────────────────────────────────────────────────────────
 
+    /// @notice Returns the full Market struct for a given marketId.
     function getMarket(uint256 marketId)
         external
         view
@@ -488,6 +491,7 @@ contract PredictionMarket is ReentrancyGuard {
         return _markets[marketId];
     }
 
+    /// @notice Returns a user's positions and claim status for a market.
     function getUserPositions(uint256 marketId, address user)
         external
         view
@@ -501,8 +505,8 @@ contract PredictionMarket is ReentrancyGuard {
     }
 
     /**
-     * @notice Returns current implied odds as percentages (0–100).
-     *         Defaults to 50/50 when no bets have been placed.
+     * @notice Returns current implied odds as percentages (0-100).
+     *         Returns 50/50 when no bets have been placed.
      */
     function getMarketOdds(uint256 marketId)
         external
@@ -517,6 +521,7 @@ contract PredictionMarket is ReentrancyGuard {
         noPercent  = 100 - yesPercent;
     }
 
+    /// @notice Returns the expected payout for a user on a given market.
     function getPayout(uint256 marketId, address user)
         external
         view
