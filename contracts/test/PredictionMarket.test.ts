@@ -40,13 +40,12 @@ describe("PredictionMarket", function () {
       await usdc.mint(u.address, toUSDC(200_000));
     }
 
-    // Deploy PredictionMarket: constructor(admin, feeWallet, usdc, feePercent)
+    // Deploy PredictionMarket: constructor(admin, feeWallet, usdc)
     const PM = await ethers.getContractFactory("PredictionMarket");
     pm = (await PM.deploy(
       admin.address,
       feeWallet.address,
       await usdc.getAddress(),
-      200n, // 2%
     )) as PredictionMarket;
 
     // Approve contract for each user
@@ -106,22 +105,15 @@ describe("PredictionMarket", function () {
     it("reverts if admin is zero address", async function () {
       const PM = await ethers.getContractFactory("PredictionMarket");
       await expect(
-        PM.deploy(ethers.ZeroAddress, feeWallet.address, await usdc.getAddress(), 200n),
+        PM.deploy(ethers.ZeroAddress, feeWallet.address, await usdc.getAddress()),
       ).to.be.revertedWith("Invalid admin");
     });
 
     it("reverts if feeWallet is zero address", async function () {
       const PM = await ethers.getContractFactory("PredictionMarket");
       await expect(
-        PM.deploy(admin.address, ethers.ZeroAddress, await usdc.getAddress(), 200n),
+        PM.deploy(admin.address, ethers.ZeroAddress, await usdc.getAddress()),
       ).to.be.revertedWith("Invalid feeWallet");
-    });
-
-    it("reverts if fee exceeds 500 bps", async function () {
-      const PM = await ethers.getContractFactory("PredictionMarket");
-      await expect(
-        PM.deploy(admin.address, feeWallet.address, await usdc.getAddress(), 501n),
-      ).to.be.revertedWith("Fee exceeds max");
     });
   });
 

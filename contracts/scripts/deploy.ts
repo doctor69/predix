@@ -26,11 +26,9 @@ async function main(): Promise<void> {
   // ── Required env vars ────────────────────────────────────────
   const ADMIN_ADDRESS = process.env.ADMIN_ADDRESS;
   const FEE_WALLET    = process.env.FEE_WALLET;
-  const FEE_PERCENT   = process.env.FEE_PERCENT;
 
   if (!ADMIN_ADDRESS) throw new Error("Missing env var: ADMIN_ADDRESS");
   if (!FEE_WALLET)    throw new Error("Missing env var: FEE_WALLET");
-  if (!FEE_PERCENT)   throw new Error("Missing env var: FEE_PERCENT");
 
   const usdcAddress = USDC_ADDRESSES[networkName];
   if (!usdcAddress || usdcAddress === "0x0000000000000000000000000000000000000000") {
@@ -39,14 +37,11 @@ async function main(): Promise<void> {
     }
   }
 
-  const feePercent = BigInt(FEE_PERCENT);
-  if (feePercent > 500n) throw new Error("FEE_PERCENT exceeds max of 500 bps (5%)");
-
   console.log("\n  Constructor Arguments:");
   console.log(`  Admin:       ${ADMIN_ADDRESS}`);
   console.log(`  Fee Wallet:  ${FEE_WALLET}`);
   console.log(`  USDC:        ${usdcAddress}`);
-  console.log(`  Fee %:       ${FEE_PERCENT} bps (${Number(FEE_PERCENT) / 100}%)`);
+  console.log(`  Fee %:       200 bps (2%) — permanent, hardcoded in contract`);
 
   // ── Deploy ───────────────────────────────────────────────────
   const PredictionMarket = await ethers.getContractFactory("PredictionMarket");
@@ -54,7 +49,6 @@ async function main(): Promise<void> {
     ADMIN_ADDRESS,
     FEE_WALLET,
     usdcAddress,
-    feePercent,
   );
   await contract.waitForDeployment();
   const contractAddress = await contract.getAddress();
@@ -77,7 +71,7 @@ async function main(): Promise<void> {
     usdc:            usdcAddress,
     admin:           ADMIN_ADDRESS,
     feeWallet:       FEE_WALLET,
-    feePercent:      FEE_PERCENT,
+    feePercent:      "200",
     deployedAt:      new Date().toISOString(),
     deployedBy:      deployer.address,
   };
@@ -96,7 +90,7 @@ async function main(): Promise<void> {
     try {
       await run("verify:verify", {
         address:              contractAddress,
-        constructorArguments: [ADMIN_ADDRESS, FEE_WALLET, usdcAddress, feePercent],
+        constructorArguments: [ADMIN_ADDRESS, FEE_WALLET, usdcAddress],
       });
       console.log("  Verification successful.");
     } catch (err: unknown) {

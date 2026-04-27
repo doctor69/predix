@@ -22,7 +22,7 @@ import "@openzeppelin/contracts/utils/ReentrancyGuard.sol";
  *   - 2-hour dispute window before payouts unlock.
  *   - ReentrancyGuard on all state-changing + transfer functions.
  *   - SafeERC20 for all token operations.
- *   - Fee in basis points, capped at 500 bps (5%).
+ *   - Fee permanently hardcoded at 2% (200 bps). Immutable.
  */
 contract PredictionMarket is ReentrancyGuard {
     using SafeERC20 for IERC20;
@@ -44,7 +44,7 @@ contract PredictionMarket is ReentrancyGuard {
     uint256 public constant DISPUTE_WINDOW = 2 hours;
     uint256 public constant MIN_BET        = 1_000_000;         // 1 USDC  (6 decimals)
     uint256 public constant MAX_BET        = 100_000_000_000;   // 100,000 USDC
-    uint256 public constant MAX_FEE_BPS    = 500;               // 5% hard cap
+    uint256 public constant FEE_BPS        = 200;               // 2% permanent, immutable
 
     // ─────────────────────────────────────────────────────────
     // PAUSABLE STATE
@@ -56,8 +56,8 @@ contract PredictionMarket is ReentrancyGuard {
     // FEE CONFIG
     // ─────────────────────────────────────────────────────────
 
-    /// @notice Fee in basis points (e.g. 200 = 2%).
-    uint256 public feePercent;
+    /// @notice Fee permanently hardcoded at 2% (200 bps). Cannot be changed.
+    uint256 public constant feePercent = FEE_BPS;
 
     // ─────────────────────────────────────────────────────────
     // MARKETS
@@ -154,27 +154,25 @@ contract PredictionMarket is ReentrancyGuard {
     // ─────────────────────────────────────────────────────────
 
     /**
-     * @param _admin      Hot wallet that creates / resolves markets.
-     * @param _feeWallet  Address that receives platform fees.
-     * @param _usdc       USDC contract address on Polygon.
-     * @param _feePercent Fee in basis points (e.g. 200 = 2%).
+     * @param _admin     Hot wallet that creates / resolves markets.
+     * @param _feeWallet Address that receives platform fees.
+     * @param _usdc      USDC contract address on Polygon.
+     *
+     * Fee is permanently hardcoded at 2% (200 bps) — not configurable.
      */
     constructor(
         address _admin,
         address _feeWallet,
-        address _usdc,
-        uint256 _feePercent
+        address _usdc
     ) {
         require(_admin     != address(0), "Invalid admin");
         require(_feeWallet != address(0), "Invalid feeWallet");
         require(_usdc      != address(0), "Invalid USDC address");
-        require(_feePercent <= MAX_FEE_BPS, "Fee exceeds max");
 
-        owner      = msg.sender;
-        admin      = _admin;
-        feeWallet  = _feeWallet;
-        USDC       = IERC20(_usdc);
-        feePercent = _feePercent;
+        owner     = msg.sender;
+        admin     = _admin;
+        feeWallet = _feeWallet;
+        USDC      = IERC20(_usdc);
     }
 
     // ─────────────────────────────────────────────────────────
@@ -292,24 +290,24 @@ contract PredictionMarket is ReentrancyGuard {
 
         uint8 newOutcome = isYes ? OUTCOME_YES : OUTCOME_NO;
 
-        // Recalculate fee for new losing pool
+        // Recalculate fee for the new losing pool
         uint256 newLosingPool = isYes ? m.noPool : m.yesPool;
         uint256 newFee        = (newLosingPool * feePercent) / 10_000;
         uint256 oldFee        = m.feesCollected;
 
-        m.outcome       = newOutcome;
-        m.feesCollected = newFee;
-        m.disputed      = false;
+        m.outcome  = newOutcome;
+        m.disputed = false;
 
-        // True-up fee transfer
         if (newFee > oldFee) {
-            // Need to send additional fee (switching to a larger losing pool)
+            // New losing pool is larger — send the extra to feeWallet
+            m.feesCollected = newFee;
             USDC.safeTransfer(feeWallet, newFee - oldFee);
             emit FeeCollected(marketId, newFee - oldFee, feeWallet);
+        } else {
+            // Keep feesCollected = oldFee so payout math never exceeds contract balance.
+            // The surplus (oldFee - newFee) is effectively a bonus distributed to winners.
+            m.feesCollected = oldFee;
         }
-        // If oldFee > newFee the surplus stays in the contract and is distributed
-        // to winners as part of the effective payout (feesCollected is now newFee,
-        // so the payout math returns the extra to winners).
 
         emit MarketResolved(marketId, newOutcome, block.timestamp, m.finalizedAt);
     }
