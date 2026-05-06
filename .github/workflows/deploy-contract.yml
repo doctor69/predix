@@ -42,8 +42,8 @@ jobs:
         env:
           PRIVATE_KEY:          ${{ secrets.DEPLOYER_PRIVATE_KEY }}
           POLYGONSCAN_API_KEY:  ${{ secrets.POLYGONSCAN_API_KEY }}
-          ADMIN_ADDRESS:        ${{ vars.ADMIN_ADDRESS }}
-          FEE_WALLET:           ${{ vars.FEE_WALLET }}
+          ADMIN_ADDRESS:        ${{ secrets.ADMIN_ADDRESS }}
+          FEE_WALLET:           ${{ secrets.FEE_WALLET }}
           AMOY_RPC:             ${{ vars.AMOY_RPC || 'https://rpc-amoy.polygon.technology' }}
           POLYGON_RPC:          ${{ vars.POLYGON_RPC || 'https://polygon-rpc.com' }}
         run: npx hardhat run scripts/deploy.ts --network ${{ inputs.network }}
