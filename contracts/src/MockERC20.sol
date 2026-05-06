@@ -3,7 +3,7 @@ pragma solidity ^0.8.24;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
-/// @dev Only used in tests — never deployed to mainnet
+/// @dev Only used in tests — never deployed to mainnet.
 contract MockERC20 is ERC20 {
     uint8 private _decimals;
 
