@@ -1,11 +1,12 @@
 import { ReactNode } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import { useAccount } from 'wagmi';
+import { useAccount, useChainId, useSwitchChain } from 'wagmi';
 import clsx from 'clsx';
 import { shortAddress } from '@/lib/format';
 import { useIsAdmin } from '@/hooks/useAdmin';
 import { useAuth } from '@/context/auth';
+import { ACTIVE_CHAIN } from '@/lib/config';
 
 interface LayoutProps {
   children: ReactNode;
@@ -14,8 +15,12 @@ interface LayoutProps {
 export function Layout({ children }: LayoutProps) {
   const router = useRouter();
   const { login, logout, authenticated, ready } = useAuth();
-  const { address } = useAccount();
+  const { address, isConnected } = useAccount();
   const { isAdmin } = useIsAdmin();
+  const chainId = useChainId();
+  const { switchChain } = useSwitchChain();
+
+  const isWrongNetwork = isConnected && chainId !== ACTIVE_CHAIN.id;
 
   const navLinks = [
     { href: '/', label: 'Markets' },
@@ -25,6 +30,19 @@ export function Layout({ children }: LayoutProps) {
 
   return (
     <div className="min-h-screen bg-bg-primary text-text-primary">
+      {/* Wrong network banner */}
+      {isWrongNetwork && (
+        <div className="flex items-center justify-center gap-3 bg-yellow-500/10 border-b border-yellow-500/30 px-4 py-2 text-sm text-yellow-400">
+          <span>Wrong network — please switch to {ACTIVE_CHAIN.name}</span>
+          <button
+            onClick={() => switchChain({ chainId: ACTIVE_CHAIN.id })}
+            className="rounded bg-yellow-500/20 px-3 py-1 text-xs font-semibold text-yellow-300 hover:bg-yellow-500/30 transition-colors"
+          >
+            Switch Network
+          </button>
+        </div>
+      )}
+
       {/* Nav */}
       <header className="sticky top-0 z-50 border-b border-bg-border bg-bg-primary/90 backdrop-blur-md">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
@@ -60,10 +78,10 @@ export function Layout({ children }: LayoutProps) {
           <div className="flex items-center gap-3">
             {!ready ? (
               <div className="h-9 w-28 animate-pulse rounded-lg bg-bg-card" />
-            ) : authenticated && address ? (
+            ) : authenticated ? (
               <div className="flex items-center gap-2">
                 <span className="hidden rounded-lg bg-bg-card px-3 py-1.5 text-sm font-mono text-text-secondary sm:block">
-                  {shortAddress(address)}
+                  {address ? shortAddress(address) : 'Connected'}
                 </span>
                 <button
                   onClick={logout}
