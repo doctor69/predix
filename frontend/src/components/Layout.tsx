@@ -78,10 +78,10 @@ export function Layout({ children }: LayoutProps) {
           <div className="flex items-center gap-3">
             {!ready ? (
               <div className="h-9 w-28 animate-pulse rounded-lg bg-bg-card" />
-            ) : authenticated && address ? (
+            ) : authenticated ? (
               <div className="flex items-center gap-2">
                 <span className="hidden rounded-lg bg-bg-card px-3 py-1.5 text-sm font-mono text-text-secondary sm:block">
-                  {shortAddress(address)}
+                  {address ? shortAddress(address) : 'Connected'}
                 </span>
                 <button
                   onClick={logout}
