@@ -27,8 +27,10 @@ app.use('*', logger());
 app.use('*', prettyJSON());
 
 app.use('*', async (c, next) => {
+  // FRONTEND_URL supports comma-separated origins, e.g. "https://predix.vip,https://predix-jfg.pages.dev"
+  const origins = c.env.FRONTEND_URL.split(',').map((o) => o.trim());
   return cors({
-    origin: c.env.FRONTEND_URL,
+    origin: origins,
     allowMethods: ['GET', 'POST', 'PATCH', 'DELETE', 'OPTIONS'],
     allowHeaders: ['Content-Type', 'Authorization', 'X-Wallet-Address'],
     credentials: true,
