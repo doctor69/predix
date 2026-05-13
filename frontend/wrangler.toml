@@ -7,7 +7,7 @@ compatibility_flags = ["nodejs_compat"]
 # Public — safe to commit (update values to match your deployment)
 NEXT_PUBLIC_API_URL         = "https://predix-api.enterprisebizz.workers.dev"
 NEXT_PUBLIC_CHAIN_ID        = "80002"
-NEXT_PUBLIC_CONTRACT_ADDRESS = "0xd71dccd9E5FddbC6583eaE4ea62555D6deD836b2"
+NEXT_PUBLIC_CONTRACT_ADDRESS = "0xCc12CB606194E9f68b66890002d7630C0c8Ce00F"
 NEXT_PUBLIC_PRIVY_APP_ID    = "cmog8l42d02ez0cjj0hovtsnx"
 NEXT_PUBLIC_POLYGON_RPC     = "https://polygon-rpc.com"
 NEXT_PUBLIC_AMOY_RPC        = "https://rpc-amoy.polygon.technology"
