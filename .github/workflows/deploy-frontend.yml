@@ -32,7 +32,7 @@ jobs:
         run: npm run build:cf
         env:
           NEXT_PUBLIC_API_URL: https://predix-api.enterprisebizz.workers.dev
-          NEXT_PUBLIC_CHAIN_ID: "137"
+          NEXT_PUBLIC_CHAIN_ID: "80002"
           NEXT_PUBLIC_CONTRACT_ADDRESS: ${{ vars.NEXT_PUBLIC_CONTRACT_ADDRESS }}
           NEXT_PUBLIC_PRIVY_APP_ID: ${{ secrets.NEXT_PUBLIC_PRIVY_APP_ID }}
           NEXT_PUBLIC_POLYGON_RPC: https://polygon-rpc.com
