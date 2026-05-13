@@ -1,7 +1,7 @@
 import { useReadContract, useReadContracts } from 'wagmi';
 import { useAccount } from 'wagmi';
 import { PREDICTION_MARKET_ABI, ERC20_ABI } from '@/lib/abi';
-import { CONTRACT_ADDRESS, CONTRACT_DEPLOYED, USDC_ADDRESS } from '@/lib/config';
+import { CONTRACT_ADDRESS, CONTRACT_DEPLOYED, USDC_ADDRESS, ACTIVE_CHAIN } from '@/lib/config';
 
 export interface UserPosition {
   marketId: number;
@@ -19,6 +19,7 @@ export function useUserPosition(marketId: number) {
     abi: PREDICTION_MARKET_ABI,
     functionName: 'getUserPositions',
     args: [BigInt(marketId), address as `0x${string}`],
+    chainId: ACTIVE_CHAIN.id,
     query: {
       enabled: CONTRACT_DEPLOYED && !!address && marketId >= 0,
       refetchInterval: 15_000,
@@ -40,6 +41,7 @@ export function useUserPositions(marketIds: number[]) {
       abi: PREDICTION_MARKET_ABI,
       functionName: 'getUserPositions' as const,
       args: [BigInt(id), address as `0x${string}`] as const,
+      chainId: ACTIVE_CHAIN.id,
     })),
     query: {
       enabled: CONTRACT_DEPLOYED && !!address && marketIds.length > 0,
@@ -67,6 +69,7 @@ export function useUSDCBalance() {
     abi: ERC20_ABI,
     functionName: 'balanceOf',
     args: [address as `0x${string}`],
+    chainId: ACTIVE_CHAIN.id,
     query: { enabled: !!address },
   });
 
@@ -75,6 +78,7 @@ export function useUSDCBalance() {
     abi: ERC20_ABI,
     functionName: 'allowance',
     args: [address as `0x${string}`, CONTRACT_ADDRESS],
+    chainId: ACTIVE_CHAIN.id,
     query: { enabled: !!address && CONTRACT_DEPLOYED },
   });
 
@@ -97,6 +101,7 @@ export function usePotentialPayout(marketId: number) {
     abi: PREDICTION_MARKET_ABI,
     functionName: 'getPayout',
     args: [BigInt(marketId), address as `0x${string}`],
+    chainId: ACTIVE_CHAIN.id,
     query: {
       enabled: CONTRACT_DEPLOYED && !!address && marketId >= 0,
     },
