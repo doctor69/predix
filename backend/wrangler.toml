@@ -4,7 +4,7 @@ compatibility_date = "2024-09-23"
 compatibility_flags = ["nodejs_compat"]
 
 [vars]
-FRONTEND_URL = "https://predix-jfg.pages.dev"
+FRONTEND_URL = "https://predix.vip,https://www.predix.vip,https://predix-jfg.pages.dev"
 
 # Secrets — set via CLI before deploying:
 #   wrangler secret put DATABASE_URL

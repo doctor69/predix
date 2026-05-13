@@ -44,8 +44,8 @@ jobs:
           POLYGONSCAN_API_KEY:  ${{ secrets.POLYGONSCAN_API_KEY }}
           ADMIN_ADDRESS:        ${{ secrets.ADMIN_ADDRESS }}
           FEE_WALLET:           ${{ secrets.FEE_WALLET }}
-          AMOY_RPC:             ${{ vars.AMOY_RPC || 'https://rpc-amoy.polygon.technology' }}
-          POLYGON_RPC:          ${{ vars.POLYGON_RPC || 'https://polygon-rpc.com' }}
+          AMOY_RPC:             ${{ secrets.AMOY_RPC || 'https://rpc-amoy.polygon.technology' }}
+          POLYGON_RPC:          ${{ secrets.POLYGON_RPC || 'https://polygon-bor-rpc.publicnode.com' }}
         run: npx hardhat run scripts/deploy.ts --network ${{ inputs.network }}
 
       - name: Show deployment record
