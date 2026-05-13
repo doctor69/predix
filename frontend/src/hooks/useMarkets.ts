@@ -1,6 +1,6 @@
 import { useReadContract, useReadContracts } from 'wagmi';
 import { PREDICTION_MARKET_ABI } from '@/lib/abi';
-import { CONTRACT_ADDRESS, CONTRACT_DEPLOYED, Outcome } from '@/lib/config';
+import { CONTRACT_ADDRESS, CONTRACT_DEPLOYED, ACTIVE_CHAIN, Outcome } from '@/lib/config';
 
 export interface Market {
   id: number;
@@ -26,6 +26,7 @@ export function useMarketCount() {
     address: CONTRACT_ADDRESS,
     abi: PREDICTION_MARKET_ABI,
     functionName: 'marketCount',
+    chainId: ACTIVE_CHAIN.id,
     query: { enabled: CONTRACT_DEPLOYED },
   });
 }
@@ -42,6 +43,7 @@ export function useMarkets() {
       abi: PREDICTION_MARKET_ABI,
       functionName: 'getMarket' as const,
       args: [BigInt(i)] as const,
+      chainId: ACTIVE_CHAIN.id,
     })),
     query: { enabled: CONTRACT_DEPLOYED && count > 0 },
   });
@@ -68,6 +70,7 @@ export function useMarket(marketId: number) {
     abi: PREDICTION_MARKET_ABI,
     functionName: 'getMarket',
     args: [BigInt(marketId)],
+    chainId: ACTIVE_CHAIN.id,
     query: {
       enabled: CONTRACT_DEPLOYED && marketId >= 0,
       refetchInterval: 15_000,
@@ -88,6 +91,7 @@ export function useMarketOdds(marketId: number) {
     abi: PREDICTION_MARKET_ABI,
     functionName: 'getMarketOdds',
     args: [BigInt(marketId)],
+    chainId: ACTIVE_CHAIN.id,
     query: {
       enabled: CONTRACT_DEPLOYED && marketId >= 0,
       refetchInterval: 15_000,
