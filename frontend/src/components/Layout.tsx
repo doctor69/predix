@@ -48,9 +48,7 @@ export function Layout({ children }: LayoutProps) {
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
-            <span className="text-xl font-bold tracking-tight text-white">
-              PREDIX
-            </span>
+            <img src="/logo.svg" alt="Predix" className="h-9 w-auto" />
             <span className="rounded bg-accent/20 px-1.5 py-0.5 text-xs font-semibold text-accent">
               BETA
             </span>

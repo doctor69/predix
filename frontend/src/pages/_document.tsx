@@ -4,7 +4,8 @@ export default function Document() {
   return (
     <Html lang="en" className="dark">
       <Head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
         <meta name="theme-color" content="#0a0b0f" />
         <meta
           name="description"
