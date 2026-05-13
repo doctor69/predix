@@ -2,7 +2,7 @@ import { useState, useCallback } from 'react';
 import { useReadContract, useWriteContract, useWaitForTransactionReceipt } from 'wagmi';
 import { useAccount } from 'wagmi';
 import { PREDICTION_MARKET_ABI } from '@/lib/abi';
-import { CONTRACT_ADDRESS, CONTRACT_DEPLOYED } from '@/lib/config';
+import { CONTRACT_ADDRESS, CONTRACT_DEPLOYED, ACTIVE_CHAIN } from '@/lib/config';
 
 /** Fetch the contract's admin address and check if the current wallet is admin */
 export function useIsAdmin() {
@@ -12,6 +12,7 @@ export function useIsAdmin() {
     address: CONTRACT_ADDRESS,
     abi: PREDICTION_MARKET_ABI,
     functionName: 'admin',
+    chainId: ACTIVE_CHAIN.id,
     query: { enabled: CONTRACT_DEPLOYED },
   });
 
@@ -19,6 +20,7 @@ export function useIsAdmin() {
     address: CONTRACT_ADDRESS,
     abi: PREDICTION_MARKET_ABI,
     functionName: 'owner',
+    chainId: ACTIVE_CHAIN.id,
     query: { enabled: CONTRACT_DEPLOYED },
   });
 
