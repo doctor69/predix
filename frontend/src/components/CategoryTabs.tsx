@@ -10,7 +10,7 @@ interface CategoryTabsProps {
 
 export function CategoryTabs({ selected, onChange }: CategoryTabsProps) {
   return (
-    <div className="flex gap-1 overflow-x-auto pb-2 scrollbar-none">
+    <div className="flex gap-1 overflow-x-auto pb-2 scrollbar-none touch-pan-x">
       {ALL_CATEGORIES.map((cat) => (
         <button
           key={cat}
