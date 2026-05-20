@@ -1,10 +1,17 @@
 name: Create Markets
 
 on:
+  # Auto-generate + deploy new markets every 4 hours
+  schedule:
+    - cron: '0 */4 * * *'
+
+  # Fire immediately when markets.yml is edited on main (manual additions)
   push:
     branches: [main]
     paths:
       - 'markets/markets.yml'
+
+  # Manual trigger — choose network and how many markets to generate
   workflow_dispatch:
     inputs:
       network:
@@ -15,10 +22,23 @@ on:
         options:
           - polygonAmoy
           - polygon
+      markets_per_run:
+        description: 'Markets to generate per run (default: 40)'
+        required: false
+        default: '40'
+      max_deploy:
+        description: 'Max markets to deploy per run (default: 100)'
+        required: false
+        default: '100'
+
+concurrency:
+  # Never run two instances at once — prevents double-deployment or YAML conflicts
+  group: create-markets
+  cancel-in-progress: false
 
 jobs:
   create:
-    name: Deploy new markets to ${{ inputs.network || 'polygonAmoy' }}
+    name: Generate & deploy markets → ${{ inputs.network || 'polygonAmoy' }}
     runs-on: ubuntu-latest
     permissions:
       contents: write   # needed to commit contractIds back to the repo
@@ -30,8 +50,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          # Full history so we can commit back
           fetch-depth: 0
+          # Use a PAT so the commit-back push triggers downstream CI
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: actions/setup-node@v4
         with:
@@ -42,23 +63,34 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Create markets on-chain
+      # ── Step 1: AI generation ────────────────────────────────────────────
+      - name: Generate new markets from news (Claude AI)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          MARKETS_PER_RUN:   ${{ inputs.markets_per_run || '40' }}
+        run: npx ts-node scripts/generate-markets.ts
+
+      # ── Step 2: Deploy to blockchain ─────────────────────────────────────
+      - name: Deploy pending markets on-chain
         env:
           PRIVATE_KEY:               ${{ secrets.DEPLOYER_PRIVATE_KEY }}
           AMOY_RPC:                  ${{ secrets.AMOY_RPC || 'https://rpc-amoy.polygon.technology' }}
           POLYGON_RPC:               ${{ secrets.POLYGON_RPC || 'https://polygon-bor-rpc.publicnode.com' }}
           CONTRACT_ADDRESS_AMOY:     ${{ vars.NEXT_PUBLIC_CONTRACT_ADDRESS }}
           CONTRACT_ADDRESS_POLYGON:  ${{ secrets.CONTRACT_ADDRESS_POLYGON }}
+          MAX_MARKETS_PER_DEPLOY:    ${{ inputs.max_deploy || '100' }}
         run: |
           NETWORK=${{ inputs.network || 'polygonAmoy' }}
           npx hardhat run scripts/create-markets.ts --network $NETWORK
 
-      - name: Commit updated contractIds back to repo
+      # ── Step 3: Commit updated contractIds back ───────────────────────────
+      - name: Commit updated markets.yml
         run: |
           cd $GITHUB_WORKSPACE
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add markets/markets.yml
-          git diff --staged --quiet && echo "No changes to commit" || \
-            git commit -m "chore: fill contractIds after market deployment [skip ci]"
+          git diff --staged --quiet \
+            && echo "markets.yml unchanged — nothing to commit" \
+            || git commit -m "chore: update contractIds after market deployment [skip ci]"
           git push
