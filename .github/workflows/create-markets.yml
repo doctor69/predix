@@ -44,10 +44,10 @@ jobs:
 
       - name: Create markets on-chain
         env:
-          PRIVATE_KEY:               ${{ secrets.ADMIN_PRIVATE_KEY }}
+          PRIVATE_KEY:               ${{ secrets.DEPLOYER_PRIVATE_KEY }}
           AMOY_RPC:                  ${{ secrets.AMOY_RPC || 'https://rpc-amoy.polygon.technology' }}
           POLYGON_RPC:               ${{ secrets.POLYGON_RPC || 'https://polygon-bor-rpc.publicnode.com' }}
-          CONTRACT_ADDRESS_AMOY:     ${{ secrets.CONTRACT_ADDRESS_AMOY }}
+          CONTRACT_ADDRESS_AMOY:     ${{ vars.NEXT_PUBLIC_CONTRACT_ADDRESS }}
           CONTRACT_ADDRESS_POLYGON:  ${{ secrets.CONTRACT_ADDRESS_POLYGON }}
         run: |
           NETWORK=${{ inputs.network || 'polygonAmoy' }}
