@@ -3,20 +3,24 @@
   "version": "1.0.0",
   "description": "Predix — zero-custody binary prediction market on Polygon (USDC)",
   "scripts": {
-    "compile":        "hardhat compile",
-    "test":           "hardhat test",
-    "test:coverage":  "hardhat coverage",
-    "deploy:local":   "hardhat run scripts/deploy.ts --network hardhat",
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "test:coverage": "hardhat coverage",
+    "deploy:local": "hardhat run scripts/deploy.ts --network hardhat",
     "deploy:testnet": "hardhat run scripts/deploy.ts --network polygonAmoy",
     "deploy:mainnet": "hardhat run scripts/deploy.ts --network polygon",
-    "node":           "hardhat node",
-    "clean":          "hardhat clean"
+    "markets:testnet": "hardhat run scripts/create-markets.ts --network polygonAmoy",
+    "markets:mainnet": "hardhat run scripts/create-markets.ts --network polygon",
+    "node": "hardhat node",
+    "clean": "hardhat clean"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
     "@openzeppelin/contracts": "^5.0.0",
+    "@types/js-yaml": "^4.0.9",
     "dotenv": "^16.0.0",
     "hardhat": "^2.22.0",
+    "js-yaml": "^4.1.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
   }
