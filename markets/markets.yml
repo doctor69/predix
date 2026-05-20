@@ -46,3 +46,283 @@ markets:
     closingTime: '2026-08-25T00:00:00Z'
     resolutionTime: '2026-09-01T00:00:00Z'
     contractId: 13
+  - question: Will Bitcoin (BTC) close above $80,000 on CoinGecko on June 15, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: CoinGecko
+    closingTime: '2026-06-14T23:00:00Z'
+    resolutionTime: '2026-06-16T12:00:00Z'
+    contractId: 14
+  - question: Will Ethereum (ETH) drop below $2,000 on Coinbase before July 1, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800
+    resolutionSource: Coinbase
+    closingTime: '2026-06-30T23:00:00Z'
+    resolutionTime: '2026-07-01T12:00:00Z'
+    contractId: 15
+  - question: Will Bitcoin fall below $70,000 on Binance before July 15, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1605792657660-596af9009e82?w=800
+    resolutionSource: Binance
+    closingTime: '2026-07-14T23:00:00Z'
+    resolutionTime: '2026-07-15T12:00:00Z'
+    contractId: 16
+  - question: Will Crypto custody firm Copper announce a sale buyer by August 20, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800
+    resolutionSource: The Block
+    closingTime: '2026-08-19T23:00:00Z'
+    resolutionTime: '2026-08-21T12:00:00Z'
+    contractId: 17
+  - question: Will Tether complete its acquisition of SoftBank's 26% stake in Twenty One Capital by July 1, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1605792657660-596af9009e82?w=800
+    resolutionSource: CoinDesk
+    closingTime: '2026-06-30T23:00:00Z'
+    resolutionTime: '2026-07-02T12:00:00Z'
+    contractId: 18
+  - question: Will the Echo Protocol exploiter return any funds from the $76M Monad hack by July 20, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1605792657660-596af9009e82?w=800
+    resolutionSource: CoinDesk
+    closingTime: '2026-07-19T23:00:00Z'
+    resolutionTime: '2026-07-21T12:00:00Z'
+    contractId: 19
+  - question: Will Polymarket be investigated by US Senate Commerce committee over prediction market practices by August 15, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1605792657660-596af9009e82?w=800
+    resolutionSource: US Senate Commerce Committee
+    closingTime: '2026-08-14T23:00:00Z'
+    resolutionTime: '2026-08-16T12:00:00Z'
+    contractId: 20
+  - question: Will Nvidia (NVDA) beat analyst EPS estimates in its Q1 FY2027 earnings report?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800
+    resolutionSource: Nvidia Investor Relations
+    closingTime: '2026-05-27T20:00:00Z'
+    resolutionTime: '2026-05-29T12:00:00Z'
+    contractId: 21
+  - question: Will Intuit's layoffs of 3,000+ employees be completed by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800
+    resolutionSource: Intuit
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 22
+  - question: Will Strategy (MSTR) stock close above $500 by July 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?w=800
+    resolutionSource: Nasdaq
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 23
+  - question: Will Berkshire Hathaway further reduce its Chevron (CVX) stake in the Q2 2026 13F filing?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?w=800
+    resolutionSource: SEC EDGAR
+    closingTime: '2026-08-14T23:00:00Z'
+    resolutionTime: '2026-08-16T12:00:00Z'
+    contractId: 24
+  - question: Will Carvana (CVNA) stock close higher on August 1, 2026 than on May 20, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800
+    resolutionSource: NYSE
+    closingTime: '2026-07-31T23:00:00Z'
+    resolutionTime: '2026-08-02T12:00:00Z'
+    contractId: 25
+  - question: Will Comcast (CMCSA) pay its $0.33 per share quarterly dividend on schedule in Q3 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?w=800
+    resolutionSource: Comcast Investor Relations
+    closingTime: '2026-07-15T23:00:00Z'
+    resolutionTime: '2026-07-25T12:00:00Z'
+    contractId: 26
+  - question: Will Arsenal be the 2025-26 Premier League champions as officially declared by the Premier League?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: Premier League
+    closingTime: '2026-05-24T12:00:00Z'
+    resolutionTime: '2026-05-25T23:00:00Z'
+    contractId: 27
+  - question: Will Aston Villa win the 2025-26 UEFA Europa League final?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: UEFA
+    closingTime: '2026-05-21T17:00:00Z'
+    resolutionTime: '2026-05-22T12:00:00Z'
+    contractId: 28
+  - question: Will the New York Knicks defeat the Cleveland Cavaliers to win the 2026 NBA Eastern Conference Finals?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: NBA
+    closingTime: '2026-06-01T23:00:00Z'
+    resolutionTime: '2026-06-05T12:00:00Z'
+    contractId: 29
+  - question: Will Pep Guardiola be officially confirmed as departed from Manchester City by July 1, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: Manchester City FC
+    closingTime: '2026-06-30T23:00:00Z'
+    resolutionTime: '2026-07-02T12:00:00Z'
+    contractId: 30
+  - question: Will Xabi Alonso be officially confirmed as Chelsea manager by June 30, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: Chelsea FC
+    closingTime: '2026-06-29T23:00:00Z'
+    resolutionTime: '2026-07-01T12:00:00Z'
+    contractId: 31
+  - question: Will a British player reach the main draw of the 2026 French Open singles via qualifying?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: Roland Garros
+    closingTime: '2026-05-24T20:00:00Z'
+    resolutionTime: '2026-05-26T12:00:00Z'
+    contractId: 32
+  - question: Will Tottenham Hotspur be relegated from the Premier League at the end of the 2025-26 season?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: Premier League
+    closingTime: '2026-05-24T12:00:00Z'
+    resolutionTime: '2026-05-25T23:00:00Z'
+    contractId: 33
+  - question: Will Andy Barr win the Republican primary for Mitch McConnell's Senate seat in Kentucky in 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: Kentucky Secretary of State
+    closingTime: '2026-05-21T12:00:00Z'
+    resolutionTime: '2026-05-22T23:00:00Z'
+    contractId: 34
+  - question: Will Brad Raffensperger concede the Georgia Republican gubernatorial primary by May 25, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: Georgia Secretary of State
+    closingTime: '2026-05-24T12:00:00Z'
+    resolutionTime: '2026-05-25T23:00:00Z'
+    contractId: 35
+  - question: Will the WHO report more than 1,000 suspected Ebola cases in the DR Congo/Uganda outbreak by July 1, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: World Health Organization
+    closingTime: '2026-06-30T23:00:00Z'
+    resolutionTime: '2026-07-02T12:00:00Z'
+    contractId: 36
+  - question: Will the US Senate pass the resolution limiting Trump's Iran war powers by July 1, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: US Senate
+    closingTime: '2026-06-30T23:00:00Z'
+    resolutionTime: '2026-07-02T12:00:00Z'
+    contractId: 37
+  - question: Will Thailand officially implement the reduced 30-day visa-free stay policy by August 1, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: Thai Ministry of Foreign Affairs
+    closingTime: '2026-07-31T23:00:00Z'
+    resolutionTime: '2026-08-02T12:00:00Z'
+    contractId: 38
+  - question: Will Ken Paxton win the Texas Republican Senate primary in 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: Texas Secretary of State
+    closingTime: '2026-08-31T23:00:00Z'
+    resolutionTime: '2026-09-02T12:00:00Z'
+    contractId: 39
+  - question: Will Bolivia's president resign by July 31, 2026 amid ongoing protests?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1526470608268-f674ce90ebd4?w=800
+    resolutionSource: BBC News
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 40
+  - question: Will Apple announce a new Apple Intelligence model at WWDC 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800
+    resolutionSource: Apple Newsroom
+    closingTime: '2026-06-08T16:00:00Z'
+    resolutionTime: '2026-06-10T12:00:00Z'
+    contractId: -1
+  - question: Will Airbnb officially launch hotel booking features globally by August 1, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800
+    resolutionSource: Airbnb Newsroom
+    closingTime: '2026-07-31T23:00:00Z'
+    resolutionTime: '2026-08-02T12:00:00Z'
+    contractId: 41
+  - question: Will Hulu be discontinued as a standalone app by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800
+    resolutionSource: Disney
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 42
+  - question: Will Plex officially eliminate Lifetime Passes by August 1, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800
+    resolutionSource: Plex
+    closingTime: '2026-07-31T23:00:00Z'
+    resolutionTime: '2026-08-02T12:00:00Z'
+    contractId: 43
+  - question: Will Stability AI release Stability Audio 3.0 large model publicly by August 1, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800
+    resolutionSource: Stability AI
+    closingTime: '2026-07-31T23:00:00Z'
+    resolutionTime: '2026-08-02T12:00:00Z'
+    contractId: 44
+  - question: Will 'The Adventures of Cliff Booth' premiere in IMAX theaters on November 25, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1603190287605-e6ade32fa852?w=800
+    resolutionSource: Netflix
+    closingTime: '2026-11-24T23:00:00Z'
+    resolutionTime: '2026-11-26T12:00:00Z'
+    contractId: 45
+  - question: 'Will Netflix''s ''Michael Jackson: The Verdict'' docuseries premiere on June 3, 2026?'
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800
+    resolutionSource: Netflix
+    closingTime: '2026-06-02T23:00:00Z'
+    resolutionTime: '2026-06-04T12:00:00Z'
+    contractId: 46
+  - question: Will Michael Bay's 'Operation Epic Fury' rescue film be officially greenlit by Universal by August 1, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800
+    resolutionSource: Variety
+    closingTime: '2026-07-31T23:00:00Z'
+    resolutionTime: '2026-08-02T12:00:00Z'
+    contractId: 47
+  - question: Will American Horror Story Season 13 premiere by August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: FX Networks
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 48
+  - question: Will Colossal Biosciences publish peer-reviewed research on its artificial moa eggshell by August 1, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800
+    resolutionSource: Colossal Biosciences
+    closingTime: '2026-07-31T23:00:00Z'
+    resolutionTime: '2026-08-02T12:00:00Z'
+    contractId: 49
+  - question: Will NASA announce a contract for mass-produced science satellites by August 15, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800
+    resolutionSource: NASA
+    closingTime: '2026-08-14T23:00:00Z'
+    resolutionTime: '2026-08-16T12:00:00Z'
+    contractId: 50
+  - question: Will Russia and the UK MoD report another incident of Russian jet intercepting RAF aircraft over the Black Sea by July 1, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: UK Ministry of Defence
+    closingTime: '2026-06-30T23:00:00Z'
+    resolutionTime: '2026-07-02T12:00:00Z'
+    contractId: 51
+  - question: Will the ATP/WTA increase French Open 2026 prize money following player protests?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: Roland Garros
+    closingTime: '2026-05-24T12:00:00Z'
+    resolutionTime: '2026-05-26T12:00:00Z'
+    contractId: 52
