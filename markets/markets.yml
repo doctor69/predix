@@ -315,3 +315,248 @@ markets:
     closingTime: '2026-05-24T12:00:00Z'
     resolutionTime: '2026-05-26T12:00:00Z'
     contractId: 52
+  - question: Will Bitcoin (BTC) reach $100,000 on Coinbase before August 1, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800
+    resolutionSource: Coinbase
+    closingTime: '2026-07-31T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 53
+  - question: Will Ethereum implement a new privacy-focused upgrade outlined by Vitalik Buterin by August 15, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: Ethereum Foundation
+    closingTime: '2026-08-14T23:00:00Z'
+    resolutionTime: '2026-08-16T12:00:00Z'
+    contractId: 54
+  - question: Will SpaceX complete its IPO before August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?w=800
+    resolutionSource: SEC EDGAR
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 55
+  - question: Will OpenAI officially file its S-1 IPO registration with the SEC by September 30, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800
+    resolutionSource: SEC EDGAR
+    closingTime: '2026-09-29T23:00:00Z'
+    resolutionTime: '2026-10-01T12:00:00Z'
+    contractId: 56
+  - question: Will Nakamoto's 1-for-40 reverse stock split be completed by July 15, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: Nasdaq
+    closingTime: '2026-07-14T23:00:00Z'
+    resolutionTime: '2026-07-16T12:00:00Z'
+    contractId: 57
+  - question: Will MoneyGram officially launch stablecoin settlement on Tempo by August 1, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800
+    resolutionSource: MoneyGram press release
+    closingTime: '2026-07-31T23:00:00Z'
+    resolutionTime: '2026-08-02T12:00:00Z'
+    contractId: 58
+  - question: Will Polymarket's parlay 'combinatorial outcome contracts' be approved by the CFTC by August 15, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1605792657660-596af9009e82?w=800
+    resolutionSource: CFTC
+    closingTime: '2026-08-14T23:00:00Z'
+    resolutionTime: '2026-08-16T12:00:00Z'
+    contractId: 59
+  - question: Will Coinbase's Flipcash USDF stablecoin officially launch publicly by July 15, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800
+    resolutionSource: Coinbase press release
+    closingTime: '2026-07-14T23:00:00Z'
+    resolutionTime: '2026-07-16T12:00:00Z'
+    contractId: 60
+  - question: Will the EU MiCA consultation officially conclude by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: European Commission
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 61
+  - question: Will Securitize complete its merger with Cantor Equity Partners II by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: SEC EDGAR
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 62
+  - question: Will Arsenal finish the 2025-26 Premier League season unbeaten in their final match on May 24, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: Premier League
+    closingTime: '2026-05-23T18:00:00Z'
+    resolutionTime: '2026-05-25T12:00:00Z'
+    contractId: 63
+  - question: Will Tottenham Hotspur survive Premier League relegation on the final day May 24, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: Premier League
+    closingTime: '2026-05-23T18:00:00Z'
+    resolutionTime: '2026-05-25T12:00:00Z'
+    contractId: 64
+  - question: Will England win the 3-match T20 women's series vs New Zealand 3-0 by June 5, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: ECB
+    closingTime: '2026-06-04T18:00:00Z'
+    resolutionTime: '2026-06-06T12:00:00Z'
+    contractId: 65
+  - question: Will Real Madrid officially sign Rodri from Manchester City by August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: Real Madrid official channels
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 66
+  - question: Will the North Korean women's football team win the Asian Women's Champions League final?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: AFC
+    closingTime: '2026-05-29T18:00:00Z'
+    resolutionTime: '2026-05-31T12:00:00Z'
+    contractId: 67
+  - question: Will French Open 2026 men's prize money be increased from initial announcement before the tournament starts?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: FFT
+    closingTime: '2026-05-24T18:00:00Z'
+    resolutionTime: '2026-05-26T12:00:00Z'
+    contractId: 68
+  - question: Will Scotland advance past the group stage at the 2026 FIFA World Cup?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: FIFA
+    closingTime: '2026-06-25T18:00:00Z'
+    resolutionTime: '2026-07-05T12:00:00Z'
+    contractId: 69
+  - question: Will Southampton appeal Spygate expulsion further to a court or arbitration body by July 1, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: EFL
+    closingTime: '2026-06-30T23:00:00Z'
+    resolutionTime: '2026-07-02T12:00:00Z'
+    contractId: 70
+  - question: Will Bolivia's president officially resign by August 15, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: Reuters
+    closingTime: '2026-08-14T23:00:00Z'
+    resolutionTime: '2026-08-16T12:00:00Z'
+    contractId: 71
+  - question: Will the DR Congo Ebola outbreak be officially declared over by the WHO by August 15, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: World Health Organization
+    closingTime: '2026-08-14T23:00:00Z'
+    resolutionTime: '2026-08-16T12:00:00Z'
+    contractId: 72
+  - question: Will Carmen Lineberger be convicted of the felony charge over Trump documents case by August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: US Department of Justice
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 73
+  - question: Will Itamar Ben-Gvir be removed from his minister position by July 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: Israeli government official sources
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 74
+  - question: Will Australia officially declare a national diphtheria public health emergency by July 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: Australian Department of Health
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 75
+  - question: Will Nigeria extradite former power minister convicted of corruption by August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: BBC News
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 76
+  - question: Will the 10-year US Treasury yield close above 5% before July 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800
+    resolutionSource: US Treasury
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 77
+  - question: Will Ryanair CEO Michael O'Leary earn the $300M bonus by end of 2026 reporting?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800
+    resolutionSource: Ryanair investor relations
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 78
+  - question: Will Google launch Gemini Spark publicly to all users by August 1, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1518770660439-4636190af475?w=800
+    resolutionSource: Google official blog
+    closingTime: '2026-07-31T23:00:00Z'
+    resolutionTime: '2026-08-02T12:00:00Z'
+    contractId: 79
+  - question: Will Nvidia's Q2 FY2027 revenue forecast hit at least $50 billion?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1518770660439-4636190af475?w=800
+    resolutionSource: Nvidia investor relations
+    closingTime: '2026-08-20T20:00:00Z'
+    resolutionTime: '2026-08-30T12:00:00Z'
+    contractId: 80
+  - question: Will the FBI's nationwide license plate camera initiative be officially announced as launched by August 15, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1518770660439-4636190af475?w=800
+    resolutionSource: FBI press releases
+    closingTime: '2026-08-14T23:00:00Z'
+    resolutionTime: '2026-08-16T12:00:00Z'
+    contractId: 81
+  - question: Will OpenAI's claimed proof of the 1946 geometry conjecture be peer-reviewed and accepted by August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800
+    resolutionSource: Peer-reviewed math journal
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 82
+  - question: Will NASA's Psyche spacecraft release new Mars flyby imagery publicly by July 1, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800
+    resolutionSource: NASA
+    closingTime: '2026-06-30T23:00:00Z'
+    resolutionTime: '2026-07-02T12:00:00Z'
+    contractId: 83
+  - question: Will a BIP-360 quantum-proof Bitcoin proposal be merged before September 1, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800
+    resolutionSource: Bitcoin Core GitHub
+    closingTime: '2026-08-31T23:00:00Z'
+    resolutionTime: '2026-09-02T12:00:00Z'
+    contractId: 84
+  - question: Will 'Masters of the Universe' release in theaters as scheduled with opening weekend box office above $20M?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800
+    resolutionSource: Box Office Mojo
+    closingTime: '2026-06-04T23:00:00Z'
+    resolutionTime: '2026-06-15T12:00:00Z'
+    contractId: 85
+  - question: Will Karen Bass be re-elected as Los Angeles Mayor in the 2026 election?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800
+    resolutionSource: LA County Registrar
+    closingTime: '2026-08-15T23:00:00Z'
+    resolutionTime: '2026-08-17T12:00:00Z'
+    contractId: 86
+  - question: Will the UK government's £100m free bus trips for children scheme officially launch by August 1, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1526470608268-f674ce90ebd4?w=800
+    resolutionSource: UK Government
+    closingTime: '2026-07-31T23:00:00Z'
+    resolutionTime: '2026-08-02T12:00:00Z'
+    contractId: 87
