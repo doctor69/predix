@@ -797,3 +797,241 @@ markets:
     closingTime: '2026-08-30T23:59:00Z'
     resolutionTime: '2026-09-01T23:59:00Z'
     contractId: 120
+  - question: Will Mark Cuban publicly confirm repurchasing Bitcoin by August 15, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800
+    resolutionSource: Public statements/interviews
+    closingTime: '2026-08-15T20:00:00Z'
+    resolutionTime: '2026-08-16T12:00:00Z'
+    contractId: 122
+  - question: Will Kraken officially launch its UAE platform with VARA full approval by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800
+    resolutionSource: Kraken official announcement / VARA
+    closingTime: '2026-08-31T20:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 123
+  - question: Will Bitcoin long-term holder supply exceed 16.5 million BTC by July 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: Glassnode
+    closingTime: '2026-07-31T20:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 124
+  - question: Will the US OFAC sanctions list add additional Sinaloa Cartel-linked crypto addresses by August 1, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800
+    resolutionSource: US Treasury OFAC
+    closingTime: '2026-08-01T20:00:00Z'
+    resolutionTime: '2026-08-02T12:00:00Z'
+    contractId: 125
+  - question: Will Terraform Labs' lawsuit against Jane Street advance past a motion to dismiss by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1605792657660-596af9009e82?w=800
+    resolutionSource: US court PACER filings
+    closingTime: '2026-08-31T20:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 126
+  - question: Will the Missouri AG's lawsuit against CoinFlip result in a settlement or court ruling by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1605792657660-596af9009e82?w=800
+    resolutionSource: Missouri AG office
+    closingTime: '2026-08-31T20:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 127
+  - question: Will Aaron Rodgers play in the Pittsburgh Steelers' Week 1 game of the 2026 NFL season?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: NFL.com
+    closingTime: '2026-09-06T16:00:00Z'
+    resolutionTime: '2026-09-12T23:00:00Z'
+    contractId: 128
+  - question: Will Phil Foden be included in England's final 2026 World Cup squad announced by Tuchel?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: The FA
+    closingTime: '2026-05-22T10:00:00Z'
+    resolutionTime: '2026-05-23T12:00:00Z'
+    contractId: 129
+  - question: Will the Vegas Golden Knights win the 2026 NHL Western Conference Finals?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: NHL.com
+    closingTime: '2026-06-10T20:00:00Z'
+    resolutionTime: '2026-06-12T12:00:00Z'
+    contractId: 130
+  - question: Will Eagles LB Nolan Smith Jr. be suspended by the NFL for the speeding/reckless driving arrest by August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: NFL announcements
+    closingTime: '2026-08-31T20:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 131
+  - question: Will Joey Chestnut win the 2026 Nathan's Famous Hot Dog Eating Contest on July 4?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: Major League Eating
+    closingTime: '2026-07-04T15:00:00Z'
+    resolutionTime: '2026-07-04T23:00:00Z'
+    contractId: 132
+  - question: Will Emma Raducanu defeat Solano Sierra in the first round of the 2026 French Open?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: Roland Garros official
+    closingTime: '2026-05-26T09:00:00Z'
+    resolutionTime: '2026-05-28T22:00:00Z'
+    contractId: 133
+  - question: Will the US and Iran announce a formal ceasefire/peace deal by July 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: State Department announcements
+    closingTime: '2026-07-31T20:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 134
+  - question: Will President Trump sign his AI workforce displacement executive order by July 1, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: White House Federal Register
+    closingTime: '2026-07-01T20:00:00Z'
+    resolutionTime: '2026-07-02T12:00:00Z'
+    contractId: 135
+  - question: Will Bolivia's president complete a cabinet reshuffle with at least 5 ministerial changes by June 30, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: Bolivia government announcements
+    closingTime: '2026-06-30T20:00:00Z'
+    resolutionTime: '2026-07-01T12:00:00Z'
+    contractId: 136
+  - question: Will the FDA finalize its new e-cigarette policy via formal rulemaking by August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: FDA.gov
+    closingTime: '2026-08-31T20:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 137
+  - question: Will construction begin on Trump's 250-foot Washington arch by August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: National Park Service / news reports
+    closingTime: '2026-08-31T20:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 138
+  - question: Will Ken Martin remain DNC Chairman as of August 1, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: DNC official communications
+    closingTime: '2026-08-01T20:00:00Z'
+    resolutionTime: '2026-08-02T12:00:00Z'
+    contractId: 139
+  - question: Will US 30-year mortgage rates close above 7.0% according to Freddie Mac PMMS by July 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?w=800
+    resolutionSource: Freddie Mac PMMS
+    closingTime: '2026-07-31T20:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 140
+  - question: Will Kevin Warsh be confirmed as Federal Reserve Chair by August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800
+    resolutionSource: US Senate / Federal Reserve
+    closingTime: '2026-08-31T20:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 141
+  - question: Will Modal Labs raise an additional funding round at a valuation above $5 billion by August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800
+    resolutionSource: Reuters / PitchBook
+    closingTime: '2026-08-31T20:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 142
+  - question: Will Waymo resume robotaxi service in Atlanta by July 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800
+    resolutionSource: Waymo official announcement
+    closingTime: '2026-07-31T20:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 143
+  - question: Will Flipper Devices officially launch the Linux-powered networking gadget under $350 by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800
+    resolutionSource: Flipper Devices website
+    closingTime: '2026-08-31T20:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 144
+  - question: Will Spotify's NotebookLM-style research desktop app exit research preview by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1518770660439-4636190af475?w=800
+    resolutionSource: Spotify newsroom
+    closingTime: '2026-08-31T20:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 145
+  - question: Will NYC Mayor Zohran Mamdani's Twitch channel exceed 100,000 followers by July 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800
+    resolutionSource: Twitch
+    closingTime: '2026-07-31T20:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 146
+  - question: Will AMD officially announce a Ryzen 5800X3D 10th Anniversary Edition by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800
+    resolutionSource: AMD press release
+    closingTime: '2026-08-31T20:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 147
+  - question: Will the International Space Station experience a publicly reported new leak event by August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1507668077129-56e32842fceb?w=800
+    resolutionSource: NASA
+    closingTime: '2026-08-31T20:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 148
+  - question: Will the 2026 Atlantic hurricane season have fewer than 14 named storms as of NOAA's August 2026 update?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1507668077129-56e32842fceb?w=800
+    resolutionSource: NOAA
+    closingTime: '2026-08-31T20:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 149
+  - question: Will Colossal Biosciences publicly demonstrate a viable artificial moa egg hatching attempt by August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800
+    resolutionSource: Colossal Biosciences announcements
+    closingTime: '2026-08-31T20:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 150
+  - question: Will the Late Show with Stephen Colbert finale on May 21, 2026 break CBS late night ratings record for the show?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800
+    resolutionSource: Nielsen ratings
+    closingTime: '2026-05-25T20:00:00Z'
+    resolutionTime: '2026-05-27T12:00:00Z'
+    contractId: 151
+  - question: Will Neon's Decal Label officially acquire 'Cliffhanger' US distribution rights by August 1, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: Deadline / Variety
+    closingTime: '2026-08-01T20:00:00Z'
+    resolutionTime: '2026-08-02T12:00:00Z'
+    contractId: 152
+  - question: Will BTS's 'Arirang' Busan homecoming live screening officially proceed on June 13, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800
+    resolutionSource: BIGHIT Music / HYBE
+    closingTime: '2026-06-13T08:00:00Z'
+    resolutionTime: '2026-06-14T12:00:00Z'
+    contractId: 153
+  - question: Will the Philadelphia 'Unity Concert for America' take place on July 4, 2026 as scheduled?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1603190287605-e6ade32fa852?w=800
+    resolutionSource: Official event announcements
+    closingTime: '2026-07-04T20:00:00Z'
+    resolutionTime: '2026-07-05T12:00:00Z'
+    contractId: 154
+  - question: Will the UK government publicly confirm any new role for Prince Andrew by August 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1474631245212-32dc3c8310c6?w=800
+    resolutionSource: UK government announcements
+    closingTime: '2026-08-31T20:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 155
