@@ -571,3 +571,229 @@ markets:
     closingTime: '2026-07-31T23:00:00Z'
     resolutionTime: '2026-08-02T12:00:00Z'
     contractId: 87
+  - question: Will SpaceX's upgraded Starship test launch successfully reach orbit by June 30, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1507668077129-56e32842fceb?w=800
+    resolutionSource: SpaceX official announcement
+    closingTime: '2026-06-25T23:59:00Z'
+    resolutionTime: '2026-07-01T23:59:00Z'
+    contractId: 89
+  - question: Will Anthropic report Q2 2026 revenue of at least $10 billion?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800
+    resolutionSource: Anthropic investor disclosures
+    closingTime: '2026-07-31T23:59:00Z'
+    resolutionTime: '2026-08-15T23:59:00Z'
+    contractId: 90
+  - question: Will the SEC approve any prediction market ETF by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800
+    resolutionSource: SEC.gov
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T23:59:00Z'
+    contractId: 91
+  - question: Will Mohamed Salah captain Egypt in their first 2026 World Cup match?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: FIFA official lineups
+    closingTime: '2026-06-10T23:59:00Z'
+    resolutionTime: '2026-06-20T23:59:00Z'
+    contractId: 92
+  - question: Will the Football Association issue a formal sanction against Southampton over Spygate by August 15, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: The FA official announcement
+    closingTime: '2026-08-14T23:59:00Z'
+    resolutionTime: '2026-08-16T23:59:00Z'
+    contractId: 93
+  - question: Will the WHO confirm an approved Ebola vaccine deployed to DR Congo by August 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1526470608268-f674ce90ebd4?w=800
+    resolutionSource: World Health Organization
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T23:59:00Z'
+    contractId: 94
+  - question: Will SpaceX's IPO filing list a valuation of at least $1.5 trillion at pricing?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800
+    resolutionSource: SEC EDGAR / S-1 filing
+    closingTime: '2026-08-15T23:59:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 95
+  - question: Will Paramount-Warner Bros. Discovery merger receive FCC approval by August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1603190287605-e6ade32fa852?w=800
+    resolutionSource: FCC official announcement
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T23:59:00Z'
+    contractId: 96
+  - question: Will Bitcoin's May 29, 2026 options expiry settle above $80,000 on Deribit?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1605792657660-596af9009e82?w=800
+    resolutionSource: Deribit
+    closingTime: '2026-05-29T07:00:00Z'
+    resolutionTime: '2026-05-29T12:00:00Z'
+    contractId: 97
+  - question: Will Fresha reach a $1.5 billion valuation in any new funding round by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800
+    resolutionSource: Company announcement / Crunchbase
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T23:59:00Z'
+    contractId: 98
+  - question: Will Truecaller's eSIM service launch in the US by August 1, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800
+    resolutionSource: Truecaller official announcement
+    closingTime: '2026-07-31T23:59:00Z'
+    resolutionTime: '2026-08-02T23:59:00Z'
+    contractId: 99
+  - question: Will Audible's 'Foul Play' podcast release its first episode on May 28, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: Audible
+    closingTime: '2026-05-27T23:59:00Z'
+    resolutionTime: '2026-05-29T23:59:00Z'
+    contractId: 100
+  - question: Will Mick Jagger's involvement in 'Three Incestuous Sisters' be officially confirmed by the production company by August 1, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1603190287605-e6ade32fa852?w=800
+    resolutionSource: Variety / official production announcement
+    closingTime: '2026-07-31T23:59:00Z'
+    resolutionTime: '2026-08-02T23:59:00Z'
+    contractId: 101
+  - question: Will the Federal Reserve formally approve the revised master account proposal by August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800
+    resolutionSource: Federal Reserve
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T23:59:00Z'
+    contractId: 102
+  - question: Will Bournemouth be confirmed as hosting their European home games at Vitality Stadium by August 1, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: UEFA / Bournemouth FC announcement
+    closingTime: '2026-07-31T23:59:00Z'
+    resolutionTime: '2026-08-02T23:59:00Z'
+    contractId: 103
+  - question: Will Pep Guardiola be officially announced as the manager of another club by August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: Official club announcement
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T23:59:00Z'
+    contractId: 104
+  - question: Will xAI complete its $2.8 billion natural gas turbine purchase by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800
+    resolutionSource: xAI/SpaceX filings
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T23:59:00Z'
+    contractId: 105
+  - question: Will Jensen Huang's predicted $200B CPU AI agent market be officially launched as a new Nvidia product line by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1518770660439-4636190af475?w=800
+    resolutionSource: Nvidia official announcement
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T23:59:00Z'
+    contractId: 106
+  - question: Will the Fairshake PAC-backed candidates win all six advanced primaries by August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: State election results
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T23:59:00Z'
+    contractId: 107
+  - question: Will Spider-Noir release in theaters on its scheduled date in 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800
+    resolutionSource: Sony Pictures / Box Office Mojo
+    closingTime: '2026-08-15T23:59:00Z'
+    resolutionTime: '2026-08-30T23:59:00Z'
+    contractId: 108
+  - question: Will the OPEC monthly report show oil supply through Strait of Hormuz return to within 50% of normal by August 1, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1526470608268-f674ce90ebd4?w=800
+    resolutionSource: OPEC monthly oil market report
+    closingTime: '2026-07-31T23:59:00Z'
+    resolutionTime: '2026-08-15T23:59:00Z'
+    contractId: 109
+  - question: Will the Late Show with Stephen Colbert air its final episode by August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800
+    resolutionSource: CBS official announcement
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T23:59:00Z'
+    contractId: 110
+  - question: Will Bitcoin spot ETFs record net inflows above $500M on any single day in June 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1605792657660-596af9009e82?w=800
+    resolutionSource: SoSoValue / Farside Investors
+    closingTime: '2026-06-30T23:59:00Z'
+    resolutionTime: '2026-07-02T23:59:00Z'
+    contractId: 111
+  - question: Will Blackstone's $5B Google neocloud partnership officially launch a public service by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800
+    resolutionSource: Blackstone / Google press release
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T23:59:00Z'
+    contractId: 112
+  - question: Will Oleksandr Usyk announce a retirement from professional boxing by August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: Official Usyk announcement / BBC Sport
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T23:59:00Z'
+    contractId: 113
+  - question: Will the US Senate Commerce Committee advance new legislation regulating prediction markets by August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: US Senate Commerce Committee
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T23:59:00Z'
+    contractId: 114
+  - question: Will Home Depot (HD) close above its May 20, 2026 closing price on July 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800
+    resolutionSource: NYSE
+    closingTime: '2026-07-31T20:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 115
+  - question: >-
+      Will Sam Altman's OpenAI Y Combinator token-for-equity investment offer be officially accepted by at least one YC startup by July 31,
+      2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800
+    resolutionSource: OpenAI / Y Combinator announcement
+    closingTime: '2026-07-30T23:59:00Z'
+    resolutionTime: '2026-08-01T23:59:00Z'
+    contractId: 116
+  - question: Will DR Congo participate in the 2026 World Cup despite Ebola training camp cancellation?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: FIFA
+    closingTime: '2026-06-10T23:59:00Z'
+    resolutionTime: '2026-06-20T23:59:00Z'
+    contractId: 117
+  - question: Will Athlos women's track meet in London be officially scheduled before December 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: Athlos official announcement
+    closingTime: '2026-08-15T23:59:00Z'
+    resolutionTime: '2026-08-30T23:59:00Z'
+    contractId: 118
+  - question: Will Lithuania officially declare a national security incident related to the May 2026 drone alert by July 1, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: Lithuanian government
+    closingTime: '2026-06-30T23:59:00Z'
+    resolutionTime: '2026-07-02T23:59:00Z'
+    contractId: 119
+  - question: Will Trump Media re-file a Bitcoin ETF application with the SEC by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800
+    resolutionSource: SEC EDGAR
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T23:59:00Z'
+    contractId: 120
