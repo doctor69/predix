@@ -3,12 +3,23 @@
 # HOW TO ADD A MARKET:
 #   1. Add a new entry below (copy an existing one)
 #   2. Set contractId to null
-#   3. Commit and push to main
-#   4. GitHub Actions will deploy it and fill in the contractId automatically
+#   3. Commit and push to main — GitHub Actions deploys it and fills contractId
+#
+# HOW TO RESOLVE A MARKET:
+#   1. Find the market entry by its contractId
+#   2. Add:  outcome: yes   (or: no, cancel)
+#   3. Commit and push to main — resolve workflow calls resolveMarket() on-chain
+#   4. After resolving, the contract enforces a 2-hour dispute window before
+#      winners can claim. The outcome field is cleared automatically after resolution.
 #
 # TIMESTAMPS: ISO 8601 format, UTC  e.g. "2026-12-31T23:59:00Z"
 #   closingTime    — when betting stops (no more YES/NO bets after this)
-#   resolutionTime — deadline for you to resolve the market
+#   resolutionTime — earliest time the market can be resolved
+#
+# contractId values:
+#   null  — pending deployment
+#   0,1…  — deployed (on-chain ID)
+#   -1    — skipped (duplicate detected)
 #
 # IMAGE URLS: use a direct image link (Unsplash, etc.) 800px wide recommended
 # RESOLUTION SOURCE: where you'll look to resolve (e.g. "CoinGecko", "BBC News")
