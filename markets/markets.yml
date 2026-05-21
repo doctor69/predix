@@ -1035,3 +1035,206 @@ markets:
     closingTime: '2026-08-31T20:00:00Z'
     resolutionTime: '2026-09-01T12:00:00Z'
     contractId: 155
+  - question: Will Cam Ward start at quarterback for the Tennessee Titans in their 2026 NFL season opener?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: NFL.com
+    closingTime: '2026-09-06T17:00:00Z'
+    resolutionTime: '2026-09-15T12:00:00Z'
+    contractId: 156
+  - question: Will Chris Richards be included in the USMNT's final 2026 World Cup roster?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: US Soccer
+    closingTime: '2026-05-26T12:00:00Z'
+    resolutionTime: '2026-05-28T23:59:00Z'
+    contractId: 157
+  - question: Will Sadio Mane score at least one goal for Senegal in the 2026 World Cup group stage?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: FIFA
+    closingTime: '2026-06-11T12:00:00Z'
+    resolutionTime: '2026-07-05T23:59:00Z'
+    contractId: 158
+  - question: Will Martin Odegaard captain Norway in their opening 2026 World Cup match?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: FIFA
+    closingTime: '2026-06-11T12:00:00Z'
+    resolutionTime: '2026-06-20T23:59:00Z'
+    contractId: 159
+  - question: Will Barcelona win the 2026 UEFA Women's Champions League final?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: UEFA
+    closingTime: '2026-05-23T18:00:00Z'
+    resolutionTime: '2026-05-24T23:00:00Z'
+    contractId: 160
+  - question: Will Jalen Williams play in Game 1 of the 2026 NBA Western Conference Finals?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: NBA.com
+    closingTime: '2026-05-22T23:00:00Z'
+    resolutionTime: '2026-05-23T12:00:00Z'
+    contractId: 161
+  - question: Will George Russell finish on the podium at the 2026 Canadian Grand Prix?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: Formula1.com
+    closingTime: '2026-06-07T17:00:00Z'
+    resolutionTime: '2026-06-08T12:00:00Z'
+    contractId: 162
+  - question: Will Ollie Robinson take 3 or more wickets in the first England-New Zealand Test starting June 4, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: ECB
+    closingTime: '2026-06-04T10:00:00Z'
+    resolutionTime: '2026-06-09T20:00:00Z'
+    contractId: 163
+  - question: Will Aaron Rodgers throw for over 3,500 yards in the 2026 NFL regular season?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: NFL.com
+    closingTime: '2026-09-07T17:00:00Z'
+    resolutionTime: '2027-01-10T23:59:00Z'
+    contractId: 164
+  - question: Will HYPE token reach a new all-time high on Binance by July 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800
+    resolutionSource: Binance
+    closingTime: '2026-07-31T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: -1
+  - question: Will MAPO token recover above 50% of its pre-exploit price on CoinGecko by August 1, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: CoinGecko
+    closingTime: '2026-08-01T23:00:00Z'
+    resolutionTime: '2026-08-02T12:00:00Z'
+    contractId: 165
+  - question: Will Blockchain.com publicly file its S-1 IPO registration with the SEC by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1605792657660-596af9009e82?w=800
+    resolutionSource: SEC EDGAR
+    closingTime: '2026-08-31T23:00:00Z'
+    resolutionTime: '2026-09-02T12:00:00Z'
+    contractId: 166
+  - question: Will Binance's SpaceX-linked perpetual futures product reach over $100M daily trading volume by July 1, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800
+    resolutionSource: Binance
+    closingTime: '2026-07-01T23:00:00Z'
+    resolutionTime: '2026-07-03T12:00:00Z'
+    contractId: 167
+  - question: Will the South Carolina CBDC ban law face a legal challenge filed in court by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: PACER
+    closingTime: '2026-08-31T23:00:00Z'
+    resolutionTime: '2026-09-05T12:00:00Z'
+    contractId: 168
+  - question: Will the NHL-CFTC data sharing agreement officially take effect by July 1, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800
+    resolutionSource: CFTC
+    closingTime: '2026-07-01T23:00:00Z'
+    resolutionTime: '2026-07-03T12:00:00Z'
+    contractId: 169
+  - question: Will the US Senate pass the ICE immigration enforcement bill without ballroom funding by July 15, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: Congress.gov
+    closingTime: '2026-07-15T23:00:00Z'
+    resolutionTime: '2026-07-17T12:00:00Z'
+    contractId: 170
+  - question: Will Air France or Airbus file an appeal against the 2009 plane crash manslaughter ruling by July 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: Reuters
+    closingTime: '2026-07-31T23:00:00Z'
+    resolutionTime: '2026-08-05T12:00:00Z'
+    contractId: 171
+  - question: Will Iran formally close any portion of the Strait of Hormuz to international shipping by August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: Reuters
+    closingTime: '2026-08-31T23:00:00Z'
+    resolutionTime: '2026-09-02T12:00:00Z'
+    contractId: 172
+  - question: Will Ken Martin remain DNC Chair following the autopsy report fallout as of July 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: DNC
+    closingTime: '2026-07-31T23:00:00Z'
+    resolutionTime: '2026-08-02T12:00:00Z'
+    contractId: 173
+  - question: Will Nadia Marcinko testify before US Congress by August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: Congress.gov
+    closingTime: '2026-08-31T23:00:00Z'
+    resolutionTime: '2026-09-05T12:00:00Z'
+    contractId: 174
+  - question: Will Marvell Technology (MRVL) beat analyst EPS estimates in its next quarterly earnings report by August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?w=800
+    resolutionSource: Nasdaq
+    closingTime: '2026-08-31T20:00:00Z'
+    resolutionTime: '2026-09-05T12:00:00Z'
+    contractId: 175
+  - question: Will Spotify's AI-powered audiobook creation tool launch publicly by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800
+    resolutionSource: Spotify Newsroom
+    closingTime: '2026-08-31T23:00:00Z'
+    resolutionTime: '2026-09-02T12:00:00Z'
+    contractId: 176
+  - question: Will Wayve announce a second OEM partnership beyond Stellantis by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800
+    resolutionSource: Wayve official announcement
+    closingTime: '2026-08-31T23:00:00Z'
+    resolutionTime: '2026-09-05T12:00:00Z'
+    contractId: 177
+  - question: Will SpaceX file its S-1 IPO registration including the Mars colonization bonus clause by July 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1518770660439-4636190af475?w=800
+    resolutionSource: SEC EDGAR
+    closingTime: '2026-07-31T23:00:00Z'
+    resolutionTime: '2026-08-02T12:00:00Z'
+    contractId: 178
+  - question: Will JWST publish new atmospheric data on a hot gas giant exoplanet by August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800
+    resolutionSource: NASA
+    closingTime: '2026-08-31T23:00:00Z'
+    resolutionTime: '2026-09-05T12:00:00Z'
+    contractId: 179
+  - question: Will NASA's LESTR lunar test rig complete its first publicly-announced material test by August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800
+    resolutionSource: NASA
+    closingTime: '2026-08-31T23:00:00Z'
+    resolutionTime: '2026-09-05T12:00:00Z'
+    contractId: 180
+  - question: Will Take-Two officially announce the price of GTA 6 by August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800
+    resolutionSource: Rockstar Games
+    closingTime: '2026-08-31T23:00:00Z'
+    resolutionTime: '2026-09-02T12:00:00Z'
+    contractId: -1
+  - question: Will 'The Boroughs' on Netflix be renewed for a Season 2 by August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1603190287605-e6ade32fa852?w=800
+    resolutionSource: Netflix
+    closingTime: '2026-08-31T23:00:00Z'
+    resolutionTime: '2026-09-05T12:00:00Z'
+    contractId: 181
+  - question: Will Mali's jihadist blockade be officially lifted before the end of Eid 2026 holiday?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: BBC News
+    closingTime: '2026-06-10T23:00:00Z'
+    resolutionTime: '2026-06-15T12:00:00Z'
+    contractId: 182
