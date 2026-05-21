@@ -12,6 +12,8 @@
     "markets:generate": "ts-node scripts/generate-markets.ts",
     "markets:testnet": "hardhat run scripts/create-markets.ts --network polygonAmoy",
     "markets:mainnet": "hardhat run scripts/create-markets.ts --network polygon",
+    "markets:resolve:testnet": "hardhat run scripts/resolve-markets.ts --network polygonAmoy",
+    "markets:resolve:mainnet": "hardhat run scripts/resolve-markets.ts --network polygon",
     "node": "hardhat node",
     "clean": "hardhat clean"
   },
