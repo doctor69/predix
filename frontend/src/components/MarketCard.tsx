@@ -27,38 +27,55 @@ export function MarketCard({ market }: MarketCardProps) {
 
   return (
     <Link href={`/market/${market.id}`}>
-      <div className="group flex h-full cursor-pointer flex-col rounded-xl border border-bg-border bg-bg-card p-4 transition-all duration-200 hover:border-accent/30 hover:bg-bg-hover">
-        {/* Header */}
-        <div className="mb-3 flex items-start justify-between gap-2">
-          <span className="rounded bg-bg-border px-2 py-0.5 text-xs text-text-secondary">
-            {market.category || 'General'}
-          </span>
-          {statusBadge()}
+      <div className="group card-elevated flex h-full cursor-pointer flex-col rounded-xl overflow-hidden transition-all duration-200 hover:scale-[1.01]">
+        {/* Image banner */}
+        <div className="relative h-36 overflow-hidden flex-shrink-0">
+          {market.imageUrl ? (
+            <img
+              src={market.imageUrl}
+              alt={market.question}
+              className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+            />
+          ) : (
+            <div className="w-full h-full bg-gradient-to-br from-accent/30 to-accent/10" />
+          )}
+          {/* Gradient overlay */}
+          <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+          {/* Badges */}
+          <div className="absolute bottom-2 left-3 right-3 flex justify-between items-end">
+            <span className="bg-white/20 backdrop-blur-sm text-white text-xs px-2 py-0.5 rounded-full">
+              {market.category || 'General'}
+            </span>
+            {statusBadge()}
+          </div>
         </div>
 
-        {/* Question */}
-        <p className="mb-4 flex-1 text-sm font-medium leading-snug text-text-primary line-clamp-3 group-hover:text-white">
-          {market.question}
-        </p>
+        {/* Content section */}
+        <div className="p-4 flex flex-col flex-1 bg-bg-card">
+          {/* Question */}
+          <p className="mb-3 flex-1 text-sm font-semibold leading-snug text-text-primary line-clamp-2 group-hover:text-accent transition-colors">
+            {market.question}
+          </p>
 
-        {/* Odds bar */}
-        <div className="mb-3">
-          <OddsBar yesPercent={yesPercent} noPercent={noPercent} size="sm" />
-        </div>
+          {/* Odds bar */}
+          <div className="mb-3">
+            <OddsBar yesPercent={yesPercent} noPercent={noPercent} size="sm" />
+          </div>
 
-        {/* Footer stats */}
-        <div className="flex items-center justify-between text-xs text-text-muted">
-          <span>
-            Vol:{' '}
-            <span className="text-text-secondary">{formatUSDCShort(totalVolume)}</span>
-          </span>
-          <span>
-            {open
-              ? `Closes ${timeFromNow(market.closingTime)}`
-              : market.outcome === Outcome.UNRESOLVED
-              ? `Resolves ${timeFromNow(market.resolutionTime)}`
-              : `Resolved ${timeFromNow(market.resolvedAt)}`}
-          </span>
+          {/* Footer stats */}
+          <div className="flex items-center justify-between text-xs text-text-muted">
+            <span>
+              Vol:{' '}
+              <span className="text-text-secondary font-medium">{formatUSDCShort(totalVolume)}</span>
+            </span>
+            <span>
+              {open
+                ? `Closes ${timeFromNow(market.closingTime)}`
+                : market.outcome === Outcome.UNRESOLVED
+                ? `Resolves ${timeFromNow(market.resolutionTime)}`
+                : `Resolved ${timeFromNow(market.resolvedAt)}`}
+            </span>
+          </div>
         </div>
       </div>
     </Link>
@@ -75,17 +92,17 @@ function Badge({
   children: React.ReactNode;
 }) {
   const styles = {
-    gray: 'bg-bg-border text-text-secondary',
-    green: 'bg-yes-muted text-yes',
-    red: 'bg-no-muted text-no',
-    blue: 'bg-accent/10 text-accent',
-    yellow: 'bg-yellow-500/10 text-yellow-400',
+    gray:   'bg-white/20 backdrop-blur-sm text-white',
+    green:  'bg-yes/30  backdrop-blur-sm text-white',
+    red:    'bg-no/30   backdrop-blur-sm text-white',
+    blue:   'bg-white/20 backdrop-blur-sm text-white',
+    yellow: 'bg-yellow-500/30 backdrop-blur-sm text-white',
   };
 
   return (
     <span
       className={clsx(
-        'whitespace-nowrap rounded px-2 py-0.5 text-xs font-medium',
+        'whitespace-nowrap rounded-full px-2 py-0.5 text-xs font-medium',
         styles[color],
       )}
     >

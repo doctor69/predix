@@ -4,9 +4,10 @@ import { Layout } from '@/components/Layout';
 import { MarketCard } from '@/components/MarketCard';
 import { CategoryTabs } from '@/components/CategoryTabs';
 import { useMarkets } from '@/hooks/useMarkets';
-import { CONTRACT_DEPLOYED } from '@/lib/config';
+import { CONTRACT_DEPLOYED, CATEGORIES } from '@/lib/config';
 import type { Category } from '@/lib/config';
 import { Outcome } from '@/lib/config';
+import { formatUSDCShort } from '@/lib/format';
 
 export default function HomePage() {
   const [category, setCategory] = useState<Category>('All');
@@ -21,6 +22,16 @@ export default function HomePage() {
     });
   }, [markets, category, showResolved]);
 
+  const liveCount = useMemo(
+    () => markets.filter((m) => m.outcome === Outcome.UNRESOLVED).length,
+    [markets],
+  );
+
+  const totalVolume = useMemo(
+    () => markets.reduce((acc, m) => acc + m.yesPool + m.noPool, 0n),
+    [markets],
+  );
+
   return (
     <Layout>
       <Head>
@@ -29,16 +40,34 @@ export default function HomePage() {
 
       {/* Hero */}
       <div className="mb-8 text-center">
-        <h1 className="mb-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
+        <h1 className="mb-2 text-3xl font-bold tracking-tight text-text-primary sm:text-4xl">
           Predict the future.{' '}
-          <span className="bg-gradient-to-r from-accent to-yes bg-clip-text text-transparent">
+          <span className="bg-gradient-to-r from-[#1652f0] to-[#4285f4] bg-clip-text text-transparent">
             Get paid if you're right.
           </span>
         </h1>
         <p className="text-text-secondary">
-          Trade YES/NO on real-world events. Zero custody — your USDC held by smart contract.
+          Trade YES/NO on real-world events. Your USDC held by smart contract — zero custody, instant payouts.
         </p>
       </div>
+
+      {/* Stats bar */}
+      {markets.length > 0 && (
+        <div className="mb-5 flex gap-6 text-sm">
+          <div>
+            <span className="text-text-muted">Live markets</span>{' '}
+            <span className="font-semibold text-text-primary">{liveCount}</span>
+          </div>
+          <div>
+            <span className="text-text-muted">Total volume</span>{' '}
+            <span className="font-semibold text-text-primary">{formatUSDCShort(totalVolume)}</span>
+          </div>
+          <div>
+            <span className="text-text-muted">Categories</span>{' '}
+            <span className="font-semibold text-text-primary">{CATEGORIES.length}</span>
+          </div>
+        </div>
+      )}
 
       {/* Contract not deployed notice */}
       {!CONTRACT_DEPLOYED && (
@@ -100,7 +129,7 @@ function EmptyState({ category }: { category: Category }) {
   return (
     <div className="py-20 text-center">
       <p className="text-4xl">📊</p>
-      <p className="mt-3 font-semibold text-white">No markets yet</p>
+      <p className="mt-3 font-semibold text-text-primary">No markets yet</p>
       <p className="mt-1 text-sm text-text-secondary">
         {category !== 'All'
           ? `No ${category} markets are live right now.`
