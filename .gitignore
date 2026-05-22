@@ -48,3 +48,6 @@ Thumbs.db
 
 # Misc
 .turbo/
+
+# Claude Code internal state
+.claude/
