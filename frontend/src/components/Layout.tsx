@@ -1,4 +1,4 @@
-import { ReactNode } from 'react';
+import { ReactNode, useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useAccount, useChainId, useSwitchChain } from 'wagmi';
@@ -7,6 +7,7 @@ import { shortAddress } from '@/lib/format';
 import { useIsAdmin } from '@/hooks/useAdmin';
 import { useAuth } from '@/context/auth';
 import { ACTIVE_CHAIN } from '@/lib/config';
+import { ConnectModal } from './ConnectModal';
 
 interface LayoutProps {
   children: ReactNode;
@@ -19,6 +20,7 @@ export function Layout({ children }: LayoutProps) {
   const { isAdmin } = useIsAdmin();
   const chainId = useChainId();
   const { switchChain } = useSwitchChain();
+  const [showModal, setShowModal] = useState(false);
 
   const isWrongNetwork = isConnected && chainId !== ACTIVE_CHAIN.id;
 
@@ -63,8 +65,8 @@ export function Layout({ children }: LayoutProps) {
                 className={clsx(
                   'rounded-lg px-3 py-1.5 text-sm font-medium transition-colors',
                   router.pathname === href
-                    ? 'bg-bg-hover text-white'
-                    : 'text-text-secondary hover:text-white',
+                    ? 'bg-bg-hover text-text-primary'
+                    : 'text-text-secondary hover:text-text-primary',
                 )}
               >
                 {label}
@@ -83,17 +85,17 @@ export function Layout({ children }: LayoutProps) {
                 </span>
                 <button
                   onClick={logout}
-                  className="rounded-lg border border-bg-border px-3 py-1.5 text-sm text-text-secondary transition-colors hover:border-text-muted hover:text-white"
+                  className="rounded-lg border border-bg-border px-3 py-1.5 text-sm text-text-secondary transition-colors hover:border-text-muted hover:text-text-primary"
                 >
                   Disconnect
                 </button>
               </div>
             ) : (
               <button
-                onClick={login}
+                onClick={() => setShowModal(true)}
                 className="rounded-lg bg-accent px-4 py-1.5 text-sm font-semibold text-white transition-opacity hover:opacity-90"
               >
-                Connect
+                Get Started
               </button>
             )}
           </div>
@@ -112,6 +114,13 @@ export function Layout({ children }: LayoutProps) {
           </p>
         </div>
       </footer>
+
+      {/* Trust-building connect modal */}
+      <ConnectModal
+        isOpen={showModal}
+        onClose={() => setShowModal(false)}
+        onConnect={login}
+      />
     </div>
   );
 }
