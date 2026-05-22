@@ -1413,3 +1413,150 @@ markets:
     closingTime: '2026-08-31T20:00:00Z'
     resolutionTime: '2026-09-01T12:00:00Z'
     contractId: 207
+  - question: Will Polymarket be officially restored and accessible in India by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800
+    resolutionSource: Polymarket official announcement
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 208
+  - question: Will Polymarket recover or reimburse all $700K drained in the internal top-up wallet exploit by July 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800
+    resolutionSource: Polymarket official statement
+    closingTime: '2026-07-30T23:59:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 209
+  - question: Will Ark Invest's Bullish stock holdings exceed $25 million by August 1, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800
+    resolutionSource: Ark Invest daily holdings reports
+    closingTime: '2026-07-31T23:59:00Z'
+    resolutionTime: '2026-08-02T12:00:00Z'
+    contractId: 210
+  - question: Will Shekiera Martinez be officially announced as a Tottenham Hotspur player by July 1, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: Tottenham Hotspur official website
+    closingTime: '2026-06-30T23:59:00Z'
+    resolutionTime: '2026-07-02T12:00:00Z'
+    contractId: 211
+  - question: Will Mohamed Salah start in Liverpool's final 2025-26 Premier League match at Anfield?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: Premier League official lineups
+    closingTime: '2026-05-24T13:00:00Z'
+    resolutionTime: '2026-05-25T12:00:00Z'
+    contractId: 212
+  - question: Will Oleksandr Usyk fight Rico Verhoeven in a sanctioned bout by December 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: Official boxing organization announcements
+    closingTime: '2026-08-31T23:59:00Z'
+    resolutionTime: '2026-09-02T12:00:00Z'
+    contractId: 213
+  - question: Will the SPFL conclude its disciplinary investigation into Celtic vs Hearts by July 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: SPFL official statements
+    closingTime: '2026-07-30T23:59:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 214
+  - question: Will Tennessee carry out the execution of Tony Carruthers by May 22, 2027?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: Tennessee Department of Correction
+    closingTime: '2027-05-21T23:59:00Z'
+    resolutionTime: '2027-05-23T12:00:00Z'
+    contractId: 215
+  - question: Will the US formally indict additional Cuban officials beyond Raúl Castro by August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: US Department of Justice
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 216
+  - question: Will the Turkish Court overturn the appellate ruling against opposition CHP leader Özgür Özel by August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: Turkish court records / Reuters
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 217
+  - question: Will Thomas Massie win his 2026 Republican primary in Kentucky?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: Kentucky Secretary of State
+    closingTime: '2026-08-31T23:59:00Z'
+    resolutionTime: '2026-09-02T12:00:00Z'
+    contractId: 218
+  - question: Will the Buffett Indicator (Wilshire 5000 / GDP) close above 220% on July 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?w=800
+    resolutionSource: GuruFocus / FRED
+    closingTime: '2026-07-30T23:59:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 219
+  - question: Will Churchill Downs (CHDN) officially announce the sale of its regional casino portfolio by August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?w=800
+    resolutionSource: Churchill Downs press release
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 220
+  - question: Will AcuRite restore the legacy app functionality due to customer complaints by August 1, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800
+    resolutionSource: AcuRite official announcement
+    closingTime: '2026-07-31T23:59:00Z'
+    resolutionTime: '2026-08-02T12:00:00Z'
+    contractId: 221
+  - question: Will a peer-reviewed paper on superconducting vortex qubits from KIT be published by August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1507668077129-56e32842fceb?w=800
+    resolutionSource: Peer-reviewed scientific journal
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 222
+  - question: Will a study on MicroFinder bird genome tool be cited in at least 10 peer-reviewed papers by August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800
+    resolutionSource: Google Scholar
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 223
+  - question: Will the Commonwealth Short Story Prize officially revoke Jamir Nazir's win over AI allegations by August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1603190287605-e6ade32fa852?w=800
+    resolutionSource: Commonwealth Foundation official statement
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 224
+  - question: Will the Peaky Blinders sequel series with Charlie Heaton premiere by December 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1603190287605-e6ade32fa852?w=800
+    resolutionSource: Netflix/BBC official announcement
+    closingTime: '2026-08-31T23:59:00Z'
+    resolutionTime: '2026-09-02T12:00:00Z'
+    contractId: 225
+  - question: Will Ed Sheeran announce his new record label home by August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800
+    resolutionSource: Music industry press / official announcement
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 226
+  - question: Will 'Vought Rising' premiere on Prime Video by December 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: Prime Video official announcement
+    closingTime: '2026-08-31T23:59:00Z'
+    resolutionTime: '2026-09-02T12:00:00Z'
+    contractId: 227
+  - question: Will the new EU Entry/Exit System cause Port of Dover wait times above 90 minutes again by August 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: Port of Dover official statements / BBC News
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 228
