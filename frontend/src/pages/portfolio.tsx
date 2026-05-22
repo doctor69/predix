@@ -60,7 +60,7 @@ export default function PortfolioPage() {
         </Head>
         <div className="py-20 text-center">
           <p className="text-4xl">👛</p>
-          <p className="mt-3 text-lg font-semibold text-white">Connect to view your portfolio</p>
+          <p className="mt-3 text-lg font-semibold text-text-primary">Connect to view your portfolio</p>
           <p className="mt-1 text-sm text-text-secondary">
             Track your positions, P&L, and claim winnings.
           </p>
@@ -82,7 +82,7 @@ export default function PortfolioPage() {
       </Head>
 
       <div className="mx-auto max-w-3xl">
-        <h1 className="mb-6 text-2xl font-bold text-white">Portfolio</h1>
+        <h1 className="mb-6 text-2xl font-bold text-text-primary">Portfolio</h1>
 
         {/* Stats row */}
         <div className="mb-6 grid grid-cols-3 gap-3">
@@ -132,7 +132,7 @@ export default function PortfolioPage() {
                   <div className="mb-2 flex items-start justify-between gap-3">
                     <Link
                       href={`/market/${market.id}`}
-                      className="text-sm font-medium leading-snug text-text-primary hover:text-white"
+                      className="text-sm font-medium leading-snug text-text-primary hover:text-text-primary"
                     >
                       {market.question}
                     </Link>
@@ -207,7 +207,7 @@ function StatCard({ label, value }: { label: string; value: string }) {
   return (
     <div className="rounded-xl border border-bg-border bg-bg-card p-4">
       <p className="text-xs text-text-secondary">{label}</p>
-      <p className="mt-1 text-lg font-bold text-white">{value}</p>
+      <p className="mt-1 text-lg font-bold text-text-primary">{value}</p>
     </div>
   );
 }
@@ -261,7 +261,7 @@ function EmptyPortfolio() {
   return (
     <div className="py-16 text-center">
       <p className="text-4xl">📭</p>
-      <p className="mt-3 font-semibold text-white">No positions yet</p>
+      <p className="mt-3 font-semibold text-text-primary">No positions yet</p>
       <p className="mt-1 text-sm text-text-secondary">
         Browse markets and place your first bet.
       </p>

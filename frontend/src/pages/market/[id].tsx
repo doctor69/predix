@@ -48,7 +48,7 @@ export default function MarketPage() {
       <Layout>
         <div className="py-20 text-center">
           <p className="text-4xl">❓</p>
-          <p className="mt-3 font-semibold text-white">Market not found</p>
+          <p className="mt-3 font-semibold text-text-primary">Market not found</p>
           <Link href="/" className="mt-4 inline-block text-sm text-accent hover:underline">
             ← Back to markets
           </Link>
@@ -82,7 +82,7 @@ export default function MarketPage() {
         {/* Breadcrumb */}
         <Link
           href="/"
-          className="mb-4 inline-flex items-center gap-1 text-sm text-text-secondary hover:text-white"
+          className="mb-4 inline-flex items-center gap-1 text-sm text-text-secondary hover:text-text-primary"
         >
           ← Markets
         </Link>
@@ -95,7 +95,7 @@ export default function MarketPage() {
             </span>
             <OutcomeBadge outcome={market.outcome} open={open} />
           </div>
-          <h1 className="text-xl font-bold leading-snug text-white sm:text-2xl">
+          <h1 className="text-xl font-bold leading-snug text-text-primary sm:text-2xl">
             {market.question}
           </h1>
         </div>
@@ -106,7 +106,7 @@ export default function MarketPage() {
             {/* Odds card */}
             <div className="rounded-xl border border-bg-border bg-bg-card p-5">
               <div className="mb-4 flex items-center justify-between">
-                <span className="text-sm font-semibold text-white">Current Odds</span>
+                <span className="text-sm font-semibold text-text-primary">Current Odds</span>
                 <span className="text-xs text-text-secondary">
                   Vol: <span className="text-text-primary">{formatUSDCShort(totalVolume)}</span>
                 </span>
@@ -121,7 +121,7 @@ export default function MarketPage() {
 
             {/* Market details */}
             <div className="rounded-xl border border-bg-border bg-bg-card p-5">
-              <h3 className="mb-3 text-sm font-semibold text-white">Market Details</h3>
+              <h3 className="mb-3 text-sm font-semibold text-text-primary">Market Details</h3>
               <dl className="space-y-2 text-sm">
                 <DetailRow
                   label="Resolution source"
@@ -171,7 +171,7 @@ export default function MarketPage() {
             {/* User position card */}
             {authenticated && address && hasPosition && (
               <div className="rounded-xl border border-accent/20 bg-accent/5 p-5">
-                <h3 className="mb-3 text-sm font-semibold text-white">Your Position</h3>
+                <h3 className="mb-3 text-sm font-semibold text-text-primary">Your Position</h3>
                 <div className="space-y-2 text-sm">
                   {yesAmount > 0n && (
                     <div className="flex justify-between">
@@ -273,7 +273,7 @@ function PoolStat({
   return (
     <div className={clsx('rounded-lg p-3', color === 'yes' ? 'bg-yes-muted' : 'bg-no-muted')}>
       <p className={clsx('text-xs', color === 'yes' ? 'text-yes' : 'text-no')}>{label}</p>
-      <p className="mt-0.5 font-bold text-white">{value}</p>
+      <p className={clsx('mt-0.5 font-bold', color === 'yes' ? 'text-yes-dark' : 'text-no-dark')}>{value}</p>
     </div>
   );
 }
