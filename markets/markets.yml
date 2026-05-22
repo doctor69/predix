@@ -1560,3 +1560,178 @@ markets:
     closingTime: '2026-08-30T23:59:00Z'
     resolutionTime: '2026-09-01T12:00:00Z'
     contractId: 228
+  - question: Will Oura Health officially complete its IPO and begin trading on a US exchange by August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?w=800
+    resolutionSource: SEC EDGAR / Nasdaq
+    closingTime: '2026-08-25T23:59:00Z'
+    resolutionTime: '2026-09-01T23:59:00Z'
+    contractId: 229
+  - question: Will Tulsi Gabbard be officially replaced as Director of National Intelligence by July 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: White House / ODNI announcement
+    closingTime: '2026-07-30T23:59:00Z'
+    resolutionTime: '2026-08-01T23:59:00Z'
+    contractId: 230
+  - question: Will XRP-linked ETFs record net positive inflows for the week ending June 27, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1605792657660-596af9009e82?w=800
+    resolutionSource: CoinShares Weekly Fund Flows Report
+    closingTime: '2026-06-26T23:59:00Z'
+    resolutionTime: '2026-06-30T23:59:00Z'
+    contractId: 231
+  - question: Will Meg Jones win the Women's Six Nations 2026 Player of the Championship award?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: Six Nations Rugby official announcement
+    closingTime: '2026-06-04T23:59:00Z'
+    resolutionTime: '2026-06-10T23:59:00Z'
+    contractId: 232
+  - question: Will the Montreal Canadiens advance to the 2026 NHL Eastern Conference Finals?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: NHL.com
+    closingTime: '2026-05-30T23:59:00Z'
+    resolutionTime: '2026-06-15T23:59:00Z'
+    contractId: 233
+  - question: Will the House Oversight Committee investigation into Kalshi and Polymarket produce a public report by August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: House Oversight Committee
+    closingTime: '2026-08-25T23:59:00Z'
+    resolutionTime: '2026-09-01T23:59:00Z'
+    contractId: 234
+  - question: Will the UK Ebola Bundibugyo vaccine officially enter human clinical trials by August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800
+    resolutionSource: UK government / NIHR announcement
+    closingTime: '2026-08-25T23:59:00Z'
+    resolutionTime: '2026-09-01T23:59:00Z'
+    contractId: 235
+  - question: Will the US Department of Commerce officially announce recipients of the $2 billion quantum computing investment by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800
+    resolutionSource: US Department of Commerce
+    closingTime: '2026-08-25T23:59:00Z'
+    resolutionTime: '2026-09-01T23:59:00Z'
+    contractId: 236
+  - question: Will Harvard University's endowment publicly disclose any new ETH holdings by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800
+    resolutionSource: Harvard Management Company 13F filing
+    closingTime: '2026-08-25T23:59:00Z'
+    resolutionTime: '2026-09-01T23:59:00Z'
+    contractId: 237
+  - question: Will NEAR Protocol token reach $5 on CoinGecko by July 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1605792657660-596af9009e82?w=800
+    resolutionSource: CoinGecko
+    closingTime: '2026-07-30T23:59:00Z'
+    resolutionTime: '2026-08-01T23:59:00Z'
+    contractId: 238
+  - question: 'Will Stephen Colbert''s final Late Show episode rank #1 in late-night ratings for the week ending May 22, 2026?'
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: Nielsen ratings
+    closingTime: '2026-05-28T23:59:00Z'
+    resolutionTime: '2026-06-05T23:59:00Z'
+    contractId: 239
+  - question: Will Phil Collins announce any 2026-2027 tour dates by August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800
+    resolutionSource: Phil Collins official website
+    closingTime: '2026-08-25T23:59:00Z'
+    resolutionTime: '2026-09-01T23:59:00Z'
+    contractId: 240
+  - question: Will Boots Riley's 'I Love Boosters' gross over $10 million domestically by July 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1603190287605-e6ade32fa852?w=800
+    resolutionSource: Box Office Mojo
+    closingTime: '2026-07-30T23:59:00Z'
+    resolutionTime: '2026-08-02T23:59:00Z'
+    contractId: 241
+  - question: Will Australia's diphtheria case count exceed 200 confirmed cases by August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1507668077129-56e32842fceb?w=800
+    resolutionSource: Australian Department of Health
+    closingTime: '2026-08-25T23:59:00Z'
+    resolutionTime: '2026-09-01T23:59:00Z'
+    contractId: 242
+  - question: Will OpenAI's mathematical breakthrough on the Erdős conjecture appear in a peer-reviewed publication by August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1507668077129-56e32842fceb?w=800
+    resolutionSource: arXiv / peer-reviewed journal
+    closingTime: '2026-08-25T23:59:00Z'
+    resolutionTime: '2026-09-01T23:59:00Z'
+    contractId: 243
+  - question: Will Kevin Warsh deliver his first FOMC rate decision as Fed Chair as a rate cut?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?w=800
+    resolutionSource: Federal Reserve FOMC statement
+    closingTime: '2026-06-16T23:59:00Z'
+    resolutionTime: '2026-06-20T23:59:00Z'
+    contractId: 244
+  - question: Will Greenland's parliament pass a formal resolution rejecting US sovereignty claims by August 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: Greenland Inatsisartut official record
+    closingTime: '2026-08-25T23:59:00Z'
+    resolutionTime: '2026-09-01T23:59:00Z'
+    contractId: 245
+  - question: Will Ukraine officially deploy an AI-powered drone interception system as announced by July 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1526470608268-f674ce90ebd4?w=800
+    resolutionSource: Ukrainian Ministry of Defence
+    closingTime: '2026-07-30T23:59:00Z'
+    resolutionTime: '2026-08-02T23:59:00Z'
+    contractId: 246
+  - question: Will the Trump administration's $1.8 billion fund be enjoined by a federal court by August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: US federal court ruling
+    closingTime: '2026-08-25T23:59:00Z'
+    resolutionTime: '2026-09-01T23:59:00Z'
+    contractId: 247
+  - question: Will the THORChain protocol fully recover or reimburse all $10.7M from the May 2026 exploit by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1605792657660-596af9009e82?w=800
+    resolutionSource: THORChain official announcement
+    closingTime: '2026-08-25T23:59:00Z'
+    resolutionTime: '2026-09-01T23:59:00Z'
+    contractId: 248
+  - question: Will SpaceX's IPO filing disclose Bitcoin holdings of more than $2 billion by July 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800
+    resolutionSource: SEC EDGAR S-1 filing
+    closingTime: '2026-07-30T23:59:00Z'
+    resolutionTime: '2026-08-02T23:59:00Z'
+    contractId: 249
+  - question: Will the Enhanced Games complete its inaugural event with at least one world record claim by June 30, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: Enhanced Games official announcement
+    closingTime: '2026-06-29T23:59:00Z'
+    resolutionTime: '2026-07-02T23:59:00Z'
+    contractId: 250
+  - question: Will Bohemians 1905's C team officially register and play a competitive match in the Czech league system by August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: Czech FA / official club announcement
+    closingTime: '2026-08-25T23:59:00Z'
+    resolutionTime: '2026-09-01T23:59:00Z'
+    contractId: 251
+  - question: Will Apple win its Supreme Court appeal to narrow the App Store injunction from Epic Games by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800
+    resolutionSource: US Supreme Court ruling
+    closingTime: '2026-08-25T23:59:00Z'
+    resolutionTime: '2026-09-01T23:59:00Z'
+    contractId: 252
+  - question: Will Bordeaux defeat Leinster in the 2026 European Rugby Champions Cup final?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: EPCR official result
+    closingTime: '2026-05-23T15:00:00Z'
+    resolutionTime: '2026-05-25T23:59:00Z'
+    contractId: 253
