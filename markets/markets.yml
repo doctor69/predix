@@ -1238,3 +1238,178 @@ markets:
     closingTime: '2026-06-10T23:00:00Z'
     resolutionTime: '2026-06-15T12:00:00Z'
     contractId: 182
+  - question: Will SpaceX successfully launch Starship V3 on its first attempt by June 15, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800
+    resolutionSource: SpaceX official channels
+    closingTime: '2026-06-15T20:00:00Z'
+    resolutionTime: '2026-06-16T12:00:00Z'
+    contractId: 183
+  - question: Will Toby Samuel win his first-round match at the 2026 French Open main draw?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: Roland Garros official site
+    closingTime: '2026-05-26T08:00:00Z'
+    resolutionTime: '2026-05-28T20:00:00Z'
+    contractId: 184
+  - question: Will the DR Congo Ebola outbreak death toll exceed 200 by July 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: WHO
+    closingTime: '2026-07-31T20:00:00Z'
+    resolutionTime: '2026-08-02T12:00:00Z'
+    contractId: 185
+  - question: Will OFAC add at least 5 more Sinaloa-cartel linked crypto wallet addresses by August 1, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800
+    resolutionSource: US Treasury OFAC
+    closingTime: '2026-08-01T20:00:00Z'
+    resolutionTime: '2026-08-02T12:00:00Z'
+    contractId: 186
+  - question: Will the South Korea crypto tax petition reach 100,000 signatures by July 15, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800
+    resolutionSource: South Korea National Assembly petition site
+    closingTime: '2026-07-15T20:00:00Z'
+    resolutionTime: '2026-07-16T12:00:00Z'
+    contractId: 187
+  - question: Will Bitcoin's May 29, 2026 options expiry on Deribit have total notional value exceed $6 billion?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: Deribit
+    closingTime: '2026-05-29T07:00:00Z'
+    resolutionTime: '2026-05-30T12:00:00Z'
+    contractId: 188
+  - question: Will MoonPay Trade officially launch publicly by August 15, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800
+    resolutionSource: MoonPay official announcement
+    closingTime: '2026-08-15T20:00:00Z'
+    resolutionTime: '2026-08-16T12:00:00Z'
+    contractId: 189
+  - question: Will Variational launch its real-world asset perpetual futures product publicly by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1605792657660-596af9009e82?w=800
+    resolutionSource: Variational official site
+    closingTime: '2026-08-31T20:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 190
+  - question: Will Stephen Colbert announce a new TV or streaming hosting role by August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: Variety/Deadline
+    closingTime: '2026-08-31T20:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 191
+  - question: Will the Cannes 2026 Palme d'Or be awarded to a previous winner?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1603190287605-e6ade32fa852?w=800
+    resolutionSource: Cannes Film Festival official site
+    closingTime: '2026-05-24T16:00:00Z'
+    resolutionTime: '2026-05-25T12:00:00Z'
+    contractId: 192
+  - question: Will Spotify's AI remix tool with Universal Music launch publicly to all Premium subscribers by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800
+    resolutionSource: Spotify official announcement
+    closingTime: '2026-08-31T20:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 193
+  - question: Will the 2027 Audi Q9 with digital matrix lights be available for US pre-order by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800
+    resolutionSource: Audi USA official site
+    closingTime: '2026-08-31T20:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 194
+  - question: Will AT&T's lawsuit against California regarding the old phone network produce a court ruling by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800
+    resolutionSource: PACER court records
+    closingTime: '2026-08-31T20:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 195
+  - question: Will SpaceX's IPO filing include details of orbital data centers by July 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800
+    resolutionSource: SEC EDGAR S-1 filing
+    closingTime: '2026-07-31T20:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 196
+  - question: Will WTI crude oil close below $60 per barrel on July 1, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800
+    resolutionSource: CME Group
+    closingTime: '2026-07-01T20:00:00Z'
+    resolutionTime: '2026-07-02T12:00:00Z'
+    contractId: 197
+  - question: Will Meta announce additional company-wide layoffs in 2026 by August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800
+    resolutionSource: Meta official announcements
+    closingTime: '2026-08-31T20:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 198
+  - question: Will Rachel Reeves' VAT cut measures for family activities take effect by August 1, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1526470608268-f674ce90ebd4?w=800
+    resolutionSource: UK HM Treasury
+    closingTime: '2026-08-01T20:00:00Z'
+    resolutionTime: '2026-08-02T12:00:00Z'
+    contractId: 199
+  - question: Will Kyle Busch's cause of death be publicly disclosed by official sources by July 1, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: NASCAR official statement
+    closingTime: '2026-07-01T20:00:00Z'
+    resolutionTime: '2026-07-02T12:00:00Z'
+    contractId: 200
+  - question: Will the NTSB release a preliminary report on the Kentucky cargo plane crash by July 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: NTSB
+    closingTime: '2026-07-31T20:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 201
+  - question: Will the Fairshake PAC report over $50M in total contributions in its next FEC filing by July 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: FEC filings
+    closingTime: '2026-07-31T20:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 202
+  - question: Will the Crypto for Innovation hybrid PAC report total contributions above $1 million in its next FEC filing by August 15, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: FEC
+    closingTime: '2026-08-15T20:00:00Z'
+    resolutionTime: '2026-08-16T12:00:00Z'
+    contractId: 203
+  - question: Will Ulster win the 2026 Challenge Cup final against Montpellier?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: EPCR official site
+    closingTime: '2026-05-23T18:00:00Z'
+    resolutionTime: '2026-05-24T12:00:00Z'
+    contractId: 204
+  - question: Will Tonda Eckert be removed as Southampton head coach by July 1, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: Southampton FC official site
+    closingTime: '2026-07-01T20:00:00Z'
+    resolutionTime: '2026-07-02T12:00:00Z'
+    contractId: 205
+  - question: Will a peer-reviewed research paper on a quantum-protective Bitcoin soft fork be published by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: arXiv/peer-reviewed journals
+    closingTime: '2026-08-31T20:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 206
+  - question: Will the Federal Reserve issue final rules on master accounts for crypto firms by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: Federal Reserve
+    closingTime: '2026-08-31T20:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 207
