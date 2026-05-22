@@ -77,7 +77,7 @@ export function TradePanel({ market, onSuccess }: TradePanelProps) {
 
   return (
     <div className="rounded-xl border border-bg-border bg-bg-card p-4">
-      <h3 className="mb-4 font-semibold text-white">Place a Bet</h3>
+      <h3 className="mb-4 font-semibold text-text-primary">Place a Bet</h3>
 
       {/* YES / NO selector */}
       <div className="mb-4 grid grid-cols-2 gap-2">
@@ -119,7 +119,7 @@ export function TradePanel({ market, onSuccess }: TradePanelProps) {
             max={MAX_BET_USDC}
             value={amountStr}
             onChange={(e) => setAmountStr(e.target.value)}
-            className="w-full rounded-lg border border-bg-border bg-bg-primary py-2.5 pl-7 pr-3 text-sm text-white placeholder-text-muted outline-none transition-colors focus:border-accent"
+            className="w-full rounded-lg border border-bg-border bg-bg-primary py-2.5 pl-7 pr-3 text-sm text-text-primary placeholder-text-muted outline-none transition-colors focus:border-accent"
           />
         </div>
         {/* Quick-fill buttons */}
@@ -128,7 +128,7 @@ export function TradePanel({ market, onSuccess }: TradePanelProps) {
             <button
               key={v}
               onClick={() => setAmountStr(String(v))}
-              className="rounded bg-bg-border px-2 py-0.5 text-xs text-text-secondary hover:bg-bg-hover hover:text-white"
+              className="rounded bg-bg-border px-2 py-0.5 text-xs text-text-secondary hover:bg-bg-hover hover:text-text-primary"
             >
               ${v}
             </button>
@@ -138,7 +138,7 @@ export function TradePanel({ market, onSuccess }: TradePanelProps) {
               const bal = Number(balance) / 1e6;
               if (bal > 0) setAmountStr(Math.min(bal, MAX_BET_USDC).toFixed(2));
             }}
-            className="ml-auto rounded bg-bg-border px-2 py-0.5 text-xs text-text-secondary hover:bg-bg-hover hover:text-white"
+            className="ml-auto rounded bg-bg-border px-2 py-0.5 text-xs text-text-secondary hover:bg-bg-hover hover:text-text-primary"
           >
             Max
           </button>
