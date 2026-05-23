@@ -1919,3 +1919,185 @@ markets:
     closingTime: '2026-08-30T23:00:00Z'
     resolutionTime: '2026-09-01T12:00:00Z'
     contractId: 278
+  - question: Will Kevin Warsh deliver a public speech as Fed Chair before July 15, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?w=800
+    resolutionSource: Federal Reserve
+    closingTime: '2026-07-14T23:59:00Z'
+    resolutionTime: '2026-07-16T12:00:00Z'
+    contractId: 279
+  - question: Will Polymarket be officially banned by Indian regulators with a published order by August 15, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800
+    resolutionSource: Government of India press releases
+    closingTime: '2026-08-14T23:59:00Z'
+    resolutionTime: '2026-08-16T12:00:00Z'
+    contractId: 280
+  - question: Will Kalshi formally register 'Americans for Fair Markets' as a lobbying entity with the US Senate by August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: US Senate Lobbying Disclosure database
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 281
+  - question: Will Microsoft's Fara1.5 retain the top spot on the WebArena live-web benchmark on July 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800
+    resolutionSource: WebArena leaderboard
+    closingTime: '2026-07-30T23:59:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 282
+  - question: Will SpaceX's Starship V3 reach orbital velocity on a flight before July 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1518770660439-4636190af475?w=800
+    resolutionSource: SpaceX official statements
+    closingTime: '2026-07-30T23:59:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 283
+  - question: Will Blue Origin successfully launch its next New Glenn mission by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800
+    resolutionSource: Blue Origin
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 284
+  - question: Will Strategy (formerly MicroStrategy) sell any portion of its Bitcoin holdings before August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: Strategy SEC filings
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 285
+  - question: Will SpaceX file its IPO S-1 with the SEC by July 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800
+    resolutionSource: SEC EDGAR
+    closingTime: '2026-07-30T23:59:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 286
+  - question: Will the WHO declare the DR Congo Ebola outbreak a Public Health Emergency of International Concern by July 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: World Health Organization
+    closingTime: '2026-07-30T23:59:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 287
+  - question: Will Polymarket publicly confirm full reimbursement of the $700K wallet exploit by July 15, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800
+    resolutionSource: Polymarket official channels
+    closingTime: '2026-07-14T23:59:00Z'
+    resolutionTime: '2026-07-16T12:00:00Z'
+    contractId: 288
+  - question: Will Mark Cuban publicly disclose his exact remaining Bitcoin holdings by July 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: Mark Cuban public statements
+    closingTime: '2026-07-30T23:59:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 289
+  - question: Will the SEC formally publish its tokenized stocks innovation exemption framework by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1605792657660-596af9009e82?w=800
+    resolutionSource: SEC.gov
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 290
+  - question: Will the Strait of Hormuz reopen to full normal shipping traffic by August 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1474631245212-32dc3c8310c6?w=800
+    resolutionSource: International Maritime Organization
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 291
+  - question: Will Putin publicly accept a ceasefire proposal with Ukraine by August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: Reuters
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 292
+  - question: Will the NYC car explosion be officially classified as a terrorist attack by the FBI by July 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: FBI press releases
+    closingTime: '2026-07-30T23:59:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 293
+  - question: Will Erin Moriarty appear in the final season of 'The Boys' when it premieres on Prime Video by August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800
+    resolutionSource: Prime Video
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 294
+  - question: Will Paul McCartney's 'The Boys of Dungeon Lane' debut in the Billboard 200 top 10?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800
+    resolutionSource: Billboard
+    closingTime: '2026-06-15T23:59:00Z'
+    resolutionTime: '2026-06-20T12:00:00Z'
+    contractId: 295
+  - question: Will Robinhood announce a replacement Crypto COO before August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800
+    resolutionSource: Robinhood press releases
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 296
+  - question: Will Senegal's new prime minister be appointed by President Faye before July 1, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1526470608268-f674ce90ebd4?w=800
+    resolutionSource: Reuters
+    closingTime: '2026-06-30T23:59:00Z'
+    resolutionTime: '2026-07-02T12:00:00Z'
+    contractId: 297
+  - question: Will the Chinese coal mine explosion death toll officially exceed 100 by June 30, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: Xinhua News Agency
+    closingTime: '2026-06-29T23:59:00Z'
+    resolutionTime: '2026-07-01T12:00:00Z'
+    contractId: 298
+  - question: Will the California chemical tank leak evacuation order be officially lifted by June 15, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: California Office of Emergency Services
+    closingTime: '2026-06-14T23:59:00Z'
+    resolutionTime: '2026-06-16T12:00:00Z'
+    contractId: 299
+  - question: Will GameStop officially purchase eBay by August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800
+    resolutionSource: SEC filings
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 300
+  - question: Will the Trump Mobile data exposure result in a formal FTC investigation by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800
+    resolutionSource: FTC press releases
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 301
+  - question: Will Google's Android XR glasses be available for consumer pre-order by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1518770660439-4636190af475?w=800
+    resolutionSource: Google official announcements
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 302
+  - question: Will the Kilmar Abrego Garcia case dismissal be appealed by federal prosecutors by July 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: US Department of Justice
+    closingTime: '2026-07-30T23:59:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 303
+  - question: Will NASA's Artemis program officially confirm Starship as lunar lander for Artemis III by August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800
+    resolutionSource: NASA.gov
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 304
