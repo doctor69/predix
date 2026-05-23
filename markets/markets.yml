@@ -1735,3 +1735,187 @@ markets:
     closingTime: '2026-05-23T15:00:00Z'
     resolutionTime: '2026-05-25T23:59:00Z'
     contractId: 253
+  - question: Will Celtic win the 2026 Scottish Cup final against Dunfermline on May 23, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: BBC Sport
+    closingTime: '2026-05-24T14:00:00Z'
+    resolutionTime: '2026-05-25T12:00:00Z'
+    contractId: 254
+  - question: Will Tom Emmer's Clarity Act pass the US House before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: US Congress
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 255
+  - question: Will Polymarket trading volumes exceed $1 billion in any single month before August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: Polymarket Analytics
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-02T12:00:00Z'
+    contractId: 256
+  - question: Will Michael Carrick lead Manchester United to a win in their first competitive match of the 2026-27 season?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: BBC Sport
+    closingTime: '2026-08-08T12:00:00Z'
+    resolutionTime: '2026-08-20T12:00:00Z'
+    contractId: 257
+  - question: Will the DR Congo Ebola outbreak case count exceed 1,000 confirmed cases by July 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800
+    resolutionSource: WHO situation reports
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 258
+  - question: Will the FCC formally open an investigation into ABC's The View by August 15, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: FCC official announcements
+    closingTime: '2026-08-14T23:00:00Z'
+    resolutionTime: '2026-08-16T12:00:00Z'
+    contractId: 259
+  - question: Will Olivia Rodrigo's new album 'You Seem Pretty Sad For a Girl So in Love' be released by August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: Spotify/Apple Music
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 260
+  - question: Will Sandra Wollner's 'Everytime' secure a US distribution deal by August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1603190287605-e6ade32fa852?w=800
+    resolutionSource: Variety/Deadline
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 261
+  - question: Will the Federal Reserve cut interest rates at its June 2026 FOMC meeting?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800
+    resolutionSource: Federal Reserve
+    closingTime: '2026-06-17T17:00:00Z'
+    resolutionTime: '2026-06-19T12:00:00Z'
+    contractId: -1
+  - question: Will University of Michigan consumer sentiment index fall below 50 in its June 2026 report?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800
+    resolutionSource: University of Michigan Surveys of Consumers
+    closingTime: '2026-06-26T12:00:00Z'
+    resolutionTime: '2026-06-28T12:00:00Z'
+    contractId: 262
+  - question: Will Tom Lee publicly forecast S&P 500 above 7,000 by August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800
+    resolutionSource: Fundstrat publications
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 263
+  - question: Will Hull City win the Championship play-off final against Middlesbrough?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: BBC Sport
+    closingTime: '2026-05-25T14:00:00Z'
+    resolutionTime: '2026-05-26T12:00:00Z'
+    contractId: 264
+  - question: Will Aryna Sabalenka win the 2026 French Open women's singles title?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: Roland Garros official
+    closingTime: '2026-06-06T10:00:00Z'
+    resolutionTime: '2026-06-08T12:00:00Z'
+    contractId: 265
+  - question: Will Alberto Bettiol win any additional stage at the 2026 Giro d'Italia?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: Giro d'Italia official
+    closingTime: '2026-05-31T12:00:00Z'
+    resolutionTime: '2026-06-02T12:00:00Z'
+    contractId: 266
+  - question: Will Microsoft's Fara1.5 browser agent be released as a public product by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800
+    resolutionSource: Microsoft Research announcements
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 267
+  - question: Will the NTSB permanently restrict public access to cockpit voice recordings by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800
+    resolutionSource: NTSB official statements
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 268
+  - question: Will GameStop shareholders approve the 1.5 billion authorized share count increase by August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?w=800
+    resolutionSource: SEC filings
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 269
+  - question: Will Bitcoin implied volatility on Deribit rise above 60% before July 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: Deribit
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 270
+  - question: Will the US formally announce military action against Cuba by August 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1526470608268-f674ce90ebd4?w=800
+    resolutionSource: White House announcements
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 271
+  - question: Will the UK record temperatures above 32°C during the May 2026 bank holiday weekend?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1474631245212-32dc3c8310c6?w=800
+    resolutionSource: UK Met Office
+    closingTime: '2026-05-25T18:00:00Z'
+    resolutionTime: '2026-05-27T12:00:00Z'
+    contractId: 272
+  - question: >-
+      Will Stephen Colbert's Late Show finale viewership of 6.74 million remain the show's all-time weeknight record through August 31,
+      2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: Nielsen ratings
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 273
+  - question: Will SpaceX's IPO be priced at a valuation above $400 billion by August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800
+    resolutionSource: SEC filings
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 274
+  - question: Will Constellation Energy (CEG) officially announce commercial operations at Pin Oak Energy Facility by August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?w=800
+    resolutionSource: Constellation Energy press releases
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 275
+  - question: Will the THORChain GG20 vulnerability lead to additional protocol exploits before August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: THORChain official channels
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 276
+  - question: Will Wasserman Schultz win the Democratic primary in Florida's 20th Congressional District in 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: Florida Department of State
+    closingTime: '2026-08-17T23:00:00Z'
+    resolutionTime: '2026-08-22T12:00:00Z'
+    contractId: 277
+  - question: Will HUD finalize new rules restricting emotional support animals by August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: Federal Register
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 278
