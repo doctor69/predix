@@ -2304,3 +2304,178 @@ markets:
     closingTime: '2026-08-30T23:00:00Z'
     resolutionTime: '2026-09-01T12:00:00Z'
     contractId: 333
+  - question: Will Hyperliquid's HYPE token rise more than 30% from May 24 close by July 15, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800
+    resolutionSource: CoinGecko
+    closingTime: '2026-07-14T23:00:00Z'
+    resolutionTime: '2026-07-16T12:00:00Z'
+    contractId: 334
+  - question: Will Near Protocol officially launch dynamic resharding in June 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1605792657660-596af9009e82?w=800
+    resolutionSource: Near Protocol official blog
+    closingTime: '2026-06-29T23:00:00Z'
+    resolutionTime: '2026-07-05T12:00:00Z'
+    contractId: 335
+  - question: Will Binance face formal regulatory action over the alleged $850M Iran-linked transactions by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800
+    resolutionSource: Reuters
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-02T12:00:00Z'
+    contractId: 336
+  - question: Will the Polymarket Polygon $520K exploit be fully reimbursed to users by July 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800
+    resolutionSource: Polymarket official announcement
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-02T12:00:00Z'
+    contractId: 337
+  - question: Will Coinbase complete its announced 14% workforce reduction by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800
+    resolutionSource: Coinbase official statements
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-02T12:00:00Z'
+    contractId: 338
+  - question: Will Bolton Wanderers win the League One play-off final at Wembley on May 24, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: BBC Sport
+    closingTime: '2026-05-24T13:00:00Z'
+    resolutionTime: '2026-05-25T12:00:00Z'
+    contractId: 339
+  - question: Will Pep Guardiola's final Manchester City match be a win in the 2025-26 season?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: Premier League official
+    closingTime: '2026-05-24T14:00:00Z'
+    resolutionTime: '2026-05-25T12:00:00Z'
+    contractId: 340
+  - question: Will Max Verstappen publicly confirm retirement from Formula 1 at end of 2026 season by August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: Formula 1 official
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-02T12:00:00Z'
+    contractId: 341
+  - question: Will Andrew Robertson sign with a new club by July 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: BBC Sport
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-02T12:00:00Z'
+    contractId: 342
+  - question: Will Iran and the US sign a final nuclear framework agreement by July 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: Reuters
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-02T12:00:00Z'
+    contractId: 343
+  - question: Will Britain formally deploy autonomous mine-hunting equipment in the Strait of Hormuz by August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: UK Ministry of Defence
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-02T12:00:00Z'
+    contractId: 344
+  - question: Will the DR Congo World Cup squad complete the mandated 21-day Ebola isolation before their first match?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: FIFA / BBC Sport
+    closingTime: '2026-06-10T23:00:00Z'
+    resolutionTime: '2026-06-12T12:00:00Z'
+    contractId: 345
+  - question: Will the Staten Island shipyard explosion investigation be classified as accidental by July 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: NYPD / FDNY official statements
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-02T12:00:00Z'
+    contractId: 346
+  - question: Will Navitas Semiconductor (NVTS) maintain its 20%+ gain (above May 23 close) on June 30, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800
+    resolutionSource: Nasdaq
+    closingTime: '2026-06-29T23:00:00Z'
+    resolutionTime: '2026-07-01T12:00:00Z'
+    contractId: 347
+  - question: Will Palantir (PLTR) close above $150 on July 31, 2026 after Trump's endorsement?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?w=800
+    resolutionSource: Nasdaq
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 348
+  - question: Will Deep Fission complete its $157M IPO by August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800
+    resolutionSource: SEC EDGAR
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-02T12:00:00Z'
+    contractId: 349
+  - question: Will SolarSquare close its $60M funding round at a valuation above $500M by July 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800
+    resolutionSource: TechCrunch
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-02T12:00:00Z'
+    contractId: 350
+  - question: Will IREN (IREN) announce another acquisition beyond Awaken by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800
+    resolutionSource: IREN press releases
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-02T12:00:00Z'
+    contractId: 351
+  - question: Will a peer-reviewed paper on imaging ellipsometry for MXene thin films be cited in at least 5 papers by August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1507668077129-56e32842fceb?w=800
+    resolutionSource: Google Scholar
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-02T12:00:00Z'
+    contractId: 352
+  - question: Will a major Sargassum seaweed bloom be officially reported on Caribbean beaches before August 1, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800
+    resolutionSource: NOAA / University of South Florida
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-02T12:00:00Z'
+    contractId: 353
+  - question: Will new Homo erectus tooth protein research be published in Nature or Science by August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1507668077129-56e32842fceb?w=800
+    resolutionSource: Nature / Science journals
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-02T12:00:00Z'
+    contractId: 354
+  - question: Will 'Fjord' by Cristian Mungiu (Neon's Palme d'Or winner) secure a US theatrical release date by August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: Neon official / Variety
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-02T12:00:00Z'
+    contractId: 355
+  - question: 'Will ''Star Wars: The Mandalorian and Grogu'' surpass $100M in its 4-day opening weekend?'
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: Box Office Mojo
+    closingTime: '2026-05-25T23:00:00Z'
+    resolutionTime: '2026-05-27T12:00:00Z'
+    contractId: 356
+  - question: Will Florence Pugh's 'The Midnight Library' sell US distribution rights at Cannes for over $50M by June 30, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1603190287605-e6ade32fa852?w=800
+    resolutionSource: Variety / Deadline
+    closingTime: '2026-06-29T23:00:00Z'
+    resolutionTime: '2026-07-02T12:00:00Z'
+    contractId: 357
+  - question: Will Reform UK's overtime tax scrap proposal be incorporated into any UK government budget by August 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1526470608268-f674ce90ebd4?w=800
+    resolutionSource: UK Government / HM Treasury
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-02T12:00:00Z'
+    contractId: 358
