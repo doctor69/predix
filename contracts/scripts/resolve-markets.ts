@@ -172,6 +172,14 @@ async function main(): Promise<void> {
     "function cancelMarket(uint256 marketId) external",
   ];
   const contract = new ethers.Contract(contractAddress, abi, signer);
+  const iface = new ethers.Interface(abi);
+
+  // Multicall3 — same address on all EVM chains
+  const multicall = new ethers.Contract(
+    "0xcA11bde05977b3631167028862bE2a173976CA11",
+    ["function aggregate3(tuple(address target,bool allowFailure,bytes callData)[] calls) view returns (tuple(bool success,bytes returnData)[])"],
+    ethers.provider,
+  );
 
   // ── Load YAML for admin outcomes ──────────────────────────────────────────
   const { data: yamlData, header } = readMarketsFile();
@@ -185,15 +193,37 @@ async function main(): Promise<void> {
     }
   }
 
-  // ── Fetch on-chain markets eligible for resolution ────────────────────────
+  // Early exit if no YAML overrides pending and no markets could be past buffer yet
+  const hasYamlOverrides = yamlData.markets.some(
+    (m) => m.outcome === "yes" || m.outcome === "no" || m.outcome === "cancel"
+  );
+
+  // ── Fetch all markets in ONE multicall ────────────────────────────────────
   const now = Math.floor(Date.now() / 1000);
   const todayIso = new Date().toISOString();
   const count = Number(await contract.marketCount());
   console.log(`\n  On-chain markets: ${count}`);
 
+  if (count === 0) {
+    console.log("  No markets on-chain yet.\n");
+    return;
+  }
+
+  // Batch all getMarket calls into a single RPC request via Multicall3
+  process.stdout.write(`  Fetching all markets via multicall ...`);
+  const calls = Array.from({ length: count }, (_, i) => ({
+    target:       contractAddress,
+    allowFailure: true,
+    callData:     iface.encodeFunctionData("getMarket", [BigInt(i)]),
+  }));
+  const results: { success: boolean; returnData: string }[] = await multicall.aggregate3(calls);
+  console.log(` done`);
+
   const eligible: OnChainMarket[] = [];
-  for (let i = 0; i < count; i++) {
-    const m = await contract.getMarket(i);
+  for (let i = 0; i < results.length; i++) {
+    if (!results[i].success) continue;
+    const decoded = iface.decodeFunctionResult("getMarket", results[i].returnData);
+    const m = decoded[0];
     if (
       Number(m.outcome) === OUTCOME_UNRESOLVED &&
       Number(m.resolutionTime) + RESOLVE_BUFFER_SECS <= now
