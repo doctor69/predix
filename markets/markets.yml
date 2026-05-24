@@ -2101,3 +2101,206 @@ markets:
     closingTime: '2026-08-30T23:59:00Z'
     resolutionTime: '2026-09-01T12:00:00Z'
     contractId: 304
+  - question: Will Polymarket receive Japan regulatory approval before August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800
+    resolutionSource: Polymarket official announcements
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 305
+  - question: Will Trump Media disclose a sale of any portion of its Bitcoin holdings in its next quarterly filing by August 15, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800
+    resolutionSource: SEC EDGAR DJT filings
+    closingTime: '2026-08-14T23:00:00Z'
+    resolutionTime: '2026-08-16T12:00:00Z'
+    contractId: 306
+  - question: Will MARA Holdings disclose CEO security spending above $5M for 2026 in its next 10-K filing by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800
+    resolutionSource: SEC EDGAR MARA filings
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 307
+  - question: Will the ECB publish formal opposition to expanded euro stablecoin issuance by July 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800
+    resolutionSource: ECB official publications
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 308
+  - question: Will Manchester United officially sign Rafael Leao from AC Milan before September 1, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: Manchester United official announcement
+    closingTime: '2026-08-31T23:00:00Z'
+    resolutionTime: '2026-09-02T12:00:00Z'
+    contractId: 309
+  - question: Will the New York Knicks reach the 2026 NBA Finals?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: NBA.com
+    closingTime: '2026-06-01T23:00:00Z'
+    resolutionTime: '2026-06-03T12:00:00Z'
+    contractId: 310
+  - question: Will Harry Maguire be added to England's 2026 World Cup squad before the tournament begins on June 11, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: The FA official announcement
+    closingTime: '2026-06-10T18:00:00Z'
+    resolutionTime: '2026-06-12T12:00:00Z'
+    contractId: 311
+  - question: Will Anna Huang win another Ladies European Tour event by August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: Ladies European Tour
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 312
+  - question: Will Hamzah Sheeraz defend his WBO super-middleweight title in a bout by August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: BBC Sport
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 313
+  - question: Will Charlton Athletic remain in the WSL through the end of the 2026-27 season's first month (by September 30, 2026)?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: WSL official site
+    closingTime: '2026-09-29T23:00:00Z'
+    resolutionTime: '2026-10-01T12:00:00Z'
+    contractId: 314
+  - question: Will the USMNT 2026 World Cup roster announced by Pochettino include Christian Pulisic?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: US Soccer official announcement
+    closingTime: '2026-05-26T18:00:00Z'
+    resolutionTime: '2026-05-28T12:00:00Z'
+    contractId: 315
+  - question: Will Sophie Devine score another fifty in the third T20 international between New Zealand and England?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: ESPNcricinfo
+    closingTime: '2026-05-26T06:00:00Z'
+    resolutionTime: '2026-05-28T12:00:00Z'
+    contractId: 316
+  - question: Will Kevin Warsh publicly oppose a rate cut at the June 2026 FOMC meeting?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800
+    resolutionSource: Federal Reserve official statements
+    closingTime: '2026-06-17T18:00:00Z'
+    resolutionTime: '2026-06-19T12:00:00Z'
+    contractId: 317
+  - question: Will the best 1-year CD APY listed on Bankrate exceed 4.25% on July 1, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800
+    resolutionSource: Bankrate
+    closingTime: '2026-06-30T23:00:00Z'
+    resolutionTime: '2026-07-02T12:00:00Z'
+    contractId: 318
+  - question: Will Palo Alto Networks (PANW) close above $200 on July 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800
+    resolutionSource: Nasdaq
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 319
+  - question: Will Putin publicly announce a major retaliation strike on Ukraine following the Luhansk dormitory incident by June 30, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: Kremlin official statements
+    closingTime: '2026-06-29T23:00:00Z'
+    resolutionTime: '2026-07-01T12:00:00Z'
+    contractId: 320
+  - question: Will the US and Iran sign a finalized peace agreement before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: US State Department
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 321
+  - question: Will Marco Rubio's visit to Delhi result in a publicly announced US-India joint statement by July 1, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: US State Department
+    closingTime: '2026-06-30T23:00:00Z'
+    resolutionTime: '2026-07-02T12:00:00Z'
+    contractId: 322
+  - question: Will Édouard Philippe lead in a major French presidential opinion poll published before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: IFOP or Ipsos polling
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 323
+  - question: Will Raúl Castro be formally extradited to the US in connection with his DOJ indictment by August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: US Department of Justice
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 324
+  - question: Will the White House officially allocate the full $9 billion AI funding to CIA/NSA by August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: White House Office of Management and Budget
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 325
+  - question: Will SpaceX successfully launch a Starship orbital data center demonstration mission by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800
+    resolutionSource: SpaceX official announcements
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 326
+  - question: Will Trump Mobile face a class-action lawsuit filed over its customer data exposure by August 1, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800
+    resolutionSource: PACER court records
+    closingTime: '2026-07-31T23:00:00Z'
+    resolutionTime: '2026-08-02T12:00:00Z'
+    contractId: 327
+  - question: Will Google officially release the disco-ball icon theme to all Pixel devices by July 15, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1518770660439-4636190af475?w=800
+    resolutionSource: Google Pixel official blog
+    closingTime: '2026-07-14T23:00:00Z'
+    resolutionTime: '2026-07-16T12:00:00Z'
+    contractId: 328
+  - question: Will the new James Bond video game be officially released to the public by August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: IO Interactive official announcement
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 329
+  - question: Will Neil Young announce a 2026 tour following his Suzuki benefit appearance by July 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1603190287605-e6ade32fa852?w=800
+    resolutionSource: Neil Young official site
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 330
+  - question: Will the UK Competition and Markets Authority open a formal market investigation into Live Nation by August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800
+    resolutionSource: UK CMA
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 331
+  - question: Will Andrey Zviaguintsev's 'Minotaur' secure US theatrical distribution by August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1603190287605-e6ade32fa852?w=800
+    resolutionSource: Variety/Deadline
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 332
+  - question: Will France formally suspend EU Entry/Exit System checks at Dover again before August 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1474631245212-32dc3c8310c6?w=800
+    resolutionSource: Port of Dover official statements
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 333
