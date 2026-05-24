@@ -73,6 +73,8 @@ const MARKETS_FILE          = path.resolve(__dirname, "../../markets/markets.yml
 const RESOLVE_BUFFER_SECS   = parseInt(process.env.RESOLVE_BUFFER_MINS ?? "30") * 60;
 const CONFIDENCE_THRESHOLD  = parseInt(process.env.CONFIDENCE_THRESHOLD ?? "85");
 const OUTCOME_UNRESOLVED    = 0;
+// Claude's training cutoff — markets resolving after this date return UNCERTAIN anyway, so skip the API call
+const CLAUDE_CUTOFF_UNIX    = Math.floor(new Date("2025-08-01T00:00:00Z").getTime() / 1000);
 
 // ─── YAML helpers ─────────────────────────────────────────────────────────────
 
@@ -95,46 +97,49 @@ function writeMarketsFile(data: MarketsFile, header: string): void {
   fs.writeFileSync(MARKETS_FILE, header ? header + "\n" + body : body);
 }
 
-// ─── Claude AI resolution ─────────────────────────────────────────────────────
+// ─── Claude AI resolution (batched — one API call for all eligible markets) ───
 
-async function askClaude(
+async function askClaudeBatch(
   client: Anthropic,
-  market: OnChainMarket,
+  markets: OnChainMarket[],
   todayIso: string
-): Promise<ClaudeVerdict> {
-  const resolutionIso = new Date(Number(market.resolutionTime) * 1000).toISOString();
+): Promise<Map<number, ClaudeVerdict>> {
+  const list = markets
+    .map((m, i) =>
+      `${i + 1}. [id=${m.id}] "${m.question}" | source: ${m.resolutionSource} | resolves: ${new Date(Number(m.resolutionTime) * 1000).toISOString()}`
+    )
+    .join("\n");
 
-  const prompt = `You are resolving a binary prediction market. Determine whether the outcome is YES or NO.
+  const prompt = `You are resolving binary prediction markets. Today (UTC): ${todayIso}
 
-Question:           "${market.question}"
-Category:           ${market.category}
-Resolution source:  ${market.resolutionSource}
-Resolution time:    ${resolutionIso}
-Today (UTC):        ${todayIso}
-
+For each market determine YES, NO, UNCERTAIN, or PENDING.
 Rules:
-- If resolution time is in the future → return PENDING
-- If you know the outcome with high confidence based on your training data → return YES or NO
-- If you are unsure or lack specific knowledge of this event → return UNCERTAIN
+- YES / NO only when you have ≥85% confidence from training data
+- UNCERTAIN if you lack specific knowledge of the outcome
+- PENDING if the resolution time is in the future
 
-Return ONLY valid JSON, no markdown:
-{"outcome":"YES|NO|UNCERTAIN|PENDING","confidence":0-100,"reasoning":"one sentence"}`;
+${list}
+
+Return ONLY a JSON array (no markdown), one entry per market in the same order:
+[{"id":<contractId>,"outcome":"YES|NO|UNCERTAIN|PENDING","confidence":0-100,"reasoning":"one sentence"}]`;
 
   const msg = await client.messages.create({
-    model: "claude-opus-4-7",
-    max_tokens: 256,
+    model: "claude-haiku-4-5-20251001",
+    max_tokens: 1024,
     messages: [{ role: "user", content: prompt }],
   });
 
-  const text = msg.content[0].type === "text" ? msg.content[0].text.trim() : "{}";
-  const match = text.match(/\{[\s\S]*\}/);
-  if (!match) return { outcome: "UNCERTAIN", confidence: 0, reasoning: "Parse error" };
+  const text = msg.content[0].type === "text" ? msg.content[0].text.trim() : "[]";
+  const match = text.match(/\[[\s\S]*\]/);
+  const results = new Map<number, ClaudeVerdict>();
+  if (!match) return results;
 
   try {
-    return JSON.parse(match[0]) as ClaudeVerdict;
-  } catch {
-    return { outcome: "UNCERTAIN", confidence: 0, reasoning: "Parse error" };
-  }
+    const arr = JSON.parse(match[0]) as Array<{ id: number } & ClaudeVerdict>;
+    for (const item of arr) results.set(item.id, item);
+  } catch { /* return empty map */ }
+
+  return results;
 }
 
 // ─── Main ─────────────────────────────────────────────────────────────────────
@@ -246,25 +251,23 @@ async function main(): Promise<void> {
   console.log(`  Eligible for resolution: ${eligible.length}\n`);
 
   // ── Resolve each market ───────────────────────────────────────────────────
-  let resolved = 0;
-  let skipped  = 0;
+  let resolved  = 0;
+  let skipped   = 0;
   let yamlDirty = false;
 
+  // Split eligible into YAML-overridden vs needing Claude
+  const needsClaude: OnChainMarket[] = [];
+
   for (const market of eligible) {
-    console.log(`  [${market.id}] "${market.question.slice(0, 70)}"`);
     const yamlEntry = yamlByContractId.get(market.id);
 
-    // ── Mode 1: YAML admin override ──────────────────────────────────────
     if (yamlEntry?.outcome === "yes" || yamlEntry?.outcome === "no") {
       const isYes = yamlEntry.outcome === "yes";
-      console.log(`    → YAML override: ${yamlEntry.outcome.toUpperCase()}`);
-
+      console.log(`  [${market.id}] YAML → ${yamlEntry.outcome.toUpperCase()}: "${market.question.slice(0, 65)}"`);
       const tx = await contract.resolveMarket(market.id, isYes);
       process.stdout.write(`    tx ${tx.hash} ...`);
       const receipt = await tx.wait();
       console.log(` block ${receipt.blockNumber} ✓`);
-
-      // Clear the outcome from YAML so it doesn't re-trigger
       yamlEntry.outcome = null;
       yamlDirty = true;
       resolved++;
@@ -272,7 +275,7 @@ async function main(): Promise<void> {
     }
 
     if (yamlEntry?.outcome === "cancel") {
-      console.log(`    → YAML override: CANCEL`);
+      console.log(`  [${market.id}] YAML → CANCEL: "${market.question.slice(0, 65)}"`);
       const tx = await contract.cancelMarket(market.id);
       process.stdout.write(`    tx ${tx.hash} ...`);
       const receipt = await tx.wait();
@@ -283,34 +286,43 @@ async function main(): Promise<void> {
       continue;
     }
 
-    // ── Mode 2: Claude AI ────────────────────────────────────────────────
+    // Skip Claude for markets resolving after its knowledge cutoff — always UNCERTAIN
+    if (Number(market.resolutionTime) > CLAUDE_CUTOFF_UNIX) {
+      skipped++;
+      continue;
+    }
+
+    needsClaude.push(market);
+  }
+
+  // ── One batched Claude call for all pre-cutoff markets ───────────────────
+  if (needsClaude.length > 0) {
     if (!claude) {
-      console.log(`    → SKIP (no API key, set outcome in markets.yml manually)`);
-      skipped++;
-      continue;
+      console.log(`  ${needsClaude.length} markets need Claude but ANTHROPIC_API_KEY not set — skipping`);
+      skipped += needsClaude.length;
+    } else {
+      console.log(`\n  Asking Claude about ${needsClaude.length} pre-2025-08 market(s)...`);
+      const verdicts = await askClaudeBatch(claude, needsClaude, todayIso);
+
+      for (const market of needsClaude) {
+        const verdict = verdicts.get(market.id) ?? { outcome: "UNCERTAIN" as const, confidence: 0, reasoning: "No response" };
+        console.log(`  [${market.id}] Claude: ${verdict.outcome} (${verdict.confidence}%) — ${verdict.reasoning}`);
+
+        if (verdict.outcome === "UNCERTAIN" || verdict.outcome === "PENDING" || verdict.confidence < CONFIDENCE_THRESHOLD) {
+          skipped++;
+          continue;
+        }
+
+        const tx = await contract.resolveMarket(market.id, verdict.outcome === "YES");
+        process.stdout.write(`    tx ${tx.hash} ...`);
+        const receipt = await tx.wait();
+        console.log(` block ${receipt.blockNumber} ✓`);
+        resolved++;
+      }
     }
-
-    const verdict = await askClaude(claude, market, todayIso);
-    console.log(`    → Claude: ${verdict.outcome} (${verdict.confidence}%) — ${verdict.reasoning}`);
-
-    if (verdict.outcome === "PENDING") {
-      console.log(`    → SKIP (resolution time not yet reached per Claude)`);
-      skipped++;
-      continue;
-    }
-
-    if (verdict.outcome === "UNCERTAIN" || verdict.confidence < CONFIDENCE_THRESHOLD) {
-      console.log(`    → SKIP (confidence too low — set outcome in markets.yml to resolve manually)`);
-      skipped++;
-      continue;
-    }
-
-    const isYes = verdict.outcome === "YES";
-    const tx = await contract.resolveMarket(market.id, isYes);
-    process.stdout.write(`    tx ${tx.hash} ...`);
-    const receipt = await tx.wait();
-    console.log(` block ${receipt.blockNumber} ✓`);
-    resolved++;
+  } else if (eligible.length > 0) {
+    console.log(`  ${skipped} market(s) skipped — all resolve after Claude's knowledge cutoff (Aug 2025).`);
+    console.log("  To resolve, set  outcome: yes/no  on the entry in markets.yml and push.");
   }
 
   // ── Persist any YAML changes (cleared outcome flags) ────────────────────
