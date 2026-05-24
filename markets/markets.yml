@@ -2479,3 +2479,150 @@ markets:
     closingTime: '2026-08-30T23:00:00Z'
     resolutionTime: '2026-09-02T12:00:00Z'
     contractId: 358
+  - question: Will the ARMA Bill (American Reserve Modernization Act) pass either chamber of Congress by August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: Congress.gov
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 359
+  - question: 'Will ''Star Wars: The Mandalorian and Grogu'' gross over $200M domestically by July 1, 2026?'
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1603190287605-e6ade32fa852?w=800
+    resolutionSource: Box Office Mojo
+    closingTime: '2026-06-30T23:00:00Z'
+    resolutionTime: '2026-07-02T12:00:00Z'
+    contractId: 360
+  - question: Will Jonas Vingegaard win the 2026 Giro d'Italia overall classification?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: Giro d'Italia official
+    closingTime: '2026-06-01T23:00:00Z'
+    resolutionTime: '2026-06-03T12:00:00Z'
+    contractId: 361
+  - question: Will the Colorado Avalanche be eliminated from the 2026 Stanley Cup playoffs by June 5, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: NHL.com
+    closingTime: '2026-06-04T23:00:00Z'
+    resolutionTime: '2026-06-06T12:00:00Z'
+    contractId: 362
+  - question: Will Hyperliquid (HYPE) trade above $40 on CoinGecko on July 1, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800
+    resolutionSource: CoinGecko
+    closingTime: '2026-06-30T23:00:00Z'
+    resolutionTime: '2026-07-02T12:00:00Z'
+    contractId: 363
+  - question: Will Mark Cuban's public Bitcoin holdings disclosure be filed via X or interview before July 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1605792657660-596af9009e82?w=800
+    resolutionSource: Public statements (X, interviews)
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 364
+  - question: Will GameStop's 1.5 billion share authorization receive shareholder approval before August 1, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800
+    resolutionSource: SEC EDGAR
+    closingTime: '2026-07-31T23:00:00Z'
+    resolutionTime: '2026-08-02T12:00:00Z'
+    contractId: 365
+  - question: Will the Pakistan train bombing be claimed by the Balochistan Liberation Army by July 1, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1474631245212-32dc3c8310c6?w=800
+    resolutionSource: BBC News
+    closingTime: '2026-06-30T23:00:00Z'
+    resolutionTime: '2026-07-02T12:00:00Z'
+    contractId: 366
+  - question: Will Apple's WWDC 2026 keynote announce a new generative AI model for Siri?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800
+    resolutionSource: Apple.com
+    closingTime: '2026-06-08T17:00:00Z'
+    resolutionTime: '2026-06-10T12:00:00Z'
+    contractId: 367
+  - question: Will Meta's new 'Forum' app reach 1 million downloads on Google Play by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800
+    resolutionSource: Google Play Store
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 368
+  - question: Will the Supreme Court issue a ruling on Apple's App Store appeal by July 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800
+    resolutionSource: SupremeCourt.gov
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 369
+  - question: Will Blue Origin release a public final report on the April New Glenn engine failure by August 1, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800
+    resolutionSource: Blue Origin
+    closingTime: '2026-07-31T23:00:00Z'
+    resolutionTime: '2026-08-02T12:00:00Z'
+    contractId: 370
+  - question: Will the StablR exploit lead to a public recovery of more than 50% of the $2.8M by August 1, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800
+    resolutionSource: Blockaid / StablR official
+    closingTime: '2026-07-31T23:00:00Z'
+    resolutionTime: '2026-08-02T12:00:00Z'
+    contractId: 371
+  - question: Will Internet Computer (ICP) outperform NEAR over the 30 days ending June 30, 2026 on CoinGecko?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800
+    resolutionSource: CoinGecko
+    closingTime: '2026-06-29T23:00:00Z'
+    resolutionTime: '2026-07-01T12:00:00Z'
+    contractId: 372
+  - question: Will OpenAI publish a peer-reviewed paper on its Erdős conjecture breakthrough on arXiv by July 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1507668077129-56e32842fceb?w=800
+    resolutionSource: arXiv
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 373
+  - question: Will the FCC formally rule on whether 'The View' qualifies as a news show by August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: FCC.gov
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 374
+  - question: Will Strategy (MSTR) report acquiring additional Bitcoin in any 8-K filing before August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1605792657660-596af9009e82?w=800
+    resolutionSource: SEC EDGAR
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 375
+  - question: Will the Dow Jones Industrial Average close at a new all-time high on June 30, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800
+    resolutionSource: S&P Dow Jones Indices
+    closingTime: '2026-06-30T20:00:00Z'
+    resolutionTime: '2026-07-01T12:00:00Z'
+    contractId: 376
+  - question: Will the U.S. Treasury formally establish a Bitcoin reserve before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: US Treasury
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 377
+  - question: Will Britain announce an active deployment in the Strait of Hormuz before August 1, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1526470608268-f674ce90ebd4?w=800
+    resolutionSource: UK Ministry of Defence
+    closingTime: '2026-07-31T23:00:00Z'
+    resolutionTime: '2026-08-02T12:00:00Z'
+    contractId: 378
+  - question: Will the Bayeux Tapestry public exhibition open in London before September 1, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: British Museum
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 379
