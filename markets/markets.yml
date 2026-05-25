@@ -2626,3 +2626,178 @@ markets:
     closingTime: '2026-08-30T23:00:00Z'
     resolutionTime: '2026-09-01T12:00:00Z'
     contractId: 379
+  - question: Will Emma Raducanu reach the third round of Wimbledon 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: Wimbledon official site
+    closingTime: '2026-06-29T10:00:00Z'
+    resolutionTime: '2026-07-05T23:59:00Z'
+    contractId: 380
+  - question: Will Novak Djokovic reach the 2026 French Open semifinals?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: Roland-Garros official site
+    closingTime: '2026-06-02T10:00:00Z'
+    resolutionTime: '2026-06-07T23:59:00Z'
+    contractId: 381
+  - question: Will Bitcoin spot ETF cumulative outflows exceed $4 billion since May 11, 2026 by July 15, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800
+    resolutionSource: SoSoValue ETF data
+    closingTime: '2026-07-14T23:59:00Z'
+    resolutionTime: '2026-07-16T23:59:00Z'
+    contractId: 382
+  - question: Will StablR's USR or EURR stablecoins return to a stable peg (within 1%) by July 1, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800
+    resolutionSource: CoinGecko price data
+    closingTime: '2026-06-30T23:59:00Z'
+    resolutionTime: '2026-07-02T23:59:00Z'
+    contractId: 383
+  - question: Will Nasdaq Phlx begin trading Bitcoin index options under ticker QBTC by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800
+    resolutionSource: Nasdaq official announcement
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-02T23:59:00Z'
+    contractId: 384
+  - question: Will Hyperliquid (HYPE) reach an all-time high price on CoinGecko before August 1, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: CoinGecko
+    closingTime: '2026-07-31T23:00:00Z'
+    resolutionTime: '2026-08-02T12:00:00Z'
+    contractId: -1
+  - question: Will Bruno Fernandes remain at Manchester United through the start of the 2026-27 Premier League season?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: Premier League official squad lists
+    closingTime: '2026-08-15T23:59:00Z'
+    resolutionTime: '2026-08-22T23:59:00Z'
+    contractId: 385
+  - question: Will Francesca Jones reach the third round of the 2026 French Open?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: Roland-Garros official site
+    closingTime: '2026-05-30T10:00:00Z'
+    resolutionTime: '2026-06-03T23:59:00Z'
+    contractId: 386
+  - question: Will the Iran-US 60-day ceasefire deal be formally signed before July 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: US State Department announcement
+    closingTime: '2026-07-30T23:59:00Z'
+    resolutionTime: '2026-08-02T23:59:00Z'
+    contractId: 387
+  - question: Will Pakistan officially attribute the Pakistan train bombing to a specific separatist group by July 1, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1526470608268-f674ce90ebd4?w=800
+    resolutionSource: Pakistan government announcement
+    closingTime: '2026-06-30T23:59:00Z'
+    resolutionTime: '2026-07-02T23:59:00Z'
+    contractId: 388
+  - question: Will UK Prime Minister Starmer publicly order a sentence review of the boys-rape case by June 30, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: UK government official statement
+    closingTime: '2026-06-29T23:59:00Z'
+    resolutionTime: '2026-07-01T23:59:00Z'
+    contractId: 389
+  - question: Will Turkey's CHP opposition leaders be officially reinstated by court ruling before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: Turkish court records / Reuters
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-02T23:59:00Z'
+    contractId: 390
+  - question: Will AMD officially break ground on its $10B Taiwan AI infrastructure project by August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?w=800
+    resolutionSource: AMD press release
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-02T23:59:00Z'
+    contractId: 391
+  - question: Will GameStop's eBay acquisition bid be formally accepted by eBay's board by August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800
+    resolutionSource: eBay/GameStop SEC filings
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-02T23:59:00Z'
+    contractId: 392
+  - question: Will SpaceX officially confirm Chun Wang's Mars mission launch date by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800
+    resolutionSource: SpaceX official announcement
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-02T23:59:00Z'
+    contractId: 393
+  - question: Will the Dreamie alarm clock receive a major software update featuring expanded podcast services by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800
+    resolutionSource: Dreamie official announcement
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-02T23:59:00Z'
+    contractId: 394
+  - question: Will India officially report more than 50 heatstroke deaths nationally by July 1, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800
+    resolutionSource: Indian government health ministry
+    closingTime: '2026-06-30T23:59:00Z'
+    resolutionTime: '2026-07-02T23:59:00Z'
+    contractId: 395
+  - question: Will a peer-reviewed paper on heavily reddened quasars in 'blow-out' phase be published in a major journal by August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800
+    resolutionSource: Nature/Science/MNRAS journals
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-02T23:59:00Z'
+    contractId: 396
+  - question: Will 'The Mandalorian and Grogu' surpass $300M domestically by August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: Box Office Mojo
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-02T23:59:00Z'
+    contractId: 397
+  - question: Will 'Michael' (Michael Jackson biopic) cross $900M worldwide by August 1, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: Box Office Mojo
+    closingTime: '2026-07-31T23:59:00Z'
+    resolutionTime: '2026-08-02T23:59:00Z'
+    contractId: 398
+  - question: Will 'Devil Wears Prada 2' surpass $750M globally by August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800
+    resolutionSource: Box Office Mojo
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-02T23:59:00Z'
+    contractId: 399
+  - question: Will HBO renew 'Euphoria' for Season 4 by August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800
+    resolutionSource: HBO official announcement
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-02T23:59:00Z'
+    contractId: 400
+  - question: Will 'Tuner' (Black Bear) expand to more than 500 screens by July 15, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1603190287605-e6ade32fa852?w=800
+    resolutionSource: Box Office Mojo
+    closingTime: '2026-07-14T23:59:00Z'
+    resolutionTime: '2026-07-16T23:59:00Z'
+    contractId: 401
+  - question: Will Russia conduct a publicly confirmed hypersonic missile strike on Kyiv between May 25 and July 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1526470608268-f674ce90ebd4?w=800
+    resolutionSource: BBC News / Ukrainian government
+    closingTime: '2026-07-30T23:59:00Z'
+    resolutionTime: '2026-08-02T23:59:00Z'
+    contractId: 402
+  - question: Will UK supermarket six-egg packs average above £1.50 per pack per ONS data by August 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1526470608268-f674ce90ebd4?w=800
+    resolutionSource: UK Office for National Statistics
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-15T23:59:00Z'
+    contractId: 403
