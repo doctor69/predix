@@ -2948,3 +2948,192 @@ markets:
     closingTime: '2026-08-30T23:00:00Z'
     resolutionTime: '2026-09-01T12:00:00Z'
     contractId: 424
+  - question: Will MoonPay's ChatGPT crypto purchase integration be available to US users by July 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1605792657660-596af9009e82?w=800
+    resolutionSource: MoonPay official announcement
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 425
+  - question: Will the Ethereum whale's $100M short be liquidated before July 1, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: On-chain data via Lookonchain
+    closingTime: '2026-06-30T23:00:00Z'
+    resolutionTime: '2026-07-02T12:00:00Z'
+    contractId: 426
+  - question: Will Strategy (MSTR) announce a new Bitcoin purchase before July 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800
+    resolutionSource: Strategy 8-K SEC filings
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 427
+  - question: Will the New York dormant Bitcoin lawsuit receive a court ruling by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800
+    resolutionSource: New York court records
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 428
+  - question: Will Arsenal win their 2026-27 Premier League opener?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: Premier League official site
+    closingTime: '2026-08-14T18:00:00Z'
+    resolutionTime: '2026-08-18T12:00:00Z'
+    contractId: 429
+  - question: Will Lionel Messi start Argentina's first 2026 World Cup match?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: FIFA official lineup
+    closingTime: '2026-06-10T18:00:00Z'
+    resolutionTime: '2026-06-13T12:00:00Z'
+    contractId: 430
+  - question: Will Nuno Espirito Santo remain West Ham manager on August 1, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: West Ham United official announcements
+    closingTime: '2026-07-31T18:00:00Z'
+    resolutionTime: '2026-08-02T12:00:00Z'
+    contractId: 431
+  - question: Will England's women win their next ODI series after the May 2026 T20 series win over New Zealand?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: ECB official results
+    closingTime: '2026-07-15T18:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 432
+  - question: Will Andrea Kimi Antonelli win the 2026 Canadian Grand Prix?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: Formula 1 official results
+    closingTime: '2026-06-14T17:00:00Z'
+    resolutionTime: '2026-06-15T12:00:00Z'
+    contractId: 433
+  - question: Will Graeme Shinnie sign with a new club before August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: Official club announcement
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 434
+  - question: Will Liverpool's mismatched 2026-27 kit officially go on sale by July 15, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: Liverpool FC official store
+    closingTime: '2026-07-14T23:00:00Z'
+    resolutionTime: '2026-07-16T12:00:00Z'
+    contractId: 435
+  - question: Will the Trump administration formally announce new restrictions on legal immigration by July 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: White House official announcements
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 436
+  - question: Will Trump order a new US military strike on Iran by August 15, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: Department of Defense official statements
+    closingTime: '2026-08-14T23:00:00Z'
+    resolutionTime: '2026-08-16T12:00:00Z'
+    contractId: 437
+  - question: Will the bystander wounded in the White House shooting be discharged from hospital by June 15, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: Metropolitan Police Department updates
+    closingTime: '2026-06-14T23:00:00Z'
+    resolutionTime: '2026-06-16T12:00:00Z'
+    contractId: 438
+  - question: Will China's Shenzhou 23 mission successfully return all three astronauts to Earth by August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: CNSA official announcements
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 439
+  - question: Will the Serbia government announce snap elections following the May 2026 protests by July 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: Serbian government official announcements
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 440
+  - question: Will EOG Resources (EOG) report Q2 2026 earnings beat on consensus EPS?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800
+    resolutionSource: EOG official earnings release
+    closingTime: '2026-08-05T23:00:00Z'
+    resolutionTime: '2026-08-10T12:00:00Z'
+    contractId: 441
+  - question: Will the May 2026 US PCE inflation print come in below 3.0% year-over-year?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800
+    resolutionSource: BEA PCE release
+    closingTime: '2026-06-26T12:00:00Z'
+    resolutionTime: '2026-06-28T12:00:00Z'
+    contractId: -1
+  - question: Will SpaceX's Starship V3 complete a successful booster catch on its next flight by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1518770660439-4636190af475?w=800
+    resolutionSource: SpaceX official statement
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: -1
+  - question: Will Firefox Project Nova be released to the general public by December 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800
+    resolutionSource: Mozilla official release notes
+    closingTime: '2026-08-31T23:00:00Z'
+    resolutionTime: '2026-09-02T12:00:00Z'
+    contractId: 442
+  - question: Will ClickUp publicly disclose using more than 1,000 AI agents by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800
+    resolutionSource: ClickUp official announcements
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 443
+  - question: Will TechCrunch Disrupt 2026 Startup Battlefield 200 announce its finalists by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800
+    resolutionSource: TechCrunch official announcement
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 444
+  - question: Will the southwestern US drought index (USDM D3+) improve below 20% coverage by August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1507668077129-56e32842fceb?w=800
+    resolutionSource: US Drought Monitor
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 445
+  - question: Will the eDNA Ontario biodiversity study be cited in 10 or more papers by August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800
+    resolutionSource: Google Scholar citations
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 446
+  - question: Will 'The Mandalorian and Grogu' cross $400M global box office by July 1, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1603190287605-e6ade32fa852?w=800
+    resolutionSource: Box Office Mojo
+    closingTime: '2026-06-30T23:00:00Z'
+    resolutionTime: '2026-07-02T12:00:00Z'
+    contractId: 447
+  - question: Will Pope Leo issue a second encyclical by August 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1526470608268-f674ce90ebd4?w=800
+    resolutionSource: Vatican official announcements
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 448
+  - question: Will the Philippines building collapse near Manila result in a confirmed death toll above 10 by June 15, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1474631245212-32dc3c8310c6?w=800
+    resolutionSource: Philippines NDRRMC official reports
+    closingTime: '2026-06-14T23:00:00Z'
+    resolutionTime: '2026-06-16T12:00:00Z'
+    contractId: 449
