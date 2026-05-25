@@ -2801,3 +2801,150 @@ markets:
     closingTime: '2026-08-30T23:59:00Z'
     resolutionTime: '2026-09-15T23:59:00Z'
     contractId: 403
+  - question: Will Liverpool announce a new senior signing before July 15, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: Liverpool FC official site
+    closingTime: '2026-07-14T18:00:00Z'
+    resolutionTime: '2026-07-16T12:00:00Z'
+    contractId: 404
+  - question: Will Sunderland win their opening 2026-27 Europa League match?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: UEFA official site
+    closingTime: '2026-09-15T18:00:00Z'
+    resolutionTime: '2026-09-30T22:00:00Z'
+    contractId: 405
+  - question: Will Como qualify out of the 2026-27 Champions League group/league phase?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: UEFA official site
+    closingTime: '2026-08-25T18:00:00Z'
+    resolutionTime: '2026-08-28T22:00:00Z'
+    contractId: 406
+  - question: Will Felix Rosenqvist win another IndyCar race in the 2026 season by August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: IndyCar official site
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 407
+  - question: Will Lawrence Shankland complete his transfer to Rangers by June 30, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: BBC Sport
+    closingTime: '2026-06-29T23:00:00Z'
+    resolutionTime: '2026-07-01T12:00:00Z'
+    contractId: 408
+  - question: Will Iran officially confirm its 2026 World Cup base in Mexico by July 1, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: FIFA official site
+    closingTime: '2026-06-30T23:00:00Z'
+    resolutionTime: '2026-07-02T12:00:00Z'
+    contractId: 409
+  - question: Will the CFTC publicly respond to NYT report on suspended officials by July 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: CFTC.gov
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 410
+  - question: Will Fenwick & West pay the $54M FTX settlement to victims by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1605792657660-596af9009e82?w=800
+    resolutionSource: FTX bankruptcy court filings
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 411
+  - question: Will Congress publicly release findings from the Polymarket/Kalshi insider trading probe by August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: House Oversight Committee
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 412
+  - question: Will the US-Iran peace agreement be formally signed by July 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: State Department
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 413
+  - question: Will France formally lift its ban on Itamar Ben-Gvir by August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: French government statement
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 414
+  - question: Will the Chinese coal mine explosion in Shanxi result in formal criminal charges by August 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1474631245212-32dc3c8310c6?w=800
+    resolutionSource: Xinhua News Agency
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 415
+  - question: Will Microsoft release Fara1.5 with API access for developers by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1518770660439-4636190af475?w=800
+    resolutionSource: Microsoft Research blog
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 416
+  - question: Will Viking Therapeutics announce a takeover or acquisition agreement by August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?w=800
+    resolutionSource: SEC filings
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 417
+  - question: Will Spotify announce more than 5 new AI-powered tools by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800
+    resolutionSource: Spotify Newsroom
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 418
+  - question: Will Xreal launch a new smart glasses model with Google by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800
+    resolutionSource: Xreal press release
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 419
+  - question: Will 'The Mandalorian and Grogu' achieve a Rotten Tomatoes critic score above 75% by July 1, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800
+    resolutionSource: Rotten Tomatoes
+    closingTime: '2026-06-30T23:00:00Z'
+    resolutionTime: '2026-07-02T12:00:00Z'
+    contractId: 420
+  - question: Will Ben Chapman's 'Feet on Fire' album chart on the Billboard 200 by August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1603190287605-e6ade32fa852?w=800
+    resolutionSource: Billboard.com
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 421
+  - question: Will Deep Fission's IPO price above $10 per share by August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?w=800
+    resolutionSource: SEC EDGAR
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 422
+  - question: Will Hyperliquid launch a pre-IPO market product publicly by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: Hyperliquid official announcement
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 423
+  - question: Will the Serbia anti-government protests lead to early elections being announced by August 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: Reuters
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 424
