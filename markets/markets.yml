@@ -3284,3 +3284,145 @@ markets:
     closingTime: '2026-08-30T23:00:00Z'
     resolutionTime: '2026-09-01T12:00:00Z'
     contractId: 470
+  - question: Will Carolina Hurricanes win the 2026 Stanley Cup?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: NHL.com
+    closingTime: '2026-06-01T23:00:00Z'
+    resolutionTime: '2026-07-15T23:00:00Z'
+    contractId: 471
+  - question: Will American Airlines publicly confirm Starlink installation on its first Airbus aircraft by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800
+    resolutionSource: American Airlines press release
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 472
+  - question: Will NASA publicly release a formal Moon base architecture document by August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800
+    resolutionSource: NASA.gov
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 473
+  - question: Will the UK officially recognize the 2026 European heatwave as the hottest on record by August 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1526470608268-f674ce90ebd4?w=800
+    resolutionSource: UK Met Office
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 474
+  - question: Will SharpLink Gaming be officially included in the Russell 2000 index at the June 2026 reconstitution?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: FTSE Russell
+    closingTime: '2026-06-26T20:00:00Z'
+    resolutionTime: '2026-06-30T12:00:00Z'
+    contractId: 475
+  - question: Will Pep Guardiola publicly announce his next coaching role by August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: BBC Sport
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 476
+  - question: Will Bitcoin spot ETF net flows turn positive on any single trading day before July 1, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800
+    resolutionSource: SoSoValue
+    closingTime: '2026-06-30T20:00:00Z'
+    resolutionTime: '2026-07-02T12:00:00Z'
+    contractId: 477
+  - question: Will Spotify's narrated magazine library exceed 1,000 titles by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800
+    resolutionSource: Spotify Newsroom
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 478
+  - question: Will the Dutch government's block of the US cloud acquisition be officially upheld by court ruling by August 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: Reuters
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 479
+  - question: Will a verified additional Bitcoin burn exceeding $1M occur from the same five addresses by July 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1605792657660-596af9009e82?w=800
+    resolutionSource: Blockchain.com explorer
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 480
+  - question: Will Zhu Juntao plead guilty to any of the six fraud charges in Singapore court by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800
+    resolutionSource: Singapore Police Force
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 481
+  - question: Will Naomi Osaka reach the second week of the 2026 French Open?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: Roland Garros official
+    closingTime: '2026-05-31T23:00:00Z'
+    resolutionTime: '2026-06-02T12:00:00Z'
+    contractId: 482
+  - question: Will the seven people trapped in the Laos flooded cave all be rescued alive by June 5, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: BBC News
+    closingTime: '2026-06-04T23:00:00Z'
+    resolutionTime: '2026-06-06T12:00:00Z'
+    contractId: 483
+  - question: Will the XRP Ledger fixCleanup3_1_3 upgrade complete activation without rollback by June 15, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1605792657660-596af9009e82?w=800
+    resolutionSource: XRPL.org
+    closingTime: '2026-06-14T23:00:00Z'
+    resolutionTime: '2026-06-16T12:00:00Z'
+    contractId: 484
+  - question: Will Burt Jones win the 2026 Georgia GOP gubernatorial primary?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: Georgia Secretary of State
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 485
+  - question: Will the Hugging Face $2,500 3D-printable humanoid robot ship to customers by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800
+    resolutionSource: Hugging Face official
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 486
+  - question: Will TechCrunch Disrupt 2026 Early Bird ticket sales end as scheduled on May 29, 2026 at 11:59 PM PT?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1518770660439-4636190af475?w=800
+    resolutionSource: TechCrunch
+    closingTime: '2026-05-29T22:00:00Z'
+    resolutionTime: '2026-05-31T12:00:00Z'
+    contractId: 487
+  - question: >-
+      Will Bruno Fernandes' record of most Premier League assists in a single season (set in 2025-26) still stand after the 2026-27 season
+      opens on August 15, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: Premier League
+    closingTime: '2026-08-14T23:00:00Z'
+    resolutionTime: '2026-08-16T12:00:00Z'
+    contractId: 488
+  - question: Will Iranian state-backed hackers be formally indicted by the US DOJ over the LA transit system breach by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800
+    resolutionSource: US Department of Justice
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 489
+  - question: Will at least one new gravitational wave detection from the Glasgow research be confirmed by LIGO/Virgo by August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800
+    resolutionSource: LIGO Scientific Collaboration
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 490
