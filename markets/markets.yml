@@ -3137,3 +3137,150 @@ markets:
     closingTime: '2026-06-14T23:00:00Z'
     resolutionTime: '2026-06-16T12:00:00Z'
     contractId: 449
+  - question: Will the Netherlands win the 2026 FIFA World Cup?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: FIFA
+    closingTime: '2026-07-18T12:00:00Z'
+    resolutionTime: '2026-07-20T12:00:00Z'
+    contractId: 450
+  - question: Will Binance officially return to the Philippines via the SEC sandbox by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800
+    resolutionSource: Philippine SEC
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 451
+  - question: Will Ken Paxton defeat John Cornyn in the Texas Republican Senate runoff?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: Associated Press
+    closingTime: '2026-05-26T23:00:00Z'
+    resolutionTime: '2026-05-28T12:00:00Z'
+    contractId: 452
+  - question: Will the UFC White House fight on June 14, 2026 take place as scheduled?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: UFC official
+    closingTime: '2026-06-13T20:00:00Z'
+    resolutionTime: '2026-06-15T20:00:00Z'
+    contractId: 453
+  - question: Will Spain's Polymarket ban be formally lifted by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: Spanish Directorate General for Regulation of Gambling
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 454
+  - question: Will the UK sanctions against HTX exchange be lifted by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800
+    resolutionSource: UK HM Treasury
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 455
+  - question: Will Hyperliquid's HIP-4 macro outcome betting product be live publicly by July 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: Hyperliquid official
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 456
+  - question: Will Cameron Norrie play at Wimbledon 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: Wimbledon
+    closingTime: '2026-06-28T12:00:00Z'
+    resolutionTime: '2026-07-01T12:00:00Z'
+    contractId: 457
+  - question: Will Paris record a temperature above 40°C during the June 2026 heatwave?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1474631245212-32dc3c8310c6?w=800
+    resolutionSource: Meteo France
+    closingTime: '2026-06-29T23:00:00Z'
+    resolutionTime: '2026-07-01T12:00:00Z'
+    contractId: 458
+  - question: Will Iran's internet access be fully restored nationally by July 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: NetBlocks
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 459
+  - question: Will the South African Constitutional Court rule on Ramaphosa's legal challenge before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: South African Constitutional Court
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 460
+  - question: Will the RWA market exceed $60 billion in tokenized value by August 31, 2026 per Bernstein/RWA.xyz?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800
+    resolutionSource: RWA.xyz
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 461
+  - question: Will Bitmine Immersion Technologies announce another ETH purchase by July 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800
+    resolutionSource: Bitmine SEC filings
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 462
+  - question: Will Spotify add a dedicated AI narration feature for magazines to its US app by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1518770660439-4636190af475?w=800
+    resolutionSource: Spotify Newsroom
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 463
+  - question: Will silver prices close above $35/oz on COMEX on July 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800
+    resolutionSource: COMEX
+    closingTime: '2026-07-30T20:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 464
+  - question: Will the average 30-year US mortgage rate fall below 6.5% per Freddie Mac by July 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?w=800
+    resolutionSource: Freddie Mac PMMS
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 465
+  - question: Will Israel and Hezbollah agree to a publicly announced ceasefire by August 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: Reuters
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 466
+  - question: Will Lionel Messi play in Inter Miami's next MLS match after his May 24 substitution?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: MLS official
+    closingTime: '2026-05-30T22:00:00Z'
+    resolutionTime: '2026-06-02T12:00:00Z'
+    contractId: 467
+  - question: Will Ireland win the four-day Test match against New Zealand at Stormont (May 27-30, 2026)?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: Cricket Ireland
+    closingTime: '2026-05-27T09:00:00Z'
+    resolutionTime: '2026-05-31T12:00:00Z'
+    contractId: 468
+  - question: Will Pope Leo's first AI encyclical be referenced in a UN General Assembly speech by August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: UN official records
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 469
+  - question: Will a peer-reviewed paper on trophic rewilding by large herbivores and insect diversity be published by August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800
+    resolutionSource: Journal indexing (Scopus/Web of Science)
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 470
