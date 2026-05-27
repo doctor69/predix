@@ -3797,3 +3797,164 @@ markets:
     closingTime: '2026-06-30T20:00:00Z'
     resolutionTime: '2026-07-02T12:00:00Z'
     contractId: 543
+  - question: Will Cash App report stablecoin transaction volume exceeding $100M in any monthly disclosure by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1605792657660-596af9009e82?w=800
+    resolutionSource: Block Inc. official filings
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 544
+  - question: Will the StakeDAO exploit attacker's stolen ETH be publicly recovered by July 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: PeckShield or StakeDAO official announcements
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 545
+  - question: Will IREN's annualized revenue projection exceed $4.4B in any earnings report before August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800
+    resolutionSource: IREN investor relations
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 546
+  - question: Will Falcon Finance's fUSD stablecoin maintain its peg within 1% on CoinGecko on July 15, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: CoinGecko
+    closingTime: '2026-07-14T23:00:00Z'
+    resolutionTime: '2026-07-16T12:00:00Z'
+    contractId: 547
+  - question: Will Ken Paxton lead the Texas Senate general election polling average above James Talarico on August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: RealClearPolitics polling average
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 548
+  - question: Will Colin Allred officially file as the Democratic nominee for his Texas House general election seat by July 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: Texas Secretary of State
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 549
+  - question: Will the Longview, WA paper mill chemical explosion result in a confirmed criminal investigation by August 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1526470608268-f674ce90ebd4?w=800
+    resolutionSource: Washington State authorities
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 550
+  - question: Will Donald Trump attend an NBA Finals game at Madison Square Garden in June 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: NBA broadcast/AP News
+    closingTime: '2026-06-20T23:00:00Z'
+    resolutionTime: '2026-06-25T12:00:00Z'
+    contractId: 551
+  - question: Will Gerwyn Price win the 2026 Premier League Darts final?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: PDC official
+    closingTime: '2026-05-29T15:00:00Z'
+    resolutionTime: '2026-05-30T12:00:00Z'
+    contractId: 552
+  - question: Will Vaibhav Sooryavanshi score another 90+ run innings in the 2026 IPL playoffs?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: IPL official
+    closingTime: '2026-05-30T12:00:00Z'
+    resolutionTime: '2026-06-02T12:00:00Z'
+    contractId: 553
+  - question: Will the US and Iran formally sign a nuclear deal by August 15, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: US State Department
+    closingTime: '2026-08-14T23:00:00Z'
+    resolutionTime: '2026-08-16T12:00:00Z'
+    contractId: 554
+  - question: Will Bangladesh's measles death toll exceed 1,000 confirmed by August 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1526470608268-f674ce90ebd4?w=800
+    resolutionSource: WHO / Bangladesh Health Ministry
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 555
+  - question: Will Robinhood's acquisition of WonderFi officially close by July 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800
+    resolutionSource: Robinhood/WonderFi press releases
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 556
+  - question: Will Hyperliquid (HYPE) ETF inflows extend their streak to 10 consecutive days by June 5, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800
+    resolutionSource: SoSoValue ETF tracker
+    closingTime: '2026-06-04T23:00:00Z'
+    resolutionTime: '2026-06-06T12:00:00Z'
+    contractId: 557
+  - question: Will North Korea conduct another publicly confirmed AI-guided missile test before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: KCNA / Reuters
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 558
+  - question: Will Volvo publicly announce a 2027 model year US release using bypassed Chinese connected-car components by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800
+    resolutionSource: Volvo official press
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 559
+  - question: Will Motorola's 2026 Razr launch at a US starting price above $1,000?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800
+    resolutionSource: Motorola official store
+    closingTime: '2026-07-15T23:00:00Z'
+    resolutionTime: '2026-07-30T12:00:00Z'
+    contractId: 560
+  - question: Will Nvidia officially discontinue the Control Panel for all GPU drivers by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800
+    resolutionSource: Nvidia driver release notes
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 561
+  - question: Will the Ted Danson/Elizabeth Banks Apple TV+ comedy series officially begin production by August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: Apple TV+/Deadline
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 562
+  - question: Will the '007 First Light' game receive a Metacritic score above 80 by August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1603190287605-e6ade32fa852?w=800
+    resolutionSource: Metacritic
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 563
+  - question: Will Kenneth Iwamasa's 41-month sentence be appealed publicly by August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800
+    resolutionSource: US court filings
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 564
+  - question: Will Spencer Pratt officially file to run for mayor of any California city by August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: California Secretary of State
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 565
+  - question: Will Spanish PM Pedro Sanchez resign before August 31, 2026 amid party HQ corruption probe?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: Spanish government announcements
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 566
