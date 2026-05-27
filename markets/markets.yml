@@ -3629,3 +3629,171 @@ markets:
     closingTime: '2026-08-30T23:00:00Z'
     resolutionTime: '2026-09-01T12:00:00Z'
     contractId: 519
+  - question: Will YouTube's automatic AI-video labeling feature be rolled out to all users globally by August 15, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800
+    resolutionSource: YouTube Official Blog
+    closingTime: '2026-08-14T23:00:00Z'
+    resolutionTime: '2026-08-16T12:00:00Z'
+    contractId: 520
+  - question: Will Manchester United complete the £38m signing of Ederson from Atalanta by July 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: BBC Sport
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 521
+  - question: Will Spain officially lift its block on Kalshi and Polymarket by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800
+    resolutionSource: Spanish Gambling Authority
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 522
+  - question: Will the OCC publicly defend its crypto bank charter approvals in a formal statement by July 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: OCC
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 523
+  - question: Will Vitalik Buterin publicly announce a reduction in his ETH holdings by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: Vitalik Buterin's verified accounts
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 524
+  - question: Will Israel conduct another publicly confirmed strike on Tyre, Lebanon before July 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1474631245212-32dc3c8310c6?w=800
+    resolutionSource: BBC News
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 525
+  - question: Will FIFA publicly publish a response to NY/NJ attorneys general on World Cup ticket pricing by August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: FIFA Official
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 526
+  - question: Will Elena Rybakina reach the Wimbledon 2026 quarterfinals?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: WTA
+    closingTime: '2026-07-06T12:00:00Z'
+    resolutionTime: '2026-07-12T23:59:00Z'
+    contractId: 527
+  - question: Will Kasper Schmeichel sign with any football club in a non-playing role by August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: BBC Sport
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 528
+  - question: Will the CFTC be granted sole authority over prediction markets via Congressional legislation by August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: US Congress
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 529
+  - question: Will OpenAI Foundation publicly disburse the first tranche of its $250M AI economic disruption fund by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800
+    resolutionSource: OpenAI Official
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 530
+  - question: Will Robinhood's AI-agent stock trading feature be available to retail users in all 50 US states by August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800
+    resolutionSource: Robinhood Official
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 531
+  - question: Will Thea Energy publicly demonstrate a working stellarator pixel-magnet prototype by August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800
+    resolutionSource: Thea Energy Press
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 532
+  - question: Will Jardine Matheson close its $2.4B acquisition of I-MED Radiology Network by August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800
+    resolutionSource: Reuters
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 533
+  - question: Will ElevenLabs' new music generation model with mid-track genre switching support 10+ languages by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800
+    resolutionSource: ElevenLabs Official
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 534
+  - question: Will Prime Video premiere any of the three GenAI-funded animated series by August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1603190287605-e6ade32fa852?w=800
+    resolutionSource: Amazon Prime Video
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 535
+  - question: Will Paul McCartney publicly release Prince's cover of 'The Long and Winding Road' by August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800
+    resolutionSource: Paul McCartney Official
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 536
+  - question: Will Sharyn Alfonsi sign with another major news outlet by August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1603190287605-e6ade32fa852?w=800
+    resolutionSource: Variety/Deadline
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 537
+  - question: Will Banca Sella formally launch its crypto custody product to retail clients by July 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800
+    resolutionSource: Banca Sella Official
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 538
+  - question: Will Orca's tokenized RWA marketplace exceed $50M in TVL by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800
+    resolutionSource: DefiLlama
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 539
+  - question: Will HTX publicly publish a legal challenge to the UK sanctions by July 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800
+    resolutionSource: HTX Official
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 540
+  - question: Will China's Supreme People's Court publicly publish new adjudication rules for crypto cases by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800
+    resolutionSource: Supreme People's Court of China
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 541
+  - question: Will NASA publicly identify a specific lunar base site location by August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800
+    resolutionSource: NASA Official
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 542
+  - question: Will Bitcoin spot ETF cumulative net inflows be positive for the month of June 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800
+    resolutionSource: SoSoValue
+    closingTime: '2026-06-30T20:00:00Z'
+    resolutionTime: '2026-07-02T12:00:00Z'
+    contractId: 543
