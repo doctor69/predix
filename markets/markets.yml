@@ -3426,3 +3426,206 @@ markets:
     closingTime: '2026-08-30T23:00:00Z'
     resolutionTime: '2026-09-01T12:00:00Z'
     contractId: 490
+  - question: Will Banca Sella officially launch crypto custody services to customers before August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: Banca Sella official announcement
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 491
+  - question: Will Mastercard publicly announce a stablecoin product under its New York BitLicense by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: Mastercard press releases
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 492
+  - question: Will SoFi's bank-issued stablecoin be available to all 15 million SoFi members by August 15, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: SoFi official announcement
+    closingTime: '2026-08-14T23:00:00Z'
+    resolutionTime: '2026-08-16T12:00:00Z'
+    contractId: 493
+  - question: Will Kraken's Bitcoin Vault product reach $100M in TVL by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800
+    resolutionSource: Kraken official disclosure
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 494
+  - question: Will Ken Paxton lead John Cornyn's eventual Democratic challenger in a major Texas Senate poll published before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: FiveThirtyEight/RealClearPolitics aggregated polls
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 495
+  - question: Will Carlos De La Cruz win the November 2026 general election in his Texas US House district?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: Texas Secretary of State
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-11-10T23:00:00Z'
+    contractId: 496
+  - question: Will Al Green win the Texas Democratic primary runoff?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: Texas Secretary of State
+    closingTime: '2026-05-28T18:00:00Z'
+    resolutionTime: '2026-05-29T12:00:00Z'
+    contractId: 497
+  - question: Will Uganda reopen its border with DR Congo before August 1, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: Government of Uganda official statement
+    closingTime: '2026-07-31T23:00:00Z'
+    resolutionTime: '2026-08-02T12:00:00Z'
+    contractId: 498
+  - question: Will the death toll from the Longview, Washington paper mill explosion exceed 5 confirmed by July 1, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: Washington state authorities
+    closingTime: '2026-06-30T23:00:00Z'
+    resolutionTime: '2026-07-02T12:00:00Z'
+    contractId: 499
+  - question: Will Spain's Socialist Party leader face formal corruption charges by August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: Spanish judicial authority
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 500
+  - question: Will Tottenham finish above 14th place in the 2025-26 Premier League final table?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: Premier League official table
+    closingTime: '2026-05-28T18:00:00Z'
+    resolutionTime: '2026-05-29T12:00:00Z'
+    contractId: 501
+  - question: Will Anthony Gordon officially transfer to Barcelona before September 1, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: FC Barcelona official announcement
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T23:00:00Z'
+    contractId: 502
+  - question: Will Braiden Graham earn his first senior international cap for Northern Ireland in the June 2026 friendlies?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: Irish Football Association
+    closingTime: '2026-06-05T23:00:00Z'
+    resolutionTime: '2026-06-15T23:00:00Z'
+    contractId: 503
+  - question: Will Andrea Kimi Antonelli lead the 2026 F1 Drivers' Championship standings after the British Grand Prix?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: Formula 1 official standings
+    closingTime: '2026-07-05T23:00:00Z'
+    resolutionTime: '2026-07-07T23:00:00Z'
+    contractId: 504
+  - question: Will Lawrence Shankland be named in Scotland's 2026 World Cup squad?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: Scottish FA official squad announcement
+    closingTime: '2026-06-01T23:00:00Z'
+    resolutionTime: '2026-06-10T23:00:00Z'
+    contractId: 505
+  - question: Will Dakota Ditcheva defeat Denise Kielholtz at PFL on July 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: PFL official results
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 506
+  - question: Will Micron (MU) close at a new all-time high before July 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800
+    resolutionSource: Nasdaq official close
+    closingTime: '2026-07-30T20:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 507
+  - question: Will TotalEnergies extend French fuel price caps past June 30, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800
+    resolutionSource: TotalEnergies official announcement
+    closingTime: '2026-06-29T23:00:00Z'
+    resolutionTime: '2026-07-02T12:00:00Z'
+    contractId: 508
+  - question: Will SK Hynix's market cap remain above $1 trillion on July 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800
+    resolutionSource: Korea Exchange official data
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 509
+  - question: Will Robinhood launch its AI-powered automated trading feature to all US users by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800
+    resolutionSource: Robinhood official announcement
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 510
+  - question: Will the UK Visa Portal data leak be officially confirmed fixed by July 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800
+    resolutionSource: UK Home Office statement
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 511
+  - question: Will the Starlette 'BadHost' vulnerability receive an official CVE patch released before July 1, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800
+    resolutionSource: Starlette GitHub repository / NIST CVE
+    closingTime: '2026-06-30T23:00:00Z'
+    resolutionTime: '2026-07-02T12:00:00Z'
+    contractId: 512
+  - question: Will ElevenLabs' new music generation model be publicly available to all users by August 1, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1518770660439-4636190af475?w=800
+    resolutionSource: ElevenLabs official announcement
+    closingTime: '2026-07-31T23:00:00Z'
+    resolutionTime: '2026-08-02T12:00:00Z'
+    contractId: 513
+  - question: Will Perplexity's Bumblebee tool be publicly released for general use by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800
+    resolutionSource: Perplexity official announcement
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 514
+  - question: Will SpaceX conduct another Starship test flight before August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800
+    resolutionSource: SpaceX official launch
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 515
+  - question: Will the 2026 UFC White House fight be officially confirmed with a main event matchup announcement by July 4, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: UFC official announcement
+    closingTime: '2026-07-03T23:00:00Z'
+    resolutionTime: '2026-07-05T12:00:00Z'
+    contractId: 516
+  - question: Will 'Teenage Sex And Death At Camp Miasma' open above $5M domestically in its opening weekend?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800
+    resolutionSource: Box Office Mojo
+    closingTime: '2026-08-06T23:00:00Z'
+    resolutionTime: '2026-08-11T23:00:00Z'
+    contractId: 517
+  - question: Will Ranveer Singh be officially removed from any FWICE membership lists by July 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800
+    resolutionSource: FWICE official statement
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 518
+  - question: Will Pope Leo make a public statement referencing Peter Thiel by August 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1474631245212-32dc3c8310c6?w=800
+    resolutionSource: Vatican official communications
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 519
