@@ -4329,3 +4329,164 @@ markets:
     closingTime: '2026-08-30T23:59:00Z'
     resolutionTime: '2026-09-01T12:00:00Z'
     contractId: 619
+  - question: Will Grayscale officially file its S-1 IPO prospectus with the SEC by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: SEC EDGAR
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 620
+  - question: Will VanEck's spot BNB ETF surpass $100M in AUM by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: VanEck official disclosures
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-02T12:00:00Z'
+    contractId: 621
+  - question: Will the Sui network suffer another publicly confirmed outage before August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1605792657660-596af9009e82?w=800
+    resolutionSource: Sui Foundation status page
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 622
+  - question: Will Michele Spagnuolo (Google engineer) be formally indicted on insider trading charges by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800
+    resolutionSource: US DOJ press releases
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 623
+  - question: Will SoFiUSD stablecoin market cap exceed $50M by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: CoinGecko
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-02T12:00:00Z'
+    contractId: 624
+  - question: Will Jannik Sinner win his next ATP tournament after his French Open loss by August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: ATP Tour
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 625
+  - question: Will the EU's €200m fine against Temu be formally appealed by Temu before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: European Commission
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 626
+  - question: Will Israel and Iran extend their ceasefire publicly past July 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: Reuters/BBC News
+    closingTime: '2026-07-30T23:59:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 627
+  - question: Will Rivian issue an official recall on R1 models for rear suspension failures by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800
+    resolutionSource: NHTSA recall database
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 628
+  - question: Will Tesla's California racial discrimination lawsuit trial begin in July 2026 as scheduled?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1518770660439-4636190af475?w=800
+    resolutionSource: California civil rights agency
+    closingTime: '2026-07-30T23:59:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 629
+  - question: Will Toy Story 5 cross $500M global box office by August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800
+    resolutionSource: Box Office Mojo
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 630
+  - question: Will the Beach Read film adaptation announce a release date by August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: Variety/Deadline
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 631
+  - question: Will Madonna's Bilt rent payment program be extended to additional venues by August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800
+    resolutionSource: Bilt official announcement
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 632
+  - question: Will Roger Daltrey announce additional solo tour dates beyond his current schedule by August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: Roger Daltrey official website
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 633
+  - question: Will the CNN 'Independence Eve Live' broadcast air as scheduled on July 3, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: CNN
+    closingTime: '2026-07-03T18:00:00Z'
+    resolutionTime: '2026-07-05T12:00:00Z'
+    contractId: 634
+  - question: Will WTI crude oil settle above $80/barrel on July 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800
+    resolutionSource: NYMEX
+    closingTime: '2026-07-30T23:59:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 635
+  - question: Will the BlackRock IBIT ETF see more than $1B in net outflows in any single trading day before July 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?w=800
+    resolutionSource: Farside Investors
+    closingTime: '2026-07-30T23:59:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 636
+  - question: Will Rodrigo Duterte's ICC trial begin on November 30, 2026 as scheduled?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: International Criminal Court
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 637
+  - question: Will Jill Biden release a memoir or book deal announcement by August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: Major US publishers
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 638
+  - question: Will Rico Verhoeven officially be granted a rematch against Oleksandr Usyk by August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: WBO/WBC/IBF/WBA official announcement
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 639
+  - question: Will Aitana Bonmati start for Spain in the next Women's World Cup qualifier against England?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: UEFA official
+    closingTime: '2026-06-01T18:00:00Z'
+    resolutionTime: '2026-06-03T12:00:00Z'
+    contractId: 640
+  - question: Will Polymarket's KYC requirement be extended to its main platform by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: Polymarket official announcement
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 641
+  - question: Will Sequans Communications complete the liquidation of its Bitcoin holdings by July 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: Sequans Communications official filings
+    closingTime: '2026-07-30T23:59:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 642
