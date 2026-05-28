@@ -4063,3 +4063,143 @@ markets:
     closingTime: '2026-07-14T23:00:00Z'
     resolutionTime: '2026-07-16T12:00:00Z'
     contractId: 581
+  - question: Will Kraken's BTC Vault product surpass $200M in total deposits by July 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800
+    resolutionSource: Kraken official announcements
+    closingTime: '2026-07-30T23:59:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 582
+  - question: Will DTCC publicly confirm a Stellar tokenized asset pilot launch by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: DTCC official announcements
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 583
+  - question: Will a new crypto-related IPO price above its initial range on a US exchange before August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800
+    resolutionSource: SEC EDGAR/Nasdaq/NYSE filings
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 584
+  - question: Will Andy Robertson officially sign for Tottenham Hotspur before August 1, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: Tottenham Hotspur official site
+    closingTime: '2026-07-31T23:59:00Z'
+    resolutionTime: '2026-08-02T12:00:00Z'
+    contractId: 585
+  - question: Will Alexia Putellas officially transfer to London City Lionesses before August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: FC Barcelona/London City Lionesses official announcements
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 586
+  - question: Will Milan Momcilovic commit to a college basketball program before July 1, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: ESPN
+    closingTime: '2026-06-30T23:59:00Z'
+    resolutionTime: '2026-07-02T12:00:00Z'
+    contractId: 587
+  - question: Will Oleksandr Usyk's next heavyweight title defense be officially announced by August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: ESPN Boxing
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 588
+  - question: Will Trevor Lawrence appear with his trademark long hair restored at the Jaguars' first 2026 regular season game?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: NFL.com/Jaguars official broadcasts
+    closingTime: '2026-09-06T23:59:00Z'
+    resolutionTime: '2026-09-15T12:00:00Z'
+    contractId: 589
+  - question: Will the giant Messi statue in India be officially removed or relocated by July 15, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: BBC News
+    closingTime: '2026-07-14T23:59:00Z'
+    resolutionTime: '2026-07-16T12:00:00Z'
+    contractId: 590
+  - question: Will the DOJ formally indict E. Jean Carroll by August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: US Department of Justice
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 591
+  - question: Will Joe Biden's lawsuit against the DOJ over tape release receive a court ruling by August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: US federal court records
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 592
+  - question: Will all remaining Laos cave-trapped villagers be confirmed found by June 10, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: BBC News
+    closingTime: '2026-06-09T23:59:00Z'
+    resolutionTime: '2026-06-11T12:00:00Z'
+    contractId: 593
+  - question: Will Stability AI's Stable Audio 3.0 model weights be released openly by July 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800
+    resolutionSource: Stability AI/Hugging Face
+    closingTime: '2026-07-30T23:59:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 594
+  - question: Will OpenAI release a model exceeding GPT-5.5 on the Huawei Claw-Anything benchmark by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800
+    resolutionSource: Huawei Claw-Anything benchmark leaderboard
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 595
+  - question: Will NASA publicly announce three lunar surface missions launching in 2026 by August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800
+    resolutionSource: NASA official announcements
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 596
+  - question: Will a peer-reviewed paper on bat fatty-acid migration metabolism be cited 50+ times by August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1507668077129-56e32842fceb?w=800
+    resolutionSource: Google Scholar
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 597
+  - question: Will a working quantum computer with over 2,000 logical qubits be publicly demonstrated by August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800
+    resolutionSource: Nature/Science journal publications
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 598
+  - question: Will 'Disclosure Day' receive a Rotten Tomatoes critic score above 85% within a week of release?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800
+    resolutionSource: Rotten Tomatoes
+    closingTime: '2026-06-12T23:59:00Z'
+    resolutionTime: '2026-06-19T12:00:00Z'
+    contractId: 599
+  - question: Will Carl Rinsch be sentenced to over 5 years in prison for the Netflix scam by August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1603190287605-e6ade32fa852?w=800
+    resolutionSource: US federal court records
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 600
+  - question: Will Fidelity's number of 401(k) millionaires increase quarter-over-quarter in its Q2 2026 report?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?w=800
+    resolutionSource: Fidelity quarterly reports
+    closingTime: '2026-08-15T23:59:00Z'
+    resolutionTime: '2026-08-31T12:00:00Z'
+    contractId: 601
