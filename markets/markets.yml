@@ -3958,3 +3958,108 @@ markets:
     closingTime: '2026-08-30T23:00:00Z'
     resolutionTime: '2026-09-01T12:00:00Z'
     contractId: 566
+  - question: Will Enzo Fernandez officially transfer away from Chelsea before August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: Premier League official transfers
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 567
+  - question: Will Mohammed Ben Sulayem's proposal to remove FIA presidency term limits be formally voted on by August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: FIA official announcements
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 568
+  - question: Will David Rush, the CIA official arrested with gold bars, face additional federal charges by August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: US DOJ court filings
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 569
+  - question: Will BP officially name a new permanent Chair to replace Albert Manifold by August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?w=800
+    resolutionSource: BP press release
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 570
+  - question: Will Salesforce (CRM) stock close above its pre-earnings price within 30 trading days?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800
+    resolutionSource: Nasdaq
+    closingTime: '2026-07-10T23:00:00Z'
+    resolutionTime: '2026-07-12T12:00:00Z'
+    contractId: 571
+  - question: Will Snowflake (SNOW) stock hit a new 52-week high before July 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800
+    resolutionSource: Nasdaq
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 572
+  - question: Will Zscaler (ZS) stock recover to its pre-earnings level by August 1, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800
+    resolutionSource: Nasdaq
+    closingTime: '2026-07-31T23:00:00Z'
+    resolutionTime: '2026-08-02T12:00:00Z'
+    contractId: 573
+  - question: Will Robinhood publicly launch its AI portfolio-building agent to all US users by July 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800
+    resolutionSource: Robinhood official announcement
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 574
+  - question: Will Spotify's podcast clipping feature be available to all US users by July 15, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1518770660439-4636190af475?w=800
+    resolutionSource: Spotify newsroom
+    closingTime: '2026-07-14T23:00:00Z'
+    resolutionTime: '2026-07-16T12:00:00Z'
+    contractId: 575
+  - question: Will SpaceX publicly disclose the cause of the Starship V3 booster failure by August 1, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1518770660439-4636190af475?w=800
+    resolutionSource: SpaceX official statement / FAA
+    closingTime: '2026-07-31T23:00:00Z'
+    resolutionTime: '2026-08-02T12:00:00Z'
+    contractId: 576
+  - question: Will Triomics announce another funding round after its $22M Series B by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1518770660439-4636190af475?w=800
+    resolutionSource: TechCrunch / Triomics announcements
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 577
+  - question: Will the Google engineer charged with Polymarket insider trading plead guilty by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800
+    resolutionSource: US DOJ court records
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 578
+  - question: Will a peer-reviewed paper on the 'little red dot' naked supermassive black hole be published by August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1507668077129-56e32842fceb?w=800
+    resolutionSource: Nature / arXiv
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 579
+  - question: Will HBO's 'The Pitt' Season 3 receive an official premiere date announcement by August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1603190287605-e6ade32fa852?w=800
+    resolutionSource: HBO official
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 580
+  - question: Will Israel issue an additional evacuation order for further areas of southern Lebanon before July 15, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: IDF official statements
+    closingTime: '2026-07-14T23:00:00Z'
+    resolutionTime: '2026-07-16T12:00:00Z'
+    contractId: 581
