@@ -4203,3 +4203,129 @@ markets:
     closingTime: '2026-08-15T23:59:00Z'
     resolutionTime: '2026-08-31T12:00:00Z'
     contractId: 601
+  - question: Will Steve Clarke remain Scotland head coach on August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: Scottish FA official website
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 602
+  - question: Will the SEC formally announce a departure from the NCAA by August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: SEC official press releases
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 603
+  - question: Will the CFTC-Gemini joint motion to reverse the $5M settlement be granted by a court before August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800
+    resolutionSource: US court PACER filings
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 604
+  - question: Will Block's Cash App stablecoin be fully rolled out to 100% of users by June 30, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800
+    resolutionSource: Block official announcements
+    closingTime: '2026-06-29T23:59:00Z'
+    resolutionTime: '2026-07-01T12:00:00Z'
+    contractId: 605
+  - question: Will Shohei Ohtani hit 30 home runs before the 2026 MLB All-Star break?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: MLB.com
+    closingTime: '2026-07-13T23:59:00Z'
+    resolutionTime: '2026-07-15T12:00:00Z'
+    contractId: 606
+  - question: Will Tyson Fury fight in Dublin in August 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: BBC Sport
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 607
+  - question: Will the Carolina Hurricanes eliminate the Montreal Canadiens in their current playoff series?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: NHL.com
+    closingTime: '2026-06-02T23:59:00Z'
+    resolutionTime: '2026-06-05T12:00:00Z'
+    contractId: 608
+  - question: Will Crystal Palace officially appoint Andoni Iraola as manager by July 15, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: Crystal Palace FC official website
+    closingTime: '2026-07-14T23:59:00Z'
+    resolutionTime: '2026-07-16T12:00:00Z'
+    contractId: 609
+  - question: Will the 2026 BBC Football Awards take place as scheduled?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: BBC Sport
+    closingTime: '2026-07-15T23:59:00Z'
+    resolutionTime: '2026-08-31T12:00:00Z'
+    contractId: 610
+  - question: Will the Kenya school fire investigation publicly identify a cause by August 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1474631245212-32dc3c8310c6?w=800
+    resolutionSource: BBC News
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 611
+  - question: Will the US Court order requiring Customs to address tariff refund compliance result in any refund disbursement by August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: US Customs and Border Protection
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 612
+  - question: Will Tony Blair publicly endorse a Labour leadership challenger by August 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1526470608268-f674ce90ebd4?w=800
+    resolutionSource: BBC News
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 613
+  - question: Will Olivia Rodrigo's next album be officially announced by August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: Olivia Rodrigo official channels
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 614
+  - question: Will the White House finalize CFTC prediction-market rule review by July 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: White House/CFTC announcements
+    closingTime: '2026-07-30T23:59:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 615
+  - question: Will Iran launch another publicly confirmed strike on a US base by July 15, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: BBC News
+    closingTime: '2026-07-14T23:59:00Z'
+    resolutionTime: '2026-07-16T12:00:00Z'
+    contractId: 616
+  - question: Will Bath Rugby win the English Premiership rugby title for the 2025-26 season?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: Premiership Rugby official website
+    closingTime: '2026-06-13T23:59:00Z'
+    resolutionTime: '2026-06-15T12:00:00Z'
+    contractId: 617
+  - question: Will Joan Baez make a public political endorsement before the November 2026 election by August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800
+    resolutionSource: Joan Baez verified social media
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 618
+  - question: Will the 'Moriarty' Sherlock Holmes series receive an official network/platform announcement by August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: Deadline/Variety
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 619
