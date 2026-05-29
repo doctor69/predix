@@ -4490,3 +4490,199 @@ markets:
     closingTime: '2026-07-30T23:59:00Z'
     resolutionTime: '2026-08-01T12:00:00Z'
     contractId: 642
+  - question: Will Samsung's $408M stake in Dunamu be officially confirmed by Samsung Securities by July 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1605792657660-596af9009e82?w=800
+    resolutionSource: Samsung Securities press releases
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 643
+  - question: Will the U.S. Treasury officially announce a $250 bill featuring Donald Trump by August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: U.S. Treasury Department
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 644
+  - question: Will Waymo's Ojai minivan robotaxi be available to riders in at least 3 US cities by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1518770660439-4636190af475?w=800
+    resolutionSource: Waymo announcements
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 645
+  - question: Will Intel's Arc B390 integrated GPU ship in a retail handheld gaming PC by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800
+    resolutionSource: Intel and OEM announcements
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 646
+  - question: Will Slate Auto announce final EV pricing below $30,000 on June 24, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1518770660439-4636190af475?w=800
+    resolutionSource: Slate Auto official announcement
+    closingTime: '2026-06-23T23:00:00Z'
+    resolutionTime: '2026-06-25T12:00:00Z'
+    contractId: 647
+  - question: Will Kalshi obtain a federal court injunction blocking Minnesota's prediction market ban before August 1, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: US federal court filings
+    closingTime: '2026-07-31T23:00:00Z'
+    resolutionTime: '2026-08-02T12:00:00Z'
+    contractId: 648
+  - question: Will Heather Knight be named in England's playing XI for the first 2026 T20 World Cup match on June 12?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: ECB/ICC team sheets
+    closingTime: '2026-06-11T23:00:00Z'
+    resolutionTime: '2026-06-13T12:00:00Z'
+    contractId: 649
+  - question: Will Keely Hodgkinson break the women's 800m world record at the London Diamond League in July 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: World Athletics
+    closingTime: '2026-07-18T23:00:00Z'
+    resolutionTime: '2026-07-20T12:00:00Z'
+    contractId: 650
+  - question: Will Paul Magnier win another stage at the 2026 Giro d'Italia after stage 18?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: Giro d'Italia official
+    closingTime: '2026-06-01T12:00:00Z'
+    resolutionTime: '2026-06-02T18:00:00Z'
+    contractId: 651
+  - question: Will JPMorgan Chase stock close above $300 before August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800
+    resolutionSource: NYSE
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 652
+  - question: Will OKX Ventures' $53M investment in Coinone be officially confirmed by Coinone by July 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: Coinone official announcements
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 653
+  - question: Will SoFiUSD be available on both Ethereum and Solana mainnets by July 15, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1605792657660-596af9009e82?w=800
+    resolutionSource: SoFi official announcements
+    closingTime: '2026-07-14T23:00:00Z'
+    resolutionTime: '2026-07-16T12:00:00Z'
+    contractId: 654
+  - question: Will Paxos publicly launch a tokenized securities clearing product as an SEC-registered clearing agency by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: Paxos and SEC
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 655
+  - question: Will the BlackRock IBIT ETF post a single-day outflow exceeding $500M before July 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1605792657660-596af9009e82?w=800
+    resolutionSource: BlackRock/Farside Investors
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 656
+  - question: Will Blue Origin officially identify the cause of the New Glenn launch-pad explosion by July 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800
+    resolutionSource: Blue Origin official statements
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 657
+  - question: Will the JFK Airport Ebola screening program be expanded to additional US airports by August 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1474631245212-32dc3c8310c6?w=800
+    resolutionSource: CDC announcements
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 658
+  - question: Will the UK Home Office officially deploy AI age estimation for asylum seekers by August 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1474631245212-32dc3c8310c6?w=800
+    resolutionSource: UK Home Office
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 659
+  - question: Will Netanyahu publicly confirm Israeli control over 70% of Gaza by August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: Israeli government statements
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 660
+  - question: Will any additional country sign onto the Abraham Accords by August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: US State Department
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 661
+  - question: Will Anthropic's Claude Opus 4.8 score above 80 on the SWE-bench benchmark by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800
+    resolutionSource: Anthropic publications/SWE-bench leaderboard
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 662
+  - question: Will Apple unveil a redesigned Siri at WWDC 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800
+    resolutionSource: Apple WWDC 2026 keynote
+    closingTime: '2026-06-08T16:00:00Z'
+    resolutionTime: '2026-06-10T12:00:00Z'
+    contractId: 663
+  - question: Will Bluesky's long-form content feature be publicly launched to all users by July 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1518770660439-4636190af475?w=800
+    resolutionSource: Bluesky
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 664
+  - question: Will at least one more artist publicly drop out of the Trump 'Freedom 250' concert by July 4, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800
+    resolutionSource: Public artist statements/media reports
+    closingTime: '2026-07-03T23:00:00Z'
+    resolutionTime: '2026-07-05T12:00:00Z'
+    contractId: 665
+  - question: Will Anderson Cooper and Andy Cohen host CNN's 'Independence Eve Live' on July 3, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: CNN
+    closingTime: '2026-07-02T23:00:00Z'
+    resolutionTime: '2026-07-04T12:00:00Z'
+    contractId: 666
+  - question: Will Alice Rohrwacher's 'The Baron in the Trees' adaptation begin principal photography by August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800
+    resolutionSource: Industry trade publications
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 667
+  - question: Will the CatFi meme coin prosecution result in any formal charges under Korea's Virtual Asset User Protection Act by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800
+    resolutionSource: Korean prosecutors' office
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 668
+  - question: Will pancreatic cancer virus injection therapy enter a Phase 2 trial by August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800
+    resolutionSource: ClinicalTrials.gov
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 669
+  - question: Will Bath & Body Works (BBWI) stock close above its post-earnings spike price on July 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800
+    resolutionSource: NYSE
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 670
