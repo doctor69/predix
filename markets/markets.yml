@@ -4826,3 +4826,129 @@ markets:
     closingTime: '2026-07-30T23:00:00Z'
     resolutionTime: '2026-07-31T23:59:00Z'
     contractId: 689
+  - question: Will Rafael Nadal officially announce a return to competitive tennis by August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: ATP Tour
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 690
+  - question: Will Anthony Gordon score in his first competitive Barcelona match by August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: La Liga
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 691
+  - question: Will Pam Bondi be recalled to testify before the House Oversight Committee on the Epstein files by August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: House Oversight Committee
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 692
+  - question: Will Kalshi's Bitcoin perpetual futures contracts officially launch to US users by July 15, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: Kalshi
+    closingTime: '2026-07-14T23:59:00Z'
+    resolutionTime: '2026-07-16T12:00:00Z'
+    contractId: 693
+  - question: Will Tether's USAT stablecoin market cap exceed $300 million by July 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800
+    resolutionSource: CoinGecko
+    closingTime: '2026-07-30T23:59:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 694
+  - question: Will Alex Mashinsky's motion to vacate his sentence be granted by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800
+    resolutionSource: US District Court SDNY
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 695
+  - question: Will the Kennedy Center officially remove Donald Trump's name from the building by June 15, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: Kennedy Center
+    closingTime: '2026-06-14T23:59:00Z'
+    resolutionTime: '2026-06-16T12:00:00Z'
+    contractId: 696
+  - question: Will the Louisiana congressional map eliminating a majority-Black district be blocked by a federal court by August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: US federal court filings
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 697
+  - question: Will Anthropic release a Claude model successor beyond Claude Opus 4.8 by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1518770660439-4636190af475?w=800
+    resolutionSource: Anthropic
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 698
+  - question: Will Asana officially complete the integration of StackAI into its workflow tools by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800
+    resolutionSource: Asana
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 699
+  - question: Will Groq close a $650M funding round by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800
+    resolutionSource: Groq
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 700
+  - question: Will NASA officially delay its Artemis Moon mission timeline following the Blue Origin explosion by August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800
+    resolutionSource: NASA
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 701
+  - question: Will Lesley Manville win the 2026 Tony Award for Best Actress in a Play?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: Tony Awards
+    closingTime: '2026-06-07T22:00:00Z'
+    resolutionTime: '2026-06-09T12:00:00Z'
+    contractId: 702
+  - question: Will Lenovo stock close higher than its end-of-May 2026 price on June 30, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800
+    resolutionSource: Hong Kong Stock Exchange
+    closingTime: '2026-06-29T23:59:00Z'
+    resolutionTime: '2026-06-30T12:00:00Z'
+    contractId: 703
+  - question: Will Adam Azim defend his IBO light-welterweight title in his next bout before August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: IBO Boxing
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 704
+  - question: Will Luke Littler win the 2026 World Matchplay darts tournament?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: PDC
+    closingTime: '2026-07-25T12:00:00Z'
+    resolutionTime: '2026-07-27T12:00:00Z'
+    contractId: 705
+  - question: Will Israel formally confirm 70% control of Gaza by July 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1526470608268-f674ce90ebd4?w=800
+    resolutionSource: IDF official statements
+    closingTime: '2026-07-30T23:59:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 706
+  - question: Will Kenneth Law receive a sentence of life in prison for aiding suicides by August 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1474631245212-32dc3c8310c6?w=800
+    resolutionSource: Ontario Superior Court
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 707
