@@ -4686,3 +4686,143 @@ markets:
     closingTime: '2026-07-30T23:00:00Z'
     resolutionTime: '2026-08-01T12:00:00Z'
     contractId: 670
+  - question: Will Bit Digital's Ethereum treasury exceed 200,000 ETH by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1605792657660-596af9009e82?w=800
+    resolutionSource: CoinGecko corporate holdings tracker
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 671
+  - question: Will Hyperliquid's pre-IPO SpaceX contracts recover to pre-flash-crash levels by July 15, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800
+    resolutionSource: Hyperliquid
+    closingTime: '2026-07-14T23:00:00Z'
+    resolutionTime: '2026-07-15T23:59:00Z'
+    contractId: 672
+  - question: Will DxSale recover the $7.3M stolen in the BNB Chain liquidity exploit by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1605792657660-596af9009e82?w=800
+    resolutionSource: DxSale official announcement
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 673
+  - question: Will Real Madrid win the 2026 FIFA Club World Cup?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: FIFA
+    closingTime: '2026-07-10T20:00:00Z'
+    resolutionTime: '2026-07-15T23:59:00Z'
+    contractId: 674
+  - question: Will the Oklahoma City Thunder win the 2026 NBA Finals?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: NBA.com
+    closingTime: '2026-06-20T23:00:00Z'
+    resolutionTime: '2026-06-25T23:59:00Z'
+    contractId: -1
+  - question: Will Mitchell Robinson play in Game 1 of the 2026 NBA Finals?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: ESPN
+    closingTime: '2026-06-04T20:00:00Z'
+    resolutionTime: '2026-06-06T06:00:00Z'
+    contractId: 675
+  - question: Will Texas and Texas Tech be scheduled to play in Week 1 of the 2026 college football season?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: ESPN
+    closingTime: '2026-08-15T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 676
+  - question: Will Pam Bondi face any formal charges following her Congressional Epstein probe testimony by August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: DOJ
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 677
+  - question: Will the US and Iran sign a formal ceasefire extension deal by June 30, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: BBC News
+    closingTime: '2026-06-29T23:00:00Z'
+    resolutionTime: '2026-06-30T23:59:00Z'
+    contractId: 678
+  - question: Will Sir Jeffrey Donaldson be found guilty on any of his 18 sex abuse charges by August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: BBC News
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 679
+  - question: Will Pay Tel face a class action lawsuit over the prison phone data leak by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1518770660439-4636190af475?w=800
+    resolutionSource: TechCrunch
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 680
+  - question: Will Backrooms gross over $100M domestically by July 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: Box Office Mojo
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-07-31T23:59:00Z'
+    contractId: 681
+  - question: Will House of the Dragon Season 3 premiere on HBO on June 21, 2026 as scheduled?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800
+    resolutionSource: HBO
+    closingTime: '2026-06-20T23:00:00Z'
+    resolutionTime: '2026-06-22T23:59:00Z'
+    contractId: 682
+  - question: Will A Different World sequel series premiere on Netflix on September 24, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800
+    resolutionSource: Netflix
+    closingTime: '2026-09-23T23:00:00Z'
+    resolutionTime: '2026-09-25T23:59:00Z'
+    contractId: 683
+  - question: Will Ariana Grande release her eighth studio album by August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1603190287605-e6ade32fa852?w=800
+    resolutionSource: Billboard
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 684
+  - question: Will Bebe Rexha's album Dirty Blonde be released by July 15, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1603190287605-e6ade32fa852?w=800
+    resolutionSource: Billboard
+    closingTime: '2026-07-14T23:00:00Z'
+    resolutionTime: '2026-07-15T23:59:00Z'
+    contractId: 685
+  - question: Will the average money market account APY exceed 4.25% on July 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?w=800
+    resolutionSource: Bankrate
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-07-31T23:59:00Z'
+    contractId: 686
+  - question: Will the Bio-stickers plastic breakdown research enter a published commercial pilot by August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1507668077129-56e32842fceb?w=800
+    resolutionSource: Nature
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 687
+  - question: Will the next Call of Duty game's North Korea invasion setting be officially confirmed by Infinity Ward by July 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1603190287605-e6ade32fa852?w=800
+    resolutionSource: Infinity Ward
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-07-31T23:59:00Z'
+    contractId: 688
+  - question: Will Tim Payne's Instagram follower count exceed 2 million by July 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: Instagram
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-07-31T23:59:00Z'
+    contractId: 689
