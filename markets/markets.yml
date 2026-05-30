@@ -5339,3 +5339,122 @@ markets:
     closingTime: '2026-08-30T23:00:00Z'
     resolutionTime: '2026-09-01T12:00:00Z'
     contractId: 762
+  - question: Will the US Treasury publicly disclose specific wallet addresses for the $1B Iran crypto seizure by August 15, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: US Treasury press release
+    closingTime: '2026-08-14T23:00:00Z'
+    resolutionTime: '2026-08-15T23:00:00Z'
+    contractId: 763
+  - question: Will David Raya keep a clean sheet in the 2026 Champions League final?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: UEFA match report
+    closingTime: '2026-05-30T18:00:00Z'
+    resolutionTime: '2026-05-31T06:00:00Z'
+    contractId: 764
+  - question: Will Andoni Iraola be officially announced as Liverpool's new head coach by June 30, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: Liverpool FC official website
+    closingTime: '2026-06-29T23:00:00Z'
+    resolutionTime: '2026-06-30T23:00:00Z'
+    contractId: 765
+  - question: Will Ian Poulter return to competitive LIV Golf play before August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: LIV Golf official site
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 766
+  - question: Will the Kenya school fire suspects face formal arson charges by July 15, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: Kenyan government statement
+    closingTime: '2026-07-14T23:00:00Z'
+    resolutionTime: '2026-07-15T23:00:00Z'
+    contractId: 767
+  - question: Will the federal judge formally rule on the $1.8 billion Trump fund case before July 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: US District Court Eastern Virginia
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-07-31T23:00:00Z'
+    contractId: 768
+  - question: Will John Solomon be officially confirmed as a White House special government employee by July 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: White House announcement
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-07-31T23:00:00Z'
+    contractId: 769
+  - question: Will Apple announce Google Gemini integration into Siri at WWDC 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800
+    resolutionSource: Apple WWDC Keynote
+    closingTime: '2026-06-09T17:00:00Z'
+    resolutionTime: '2026-06-10T23:00:00Z'
+    contractId: 770
+  - question: Will Microsoft publicly issue an apology to the security researcher it threatened by July 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800
+    resolutionSource: Microsoft official statement
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-07-31T23:00:00Z'
+    contractId: 771
+  - question: Will DeepSeek release a new frontier AI model before August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800
+    resolutionSource: DeepSeek official announcement
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 772
+  - question: Will the IceCube neutrino spectrum break finding be cited in 25+ peer-reviewed papers by August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1507668077129-56e32842fceb?w=800
+    resolutionSource: Google Scholar
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 773
+  - question: Will Clive Davis be discharged from the hospital before June 15, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800
+    resolutionSource: Public statement from Clive Davis or representatives
+    closingTime: '2026-06-14T23:00:00Z'
+    resolutionTime: '2026-06-15T23:00:00Z'
+    contractId: 774
+  - question: Will the Killers' Champions League final kick-off show air as scheduled on May 30, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: UEFA broadcast
+    closingTime: '2026-05-30T18:00:00Z'
+    resolutionTime: '2026-05-31T06:00:00Z'
+    contractId: 775
+  - question: Will Leah McSweeney's lawsuit against Bravo/NBCU be dismissed before August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1603190287605-e6ade32fa852?w=800
+    resolutionSource: New York court records
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 776
+  - question: Will Ukraine officially confirm using AI-controlled drones in a strike claim before July 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1474631245212-32dc3c8310c6?w=800
+    resolutionSource: Ukrainian Ministry of Defence
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-07-31T23:00:00Z'
+    contractId: 777
+  - question: Will Hezbollah launch another confirmed fibre-optic drone attack on Israel before July 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: IDF official statement
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-07-31T23:00:00Z'
+    contractId: 778
+  - question: Will Delhi temperatures exceed 47°C on any day before July 15, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: India Meteorological Department
+    closingTime: '2026-07-14T23:00:00Z'
+    resolutionTime: '2026-07-15T23:00:00Z'
+    contractId: 779
