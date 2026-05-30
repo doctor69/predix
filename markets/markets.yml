@@ -5227,3 +5227,115 @@ markets:
     closingTime: '2026-08-30T23:59:00Z'
     resolutionTime: '2026-08-31T23:59:00Z'
     contractId: 746
+  - question: Will Strategy's STRC price reclaim $100 on any trading day before July 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800
+    resolutionSource: Nasdaq market data
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 747
+  - question: Will Coinbase officially launch global crypto perpetual futures for US institutional clients before July 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: Coinbase official announcement
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 748
+  - question: Will Cash App stablecoin support officially expand to additional chains beyond Ethereum and Solana by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: Block/Cash App official announcement
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 749
+  - question: Will Alphonso Davies start Canada's opening match of the 2026 FIFA World Cup?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: FIFA official match report
+    closingTime: '2026-06-11T12:00:00Z'
+    resolutionTime: '2026-06-15T12:00:00Z'
+    contractId: 750
+  - question: Will Glasgow Warriors win the 2026 United Rugby Championship final?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: URC official results
+    closingTime: '2026-06-13T12:00:00Z'
+    resolutionTime: '2026-06-22T12:00:00Z'
+    contractId: 751
+  - question: Will Spanish PM Pedro Sánchez resign or be removed from office before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: Reuters
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 752
+  - question: Will Kenya's eight arrested students be formally charged with arson before July 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: Kenya Police Service official statement
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 753
+  - question: Will Eli Lilly (LLY) announce a Phase 2 trial for Verve-102 by August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?w=800
+    resolutionSource: Eli Lilly press release
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 754
+  - question: Will Blackstone's $5B TPU Cloud joint venture with Google be officially closed by August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800
+    resolutionSource: Blackstone official press release
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 755
+  - question: Will AWS officially announce a new product or API specifically for AI agent traffic before August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800
+    resolutionSource: AWS official blog
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 756
+  - question: Will NASA officially delay its Artemis lunar landing timeline before August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800
+    resolutionSource: NASA official statement
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 757
+  - question: Will a peer-reviewed paper experimentally confirming altermagnetism using diamond quantum sensors be published by August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800
+    resolutionSource: Nature/Science journals
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 758
+  - question: Will Sarah Snook's 'The Birds' limited series be officially picked up by a network/streamer by August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1603190287605-e6ade32fa852?w=800
+    resolutionSource: Deadline/Variety
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 759
+  - question: Will Bruce Springsteen perform at the Power to the People festival on October 3, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: Festival official announcement
+    closingTime: '2026-08-31T23:00:00Z'
+    resolutionTime: '2026-10-04T12:00:00Z'
+    contractId: 760
+  - question: Will Kanye West perform in the Netherlands on his birthday (June 8, 2026)?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800
+    resolutionSource: Reuters/AP
+    closingTime: '2026-06-07T23:00:00Z'
+    resolutionTime: '2026-06-09T12:00:00Z'
+    contractId: 761
+  - question: Will the 17-million-device botnet takedown lead to a publicly named indictment by August 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: DOJ press release
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 762
