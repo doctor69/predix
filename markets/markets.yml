@@ -5078,3 +5078,152 @@ markets:
     closingTime: '2026-08-30T23:00:00Z'
     resolutionTime: '2026-09-01T12:00:00Z'
     contractId: 725
+  - question: Will Kieran Trippier officially sign with Wolverhampton Wanderers by July 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: BBC Sport
+    closingTime: '2026-07-31T12:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 726
+  - question: Will Ibrahima Konate officially sign with a new club on a free transfer by July 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: BBC Sport
+    closingTime: '2026-07-31T12:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 727
+  - question: >-
+      Will the New York or New Jersey attorney general's office formally file charges against FIFA over World Cup ticket pricing by August
+      31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: NY/NJ Attorney General press releases
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 728
+  - question: Will Dell Technologies stock close above its post-earnings high before July 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?w=800
+    resolutionSource: Nasdaq
+    closingTime: '2026-07-30T20:00:00Z'
+    resolutionTime: '2026-07-31T21:00:00Z'
+    contractId: 729
+  - question: Will the Sui (SUI) token price decline more than 30% from its May 30, 2026 close by June 30, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: CoinGecko
+    closingTime: '2026-06-29T23:59:00Z'
+    resolutionTime: '2026-06-30T23:59:00Z'
+    contractId: 730
+  - question: Will Kalshi list its first Bitcoin perpetual futures contract before July 1, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800
+    resolutionSource: Kalshi official announcement
+    closingTime: '2026-06-30T23:59:00Z'
+    resolutionTime: '2026-07-01T23:59:00Z'
+    contractId: 731
+  - question: Will NextEra Energy's acquisition of Dominion Energy be officially confirmed by August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?w=800
+    resolutionSource: NextEra Energy press release
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 732
+  - question: Will Ghana's president sign the anti-LGBTQ+ bill into law by August 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1526470608268-f674ce90ebd4?w=800
+    resolutionSource: Government of Ghana official communications
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 733
+  - question: Will the French Open formally sanction Adolfo Daniel Vallejo for his remarks by July 15, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: French Tennis Federation
+    closingTime: '2026-07-14T23:59:00Z'
+    resolutionTime: '2026-07-15T23:59:00Z'
+    contractId: 734
+  - question: Will Snowflake (SNOW) report year-over-year revenue growth above 25% in its next earnings before August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800
+    resolutionSource: Snowflake earnings release
+    closingTime: '2026-08-29T20:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 735
+  - question: Will the French Open remove on-court sponsorship boards before the 2026 tournament concludes?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: Roland-Garros official
+    closingTime: '2026-06-07T23:59:00Z'
+    resolutionTime: '2026-06-08T23:59:00Z'
+    contractId: 736
+  - question: Will Michael Skubala's Bristol City win their opening match of the 2026/27 Championship season?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: EFL official
+    closingTime: '2026-08-07T12:00:00Z'
+    resolutionTime: '2026-08-15T23:59:00Z'
+    contractId: 737
+  - question: Will the 2026 Critics Choice LGBTQ+ ceremony winner 'Heated Rivalry' Season 2 receive an official premiere date by August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1603190287605-e6ade32fa852?w=800
+    resolutionSource: Crave/HBO Max announcement
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 738
+  - question: Will Spanish PM Pedro Sánchez survive in office through July 31, 2026 amid corruption probes?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: Reuters
+    closingTime: '2026-07-30T23:59:00Z'
+    resolutionTime: '2026-07-31T23:59:00Z'
+    contractId: 739
+  - question: Will Kenneth Law be sentenced for his Canadian charges by August 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: Ontario Court of Justice
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 740
+  - question: Will Glean's annualized revenue surpass $400M as publicly reported by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800
+    resolutionSource: Glean press release
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 741
+  - question: Will Israel formally control 70% of Gaza territory according to UN OCHA mapping by August 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: UN OCHA Gaza monitoring
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 742
+  - question: Will Luke Littler win his next televised PDC ranking event before August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: PDC official
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 743
+  - question: Will Marcia Lucas receive a posthumous tribute at the 2026 Academy Governors Awards by August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800
+    resolutionSource: AMPAS official
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 744
+  - question: Will the next Call of Duty title be officially revealed with a release date by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800
+    resolutionSource: Activision press release
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 745
+  - question: Will Tesla and SpaceX issue a joint statement confirming merger talks by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800
+    resolutionSource: Tesla/SpaceX official communications
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 746
