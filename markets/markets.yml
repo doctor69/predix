@@ -5458,3 +5458,152 @@ markets:
     closingTime: '2026-07-14T23:00:00Z'
     resolutionTime: '2026-07-15T23:00:00Z'
     contractId: 779
+  - question: Will Stellar (XLM) sustain a price above $0.50 on July 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: CoinGecko
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 780
+  - question: Will Hyperliquid surpass $15 billion in 24h trading volume on any day before July 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: DefiLlama
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 781
+  - question: Will the US Treasury announce an additional Iran crypto seizure exceeding $200M before August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800
+    resolutionSource: US Treasury Department press releases
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 782
+  - question: Will Nathan Fuller plead guilty to SEC charges in the $12.3M AI crypto fraud case by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800
+    resolutionSource: SEC court filings
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 783
+  - question: Will Gemini officially launch its Grok-powered prediction market feed before August 1, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800
+    resolutionSource: Gemini official announcements
+    closingTime: '2026-07-31T23:00:00Z'
+    resolutionTime: '2026-08-02T12:00:00Z'
+    contractId: 784
+  - question: Will Liverpool officially announce a permanent head coach to replace Arne Slot by July 15, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: Liverpool FC official site
+    closingTime: '2026-07-14T23:00:00Z'
+    resolutionTime: '2026-07-16T12:00:00Z'
+    contractId: 785
+  - question: Will Wigan Warriors win the 2026 men's Super League Grand Final?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: Super League official site
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 786
+  - question: Will President Trump publicly authorize US military strikes on Iran before July 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: White House official statements
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 787
+  - question: Will NATO formally invoke Article 4 in response to Russian drone incidents in Romania before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: NATO official statements
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 788
+  - question: Will James Talarico officially announce a US Senate campaign in Texas by August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: FEC filings / campaign announcement
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 789
+  - question: Will the AUKUS underwater drone program produce a publicly demonstrated prototype by August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: UK Ministry of Defence
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 790
+  - question: Will Meta Platforms (META) face a new SEC enforcement action over scam ads before August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800
+    resolutionSource: SEC filings
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 791
+  - question: Will Apple's iOS 27 be officially announced at WWDC 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800
+    resolutionSource: Apple Newsroom
+    closingTime: '2026-06-07T23:00:00Z'
+    resolutionTime: '2026-06-12T23:00:00Z'
+    contractId: 792
+  - question: Will GitHub Copilot reverse or modify its token-based billing policy before August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800
+    resolutionSource: GitHub official blog
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 793
+  - question: Will the 2027 Audi RS5 PHEV go on sale in the US before August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800
+    resolutionSource: Audi USA official
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 794
+  - question: Will a peer-reviewed paper confirming a 50-year-old math conjecture using OpenAI's model be published before August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800
+    resolutionSource: arXiv / peer-reviewed journals
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 795
+  - question: Will NASA confirm Artemis III crew launch will remain on schedule before August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800
+    resolutionSource: NASA official announcements
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 796
+  - question: Will 'A Minecraft Movie Squared' get an official release date announcement before August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800
+    resolutionSource: Warner Bros official
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 797
+  - question: Will Vanilla Ice perform at the Freedom 250 event as scheduled?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: Freedom 250 official event coverage
+    closingTime: '2026-07-03T23:00:00Z'
+    resolutionTime: '2026-07-06T23:00:00Z'
+    contractId: 798
+  - question: Will 'Neighbors' win at least one Primetime Emmy at the 2026 ceremony?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800
+    resolutionSource: Television Academy
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-20T23:00:00Z'
+    contractId: 799
+  - question: >-
+      Will a US federal indictment be unsealed against the Google engineer in the $2.75M Polymarket insider trading case before August 31,
+      2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800
+    resolutionSource: US DOJ press releases
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 800
