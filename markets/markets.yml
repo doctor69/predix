@@ -4952,3 +4952,129 @@ markets:
     closingTime: '2026-08-30T23:59:00Z'
     resolutionTime: '2026-09-01T12:00:00Z'
     contractId: 707
+  - question: Will Tilman Fertitta's $5.7 billion acquisition of Caesars be officially announced as closed by August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800
+    resolutionSource: SEC filings
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 708
+  - question: Will Jose Mourinho be officially confirmed as Real Madrid head coach on the club's website by June 15, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: Real Madrid official website
+    closingTime: '2026-06-14T23:00:00Z'
+    resolutionTime: '2026-06-16T12:00:00Z'
+    contractId: 709
+  - question: Will Gujarat Titans win the 2026 IPL final?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: IPL official
+    closingTime: '2026-05-31T10:00:00Z'
+    resolutionTime: '2026-06-01T12:00:00Z'
+    contractId: 710
+  - question: Will President Trump's Gallup approval rating fall below 40% in any poll released before July 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: Gallup
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 711
+  - question: Will Paxos publicly announce a clearing partnership with a major US broker-dealer by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800
+    resolutionSource: Paxos official announcement
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 712
+  - question: Will Apollo and Blackstone's reported $36 billion debt deal for Anthropic be officially confirmed by August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800
+    resolutionSource: Bloomberg
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 713
+  - question: Will Starbucks report a year-over-year sales decline in South Korea in its next quarterly earnings before August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?w=800
+    resolutionSource: Starbucks earnings report
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 714
+  - question: Will the federal judge grant Kalshi's injunction against Minnesota's prediction market ban by July 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: US District Court filings
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 715
+  - question: Will Erin Patterson's appeal of her mushroom poisoning conviction be heard in court by August 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1474631245212-32dc3c8310c6?w=800
+    resolutionSource: Victorian Court of Appeal
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 716
+  - question: Will the Swiss train station stabbing suspect be formally charged with attempted murder by July 15, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1474631245212-32dc3c8310c6?w=800
+    resolutionSource: Swiss police statements
+    closingTime: '2026-07-14T23:00:00Z'
+    resolutionTime: '2026-07-16T12:00:00Z'
+    contractId: 717
+  - question: Will Marvel/Disney officially announce any AI-generated Stan Lee project using ElevenLabs by August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1603190287605-e6ade32fa852?w=800
+    resolutionSource: Marvel/Disney official
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 718
+  - question: Will Danny Boyle officially confirm a start date for filming '28 Years Later III' by August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1603190287605-e6ade32fa852?w=800
+    resolutionSource: Variety
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 719
+  - question: Will the FCC publicly respond to the Bad Bunny Super Bowl complaints by July 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: FCC official statement
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 720
+  - question: Will Mercedes restart talks to acquire a stake in Alpine F1 by August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: Formula 1 official news
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 721
+  - question: Will Tesla and SpaceX announce a formal merger agreement by August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?w=800
+    resolutionSource: SEC filings
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 722
+  - question: Will Bitcoin's total ETF outflow streak in May 2026 exceed $3 billion?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: Farside Investors
+    closingTime: '2026-05-31T20:00:00Z'
+    resolutionTime: '2026-06-01T23:00:00Z'
+    contractId: 723
+  - question: Will Hyperliquid (HYPE) total open interest exceed $10 billion on any day before July 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800
+    resolutionSource: Hyperliquid
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 724
+  - question: Will antihydrogen spectroscopy results showing >5σ deviation from hydrogen be published in a peer-reviewed journal by August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1507668077129-56e32842fceb?w=800
+    resolutionSource: Nature or Physical Review Letters
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 725
