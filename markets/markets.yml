@@ -5607,3 +5607,80 @@ markets:
     closingTime: '2026-08-30T23:00:00Z'
     resolutionTime: '2026-09-01T12:00:00Z'
     contractId: 800
+  - question: Will XRP ETFs surpass $100 million in cumulative inflows by July 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: SoSoValue
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-07-31T23:00:00Z'
+    contractId: 801
+  - question: Will Anthropic officially announce reaching a $1 trillion valuation in a funding round before August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800
+    resolutionSource: Anthropic Press Releases
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 802
+  - question: Will JPMorgan CEO Jamie Dimon publicly endorse the CLARITY Act before August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800
+    resolutionSource: Public statements via Reuters/Bloomberg
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 803
+  - question: Will Novak Djokovic compete in the 2026 Wimbledon main draw?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: Wimbledon.com
+    closingTime: '2026-06-28T12:00:00Z'
+    resolutionTime: '2026-07-01T23:00:00Z'
+    contractId: 804
+  - question: Will Naomi Osaka defeat Aryna Sabalenka in their French Open fourth-round match?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: WTA Tour
+    closingTime: '2026-05-31T23:00:00Z'
+    resolutionTime: '2026-06-02T23:00:00Z'
+    contractId: 805
+  - question: Will Donald Trump personally appear at the Freedom 250 concert?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: White House announcement
+    closingTime: '2026-07-03T23:00:00Z'
+    resolutionTime: '2026-07-05T23:00:00Z'
+    contractId: 806
+  - question: Will Pedro Sánchez remain Spain's Prime Minister on August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: Government of Spain official site
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 807
+  - question: Will the FCC initiate license renewal proceedings against any major broadcaster other than ABC before August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800
+    resolutionSource: FCC.gov
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 808
+  - question: Will Cognition release a major new version of the Devin AI coding agent before August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800
+    resolutionSource: Cognition AI announcements
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 809
+  - question: Will Jamie Lee Curtis attend a public tribute event for her sister Kelly Curtis before August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: Major news outlets (AP/Reuters)
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 810
+  - question: Will the John Candy documentary 'I Like Me' receive an Emmy nomination by August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1603190287605-e6ade32fa852?w=800
+    resolutionSource: Television Academy
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 811
