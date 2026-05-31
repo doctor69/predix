@@ -5985,3 +5985,145 @@ markets:
     closingTime: '2026-07-30T23:00:00Z'
     resolutionTime: '2026-08-01T12:00:00Z'
     contractId: 854
+  - question: Will PSG win the 2026 UEFA Super Cup against the Europa League winner?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: UEFA.com
+    closingTime: '2026-08-12T18:00:00Z'
+    resolutionTime: '2026-08-14T12:00:00Z'
+    contractId: 855
+  - question: Will Amanda Serrano set a new women's boxing knockout record before August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: BoxRec / WBA
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 856
+  - question: Will England win the women's T20 series against India 2-1?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: ICC / BBC Sport
+    closingTime: '2026-06-02T18:00:00Z'
+    resolutionTime: '2026-06-04T12:00:00Z'
+    contractId: 857
+  - question: Will Dean Harrison win the 2026 Isle of Man TT Senior race?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: Isle of Man TT official
+    closingTime: '2026-06-06T18:00:00Z'
+    resolutionTime: '2026-06-08T12:00:00Z'
+    contractId: 858
+  - question: Will Elisa Balsamo retain the leader's jersey through stage 5 of the 2026 women's Giro d'Italia?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: Giro d'Italia Women official
+    closingTime: '2026-06-05T18:00:00Z'
+    resolutionTime: '2026-06-07T12:00:00Z'
+    contractId: 859
+  - question: Will Luis Suarez be included in Uruguay's final 2026 World Cup squad?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: FIFA.com
+    closingTime: '2026-06-13T18:00:00Z'
+    resolutionTime: '2026-06-15T12:00:00Z'
+    contractId: 860
+  - question: Will more than 1,000 arrests be officially confirmed by French authorities following PSG Champions League riots?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: French Interior Ministry
+    closingTime: '2026-06-15T23:00:00Z'
+    resolutionTime: '2026-06-17T12:00:00Z'
+    contractId: 861
+  - question: Will JD Vance publicly declare a 2028 presidential bid before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: FEC filings / official announcement
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 862
+  - question: Will the US May 2026 nonfarm payrolls report show job gains above 150,000?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800
+    resolutionSource: US Bureau of Labor Statistics
+    closingTime: '2026-06-05T11:00:00Z'
+    resolutionTime: '2026-06-06T12:00:00Z'
+    contractId: 863
+  - question: Will Meta officially unveil its AI-powered pendant device before August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800
+    resolutionSource: Meta official announcement
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 864
+  - question: Will Blue Origin publicly announce a New Glenn return-to-flight date before August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800
+    resolutionSource: Blue Origin official announcement
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 865
+  - question: >-
+      Will the DOJ obtain a court ruling in its favor in any of the suits against states rejecting ICE undercover plate requests before
+      August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: US federal court filings
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 866
+  - question: Will Brazil officially confirm any case as Ebola virus before July 15, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800
+    resolutionSource: Brazil Ministry of Health / WHO
+    closingTime: '2026-07-14T23:00:00Z'
+    resolutionTime: '2026-07-16T12:00:00Z'
+    contractId: 867
+  - question: Will the Kumamoto University pocket-sized spectrophotometer be announced for commercial release before August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800
+    resolutionSource: Kumamoto University press releases
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 868
+  - question: Will Dua Lipa announce a new album or single within 60 days of her wedding (by July 30, 2026)?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: Dua Lipa official channels
+    closingTime: '2026-07-29T23:00:00Z'
+    resolutionTime: '2026-07-31T12:00:00Z'
+    contractId: 869
+  - question: Will Morgan Wallen cancel or postpone any Still The Problem tour date before August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800
+    resolutionSource: Official tour announcements
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 870
+  - question: Will 'The Way Home' Season 4 finale on Hallmark earn a Rotten Tomatoes audience score above 90%?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1603190287605-e6ade32fa852?w=800
+    resolutionSource: Rotten Tomatoes
+    closingTime: '2026-07-15T23:00:00Z'
+    resolutionTime: '2026-07-17T12:00:00Z'
+    contractId: 871
+  - question: Will Peter Gabriel release another new single from his o/i project before August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: Peter Gabriel official channels
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 872
+  - question: Will FIFA officially confirm the goalkeeper tactical timeout ban in its 2026 World Cup tournament rules?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: FIFA.com tournament regulations
+    closingTime: '2026-06-15T23:00:00Z'
+    resolutionTime: '2026-06-17T12:00:00Z'
+    contractId: 873
+  - question: Will Cuba experience a nationwide blackout affecting over 50% of the country before August 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1474631245212-32dc3c8310c6?w=800
+    resolutionSource: Reuters / AP news reports
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 874
