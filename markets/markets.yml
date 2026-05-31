@@ -5684,3 +5684,115 @@ markets:
     closingTime: '2026-08-30T23:00:00Z'
     resolutionTime: '2026-08-31T23:00:00Z'
     contractId: 811
+  - question: Will Meta Platforms officially launch a paid AI chatbot subscription tier by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1518770660439-4636190af475?w=800
+    resolutionSource: Meta Newsroom
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 812
+  - question: Will SoftBank publicly confirm a binding agreement for its €75 billion French data center investment by August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800
+    resolutionSource: SoftBank Group press releases
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 813
+  - question: Will SpaceX be awarded an additional Space Force contract exceeding $1 billion before August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800
+    resolutionSource: Department of Defense contract announcements
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 814
+  - question: Will Raheem Sterling be formally charged with drug-driving by July 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: UK Crown Prosecution Service / BBC News
+    closingTime: '2026-07-30T23:59:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 815
+  - question: Will Donald Trump deliver a 'major speech' at the Freedom 250 'America Is Back Rally' as threatened before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: White House / C-SPAN
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 816
+  - question: Will all four remaining trapped Laos cave villagers be rescued or confirmed dead before July 15, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: BBC News / Reuters
+    closingTime: '2026-07-14T23:59:00Z'
+    resolutionTime: '2026-07-16T12:00:00Z'
+    contractId: 817
+  - question: Will Daniel Noboa's right-wing candidate win Colombia's referenced election before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: Colombia National Electoral Council
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 818
+  - question: Will Pete Hegseth announce a new US arms deal with an Asian ally before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: US Department of Defense
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 819
+  - question: Will House of the Dragon Season 3 hold a Rotten Tomatoes critic score above 85% on premiere day?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: Rotten Tomatoes
+    closingTime: '2026-06-20T23:59:00Z'
+    resolutionTime: '2026-06-23T12:00:00Z'
+    contractId: 820
+  - question: Will Frankie Valli resume any scheduled concert dates before August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1603190287605-e6ade32fa852?w=800
+    resolutionSource: Frankie Valli official website
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 821
+  - question: Will Kanye West perform any concert anywhere in Italy before August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1603190287605-e6ade32fa852?w=800
+    resolutionSource: Ticketmaster / news reports
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 822
+  - question: Will the 'Backrooms' film cross $150M worldwide box office by July 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1603190287605-e6ade32fa852?w=800
+    resolutionSource: Box Office Mojo
+    closingTime: '2026-07-30T23:59:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 823
+  - question: Will Samsung's 'Galaxy x BTS Arirang' fan activations expand to a new city outside the announced tour stops by August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800
+    resolutionSource: Samsung Newsroom
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 824
+  - question: Will a peer-reviewed publication of the nanofiber glioblastoma treatment human trial be announced before August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800
+    resolutionSource: PubMed / Nature
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 825
+  - question: Will an experimental mRNA Ebola vaccine enter a Phase 2 clinical trial before August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800
+    resolutionSource: ClinicalTrials.gov
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 826
+  - question: Will Israel publicly announce ground operations expanding to 70% of Gaza territory before July 15, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1474631245212-32dc3c8310c6?w=800
+    resolutionSource: IDF / BBC News
+    closingTime: '2026-07-14T23:59:00Z'
+    resolutionTime: '2026-07-16T12:00:00Z'
+    contractId: 827
