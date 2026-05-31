@@ -5796,3 +5796,87 @@ markets:
     closingTime: '2026-07-14T23:59:00Z'
     resolutionTime: '2026-07-16T12:00:00Z'
     contractId: 827
+  - question: Will the San Antonio Spurs win the 2026 NBA Finals?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: NBA.com
+    closingTime: '2026-06-04T23:00:00Z'
+    resolutionTime: '2026-06-30T23:59:00Z'
+    contractId: 828
+  - question: Will Victor Wembanyama be named 2026 NBA Finals MVP?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: NBA.com
+    closingTime: '2026-06-04T23:00:00Z'
+    resolutionTime: '2026-06-30T23:59:00Z'
+    contractId: 829
+  - question: Will Oliver Glasner be officially appointed as AC Milan head coach by July 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: AC Milan official website
+    closingTime: '2026-07-30T23:59:00Z'
+    resolutionTime: '2026-08-01T23:59:00Z'
+    contractId: 830
+  - question: Will Curtis Jones transfer to Inter Milan before August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: Liverpool FC official website
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T23:59:00Z'
+    contractId: 831
+  - question: Will Fernando Tatis Jr. hit at least 10 more home runs by July 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: MLB.com
+    closingTime: '2026-07-30T23:59:00Z'
+    resolutionTime: '2026-08-01T23:59:00Z'
+    contractId: 832
+  - question: Will Texas complete the transfer of its $10M Strategic Bitcoin Reserve to direct custody by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800
+    resolutionSource: Texas Comptroller official announcements
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-09-01T23:59:00Z'
+    contractId: 833
+  - question: Will Circle release a public statement explaining the Zama-linked $12.6M USDC freeze by July 15, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1605792657660-596af9009e82?w=800
+    resolutionSource: Circle official blog
+    closingTime: '2026-07-14T23:59:00Z'
+    resolutionTime: '2026-07-15T23:59:00Z'
+    contractId: 834
+  - question: Will Hewlett Packard Enterprise (HPE) report year-over-year revenue growth in its Q2 2026 earnings?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800
+    resolutionSource: HPE investor relations
+    closingTime: '2026-06-30T23:59:00Z'
+    resolutionTime: '2026-07-15T23:59:00Z'
+    contractId: 835
+  - question: Will Coco Gauff make a public statement about her early French Open exit before June 15, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: WTA official channels
+    closingTime: '2026-06-14T23:59:00Z'
+    resolutionTime: '2026-06-15T23:59:00Z'
+    contractId: 836
+  - question: Will Brighton win the 2026 Women's FA Cup final against Manchester City?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: BBC Sport
+    closingTime: '2026-05-31T14:00:00Z'
+    resolutionTime: '2026-06-01T23:59:00Z'
+    contractId: 837
+  - question: Will the 2026 FIFA World Cup official squad lists for all 48 teams be confirmed by FIFA before June 15, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: FIFA.com
+    closingTime: '2026-06-14T23:59:00Z'
+    resolutionTime: '2026-06-16T23:59:00Z'
+    contractId: 838
+  - question: Will Wigan Warriors win their next Super League match following the Challenge Cup victory before June 30, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: Super League official website
+    closingTime: '2026-06-29T23:59:00Z'
+    resolutionTime: '2026-07-01T23:59:00Z'
+    contractId: 839
