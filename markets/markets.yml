@@ -5880,3 +5880,108 @@ markets:
     closingTime: '2026-06-29T23:59:00Z'
     resolutionTime: '2026-07-01T23:59:00Z'
     contractId: 839
+  - question: Will the XRPL flash loan attack prevention amendment receive validator approval before August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1605792657660-596af9009e82?w=800
+    resolutionSource: XRPL.org
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 840
+  - question: Will PSG win the 2026 UEFA Super Cup?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: UEFA
+    closingTime: '2026-08-12T18:00:00Z'
+    resolutionTime: '2026-08-14T12:00:00Z'
+    contractId: 841
+  - question: Will Raheem Sterling play a Premier League match before August 31, 2026 following his drug-driving arrest?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: Premier League official
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 842
+  - question: Will Colombia's right-wing candidate win the 2026 presidential election?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: Colombia National Electoral Council
+    closingTime: '2026-06-21T23:00:00Z'
+    resolutionTime: '2026-06-23T23:00:00Z'
+    contractId: 843
+  - question: Will the IRS formally drop Donald Trump's $10 billion lawsuit by July 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: US court records
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 844
+  - question: Will the US military conduct another boat strike on suspected drug traffickers before July 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: US Department of Defense
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 845
+  - question: Will Iran formally accept Trump's tougher peace framework terms before July 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: US State Department
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 846
+  - question: Will Erin Patterson's appeal hearing be scheduled before August 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: Victorian Supreme Court
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 847
+  - question: Will Intuit (INTU) stock outperform the S&P 500 between June 1 and July 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?w=800
+    resolutionSource: Yahoo Finance
+    closingTime: '2026-07-31T20:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 848
+  - question: Will Microsoft formally withdraw its criminal investigation threat against the security researcher before July 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800
+    resolutionSource: Microsoft official statement
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 849
+  - question: Will the Toy Story 5 soundtrack be officially confirmed to feature Taylor Swift before August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: Disney Pixar official
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 850
+  - question: Will the Madlanga Commission deliver a final report before August 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1474631245212-32dc3c8310c6?w=800
+    resolutionSource: South African government
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 851
+  - question: Will a peer-reviewed paper on lunar regolith oxygen extraction be published before August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800
+    resolutionSource: Nature/Science journals
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 852
+  - question: Will the Enhanced Games hold a publicly streamed competition event before August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1507668077129-56e32842fceb?w=800
+    resolutionSource: Enhanced Games official
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 853
+  - question: Will Shrey Parikh appear on a nationally televised US talk show before July 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: Scripps National Spelling Bee
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 854
