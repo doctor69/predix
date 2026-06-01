@@ -6127,3 +6127,164 @@ markets:
     closingTime: '2026-08-30T23:00:00Z'
     resolutionTime: '2026-09-01T12:00:00Z'
     contractId: 874
+  - question: Will the Cardano Foundation's annual conference be officially rescheduled by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800
+    resolutionSource: Cardano Foundation
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 875
+  - question: Will Citi's $5.5 trillion tokenized securities forecast be cited by another major bank's research report before August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: Major bank research publications
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 876
+  - question: Will Francesca Hennessy have another scheduled professional fight announced before August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: BoxRec
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 877
+  - question: Will Worcester Warriors be confirmed in the English Premiership for the 2026/27 season before August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: RFU official
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 878
+  - question: Will the US 2026 FIFA World Cup host any match attended by President Trump by July 19, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: White House/FIFA
+    closingTime: '2026-07-18T23:00:00Z'
+    resolutionTime: '2026-07-20T12:00:00Z'
+    contractId: 879
+  - question: Will Ethiopia's PM Abiy Ahmed's party officially be declared winner of the 2026 election before July 15, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: National Election Board of Ethiopia
+    closingTime: '2026-07-14T23:00:00Z'
+    resolutionTime: '2026-07-16T12:00:00Z'
+    contractId: 880
+  - question: Will the kidnapped Nigerian retired general Maj Gen Rabe Abubakar be freed before July 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: BBC News
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 881
+  - question: Will Graham Platner withdraw from the Maine Senate race before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: NYT/Reuters
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 882
+  - question: Will CIA officer David Rush be formally indicted before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: US DOJ
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 883
+  - question: Will the Mandelson document release officially occur before July 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: UK Government
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 884
+  - question: Will the UK Home Office reverse its ban on Hasan Piker entering the country before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: UK Home Office
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 885
+  - question: Will CapitaLand Ascott Trust's Singapore hotel sale officially close before August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800
+    resolutionSource: SGX disclosures
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 886
+  - question: Will Google officially launch Gemini Spark as integrated into another Google product before August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800
+    resolutionSource: Google official blog
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 887
+  - question: Will any major browser (other than Chrome/Safari) cross 5% global market share on StatCounter before August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1518770660439-4636190af475?w=800
+    resolutionSource: StatCounter
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 888
+  - question: Will OpenAI release publicly documented mitigations for prompt injection attacks before August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800
+    resolutionSource: OpenAI official blog
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 889
+  - question: Will Wintermute officially announce its prediction market liquidity venues before July 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: Wintermute official
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 890
+  - question: Will a peer-reviewed paper on the kohl bottle from York's Egyptian origin be published before August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800
+    resolutionSource: Peer-reviewed archaeology journal
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 891
+  - question: Will a tick saliva protein-based vaccine candidate enter clinical trials before August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800
+    resolutionSource: ClinicalTrials.gov
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 892
+  - question: Will Brazil officially rule out Ebola in both suspected cases before June 30, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800
+    resolutionSource: WHO/Brazilian Ministry of Health
+    closingTime: '2026-06-29T23:00:00Z'
+    resolutionTime: '2026-07-01T12:00:00Z'
+    contractId: 893
+  - question: Will researchers publish a peer-reviewed paper on brain cells playing Doom before August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800
+    resolutionSource: Peer-reviewed journal (Nature/Science/etc.)
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 894
+  - question: Will Euphoria win an Emmy at the 2026 Primetime Emmy Awards?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: Television Academy
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-15T23:59:00Z'
+    contractId: 895
+  - question: Will DirecTV and Scripps reach a retransmission agreement to restore the 54 local stations before July 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1603190287605-e6ade32fa852?w=800
+    resolutionSource: DirecTV/Scripps press release
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 896
+  - question: Will the Arne Slot's successor at Liverpool be officially confirmed before June 30, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1474631245212-32dc3c8310c6?w=800
+    resolutionSource: Liverpool FC official website
+    closingTime: '2026-06-29T23:00:00Z'
+    resolutionTime: '2026-07-01T12:00:00Z'
+    contractId: 897
