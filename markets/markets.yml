@@ -6288,3 +6288,178 @@ markets:
     closingTime: '2026-06-29T23:00:00Z'
     resolutionTime: '2026-07-01T12:00:00Z'
     contractId: 897
+  - question: Will the TON/Gram rebrand be officially completed by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800
+    resolutionSource: The Open Network official announcement
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 898
+  - question: Will Capital B shareholders approve the $122 billion capital-raising authority before August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800
+    resolutionSource: Capital B official filings
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 899
+  - question: Will Mt. Gox complete distribution of all remaining BTC to creditors by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800
+    resolutionSource: Mt. Gox Trustee announcement
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 900
+  - question: Will Marta Kostyuk win her 2026 Roland Garros semi-final match?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: Roland Garros official
+    closingTime: '2026-06-04T10:00:00Z'
+    resolutionTime: '2026-06-06T23:00:00Z'
+    contractId: 901
+  - question: Will Harry Kane transfer to Barcelona before August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: Official club announcements
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 902
+  - question: Will Marco Silva be officially announced as Benfica head coach before July 15, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: Benfica official website
+    closingTime: '2026-07-14T23:00:00Z'
+    resolutionTime: '2026-07-16T12:00:00Z'
+    contractId: 903
+  - question: Will Mikel Arteta sign a new Arsenal contract extension before August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: Arsenal official website
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 904
+  - question: Will Shoaib Bashir take 5+ wickets in the first Test against New Zealand?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: ECB / ESPNcricinfo
+    closingTime: '2026-06-10T08:00:00Z'
+    resolutionTime: '2026-06-15T23:00:00Z'
+    contractId: 905
+  - question: Will Marvell Technology (MRVL) reach a $1 trillion market cap before August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800
+    resolutionSource: Nasdaq
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 906
+  - question: Will Genco Shipping accept a revised takeover offer from Diana Shipping before August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800
+    resolutionSource: SEC filings
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 907
+  - question: Will Fannie Mae stock close below $5 on any trading day before July 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800
+    resolutionSource: OTC Markets
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 908
+  - question: Will Intel officially launch its Crescent Island AI chip before August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800
+    resolutionSource: Intel official announcement
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 909
+  - question: Will Meta officially launch the 'Series' episodic Reels feature on Instagram before August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800
+    resolutionSource: Meta official announcement
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 910
+  - question: Will OpenAI publish a peer-reviewed paper on its math problem solution before August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800
+    resolutionSource: OpenAI / arXiv
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 911
+  - question: Will Israel formally announce a ceasefire with Lebanon before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: Reuters
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 912
+  - question: Will the Trump administration formally implement the new Medicaid work requirement rules before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: CMS Federal Register
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 913
+  - question: Will Mette Frederiksen's new Danish government be formally sworn in before July 15, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: Danish government official
+    closingTime: '2026-07-14T23:00:00Z'
+    resolutionTime: '2026-07-16T12:00:00Z'
+    contractId: 914
+  - question: Will the Iraqi terror suspect be formally indicted in the US for 18+ plot charges before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: US DOJ
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 915
+  - question: Will the WMO officially declare El Niño conditions before August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800
+    resolutionSource: World Meteorological Organization
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 916
+  - question: Will the Adelaide nanoparticle lung cancer delivery vehicle enter human clinical trials before August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800
+    resolutionSource: ClinicalTrials.gov
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 917
+  - question: Will the experimental pancreatic cancer pill receive FDA breakthrough designation before August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800
+    resolutionSource: FDA
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 918
+  - question: Will Toy Story 5 gross over $400 million worldwide at the box office by August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: Box Office Mojo
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 919
+  - question: Will HBO officially greenlight 'The Chain' limited series to full production before August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800
+    resolutionSource: HBO official announcement
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 920
+  - question: Will Sir Kenny Dalglish publicly confirm he has completed cancer treatment before August 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1474631245212-32dc3c8310c6?w=800
+    resolutionSource: BBC News
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 921
+  - question: Will Steph Curry's signed Chinese brand be officially named publicly before July 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1526470608268-f674ce90ebd4?w=800
+    resolutionSource: Reuters
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 922
