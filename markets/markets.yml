@@ -6463,3 +6463,164 @@ markets:
     closingTime: '2026-07-30T23:00:00Z'
     resolutionTime: '2026-08-01T12:00:00Z'
     contractId: 922
+  - question: Will Bitcoin (BTC) drop to or below $50,000 on CoinGecko at any point before August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800
+    resolutionSource: CoinGecko
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 923
+  - question: Will Polymarket officially resolve the disputed Strategy Bitcoin sale market before July 1, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800
+    resolutionSource: Polymarket
+    closingTime: '2026-06-30T23:00:00Z'
+    resolutionTime: '2026-07-02T12:00:00Z'
+    contractId: 924
+  - question: Will Anthropic publicly price its IPO before August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800
+    resolutionSource: SEC filings
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 925
+  - question: Will Strategy (MSTR) stock close above its prior 52-week high before August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?w=800
+    resolutionSource: Nasdaq
+    closingTime: '2026-08-30T20:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 926
+  - question: Will Bitmine reach its 5% Ether circulating supply holding target before August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1605792657660-596af9009e82?w=800
+    resolutionSource: Bitmine official disclosures
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 927
+  - question: Will the US Senate hold a floor vote on a stablecoin bill before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: US Senate records
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 928
+  - question: Will Jude Bellingham score in England's opening 2026 World Cup match?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: FIFA
+    closingTime: '2026-06-11T15:00:00Z'
+    resolutionTime: '2026-06-30T23:59:00Z'
+    contractId: 929
+  - question: Will Andrew Flintoff's Sydney Thunder win the 2026/27 BBL title?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: Big Bash League official
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2027-02-15T23:59:00Z'
+    contractId: 930
+  - question: Will Jofra Archer play in England's second Test against New Zealand?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: ECB
+    closingTime: '2026-06-10T10:00:00Z'
+    resolutionTime: '2026-06-25T23:59:00Z'
+    contractId: 931
+  - question: Will Tom Kean Jr. win Tuesday's New Jersey election?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: Associated Press
+    closingTime: '2026-06-02T23:00:00Z'
+    resolutionTime: '2026-06-04T23:59:00Z'
+    contractId: 932
+  - question: Will Iran-US negotiations be officially declared broken off by either side before July 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: Reuters
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-07-31T23:59:00Z'
+    contractId: 933
+  - question: Will the British couple jailed in Iran be released before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: BBC News
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 934
+  - question: Will the US Labor Department formally drop its crypto 401(k) plan before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: US Department of Labor
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 935
+  - question: Will the LA District Attorney file charges against Sean 'Diddy' Combs before August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: LA County DA Office
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 936
+  - question: Will Saint Harison's 'Ghosted' EP debut on the Billboard 200 chart before July 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: Billboard
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-07-31T23:59:00Z'
+    contractId: 937
+  - question: Will the Broadway marquee dimming honoring Mary Beth Hurt and others occur on June 9, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: Broadway League
+    closingTime: '2026-06-09T17:00:00Z'
+    resolutionTime: '2026-06-10T23:59:00Z'
+    contractId: 938
+  - question: Will GameStop (GME) complete its $2 billion stock buyback program before August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800
+    resolutionSource: SEC filings
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 939
+  - question: Will CoStar Group's acquisition of Zonda officially close before August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800
+    resolutionSource: SEC filings
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 940
+  - question: Will Impulse Space announce a new orbital transfer vehicle launch date before August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800
+    resolutionSource: Impulse Space official
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 941
+  - question: Will China successfully launch and recover a reusable rocket booster before August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1518770660439-4636190af475?w=800
+    resolutionSource: China National Space Administration
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 942
+  - question: Will Red Hat issue an official advisory naming the compromised npm packages before July 1, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800
+    resolutionSource: Red Hat Security Advisories
+    closingTime: '2026-06-30T23:00:00Z'
+    resolutionTime: '2026-07-01T23:59:00Z'
+    contractId: 943
+  - question: Will France record a temperature above 40°C on any day before August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800
+    resolutionSource: Météo-France
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 944
+  - question: Will Israel and Hezbollah formally extend or renew their partial truce before July 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1474631245212-32dc3c8310c6?w=800
+    resolutionSource: Reuters
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-07-31T23:59:00Z'
+    contractId: 945
