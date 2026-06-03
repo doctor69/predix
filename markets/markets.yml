@@ -6624,3 +6624,171 @@ markets:
     closingTime: '2026-07-30T23:00:00Z'
     resolutionTime: '2026-07-31T23:59:00Z'
     contractId: 945
+  - question: Will Kraken's tokenized IPO access product officially launch to retail users before August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: Kraken official announcement
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T23:00:00Z'
+    contractId: 946
+  - question: Will Mastercard officially announce a new stablecoin settlement partnership beyond USDC, PYUSD, and RLUSD before August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800
+    resolutionSource: Mastercard press releases
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T23:00:00Z'
+    contractId: 947
+  - question: Will the European Securities and Markets Authority enforce the MiCA July 1 cutoff against any major crypto firm before August 1, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: ESMA announcements
+    closingTime: '2026-07-31T23:00:00Z'
+    resolutionTime: '2026-08-02T23:00:00Z'
+    contractId: 948
+  - question: Will Mohamed Salah score in Egypt's next competitive match before August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: FIFA official statistics
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T23:00:00Z'
+    contractId: 949
+  - question: Will the Trump administration's new forced-labor tariffs officially take effect before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: US Federal Register
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T23:00:00Z'
+    contractId: 950
+  - question: Will Steve Hilton win the 2026 California gubernatorial general election before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: California Secretary of State
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T23:00:00Z'
+    contractId: 951
+  - question: Will Scott Wiener win the special primary to succeed Nancy Pelosi by August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: California Secretary of State
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T23:00:00Z'
+    contractId: 952
+  - question: Will Microsoft officially launch Scout as a generally available product before August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1518770660439-4636190af475?w=800
+    resolutionSource: Microsoft official announcements
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T23:00:00Z'
+    contractId: 953
+  - question: Will Xcimer Energy publicly demonstrate fusion ignition with its laser before August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800
+    resolutionSource: Xcimer Energy press releases
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T23:00:00Z'
+    contractId: 954
+  - question: Will Tulsa King Season 5 be officially announced to film in New York before August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: Paramount+ official announcements
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T23:00:00Z'
+    contractId: 955
+  - question: Will Charles Leclerc win the 2026 Monaco Grand Prix?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: Formula 1 official results
+    closingTime: '2026-06-07T12:00:00Z'
+    resolutionTime: '2026-06-08T23:00:00Z'
+    contractId: 956
+  - question: Will Keely Hodgkinson win the 400m at the 2026 Rome Diamond League?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: Diamond League official results
+    closingTime: '2026-06-06T16:00:00Z'
+    resolutionTime: '2026-06-07T23:00:00Z'
+    contractId: 957
+  - question: Will Binance complete its NFT migration to its non-custodial wallet before August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800
+    resolutionSource: Binance official announcements
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T23:00:00Z'
+    contractId: 958
+  - question: Will George Santos be formally charged by the DOJ or CFTC over Kalshi trades before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: US Department of Justice
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T23:00:00Z'
+    contractId: 959
+  - question: Will CBS News reach a public settlement with Scott Pelley before August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800
+    resolutionSource: CBS News announcements
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T23:00:00Z'
+    contractId: 960
+  - question: Will the FCA take public enforcement action against a Premier League club's crypto sponsor before August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: UK FCA announcements
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T23:00:00Z'
+    contractId: 961
+  - question: Will Zach Wahls win the Iowa Democratic Senate primary?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: Iowa Secretary of State
+    closingTime: '2026-06-04T23:00:00Z'
+    resolutionTime: '2026-06-06T23:00:00Z'
+    contractId: 962
+  - question: Will England defeat New Zealand in the first Test of their upcoming series?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: ECB official results
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T23:00:00Z'
+    contractId: 963
+  - question: Will Coinbase publicly disclose the size of its ProShares ETF investment before August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1605792657660-596af9009e82?w=800
+    resolutionSource: Coinbase SEC filings
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T23:00:00Z'
+    contractId: 964
+  - question: Will NASA officially confirm the cause of MAVEN's failure before August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1507668077129-56e32842fceb?w=800
+    resolutionSource: NASA official announcements
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T23:00:00Z'
+    contractId: 965
+  - question: Will Ben Stokes remain England's Test cricket captain on August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: ECB official announcements
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T23:00:00Z'
+    contractId: 966
+  - question: Will Honeywell Aerospace officially complete its spinoff before August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800
+    resolutionSource: Honeywell SEC filings
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T23:00:00Z'
+    contractId: 967
+  - question: Will Peabo Bryson be honored with a tribute at the 2026 BET Awards?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1603190287605-e6ade32fa852?w=800
+    resolutionSource: BET Awards broadcast
+    closingTime: '2026-06-28T23:00:00Z'
+    resolutionTime: '2026-06-30T23:00:00Z'
+    contractId: 968
+  - question: Will KSI publicly rejoin the Sidemen YouTube collective before August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800
+    resolutionSource: Sidemen official YouTube channel
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T23:00:00Z'
+    contractId: 969
