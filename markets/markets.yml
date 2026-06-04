@@ -7184,3 +7184,152 @@ markets:
     closingTime: '2026-08-30T23:00:00Z'
     resolutionTime: '2026-08-31T23:00:00Z'
     contractId: 1025
+  - question: Will BitMine officially price its $300M preferred stock offering before July 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800
+    resolutionSource: SEC EDGAR filings
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 1026
+  - question: >-
+      Will Strategy (MSTR) report a quarterly Bitcoin impairment loss exceeding $11 billion in its next earnings report before August 31,
+      2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800
+    resolutionSource: SEC EDGAR filings
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 1027
+  - question: Will Andoni Iraola win his first Premier League match as Liverpool manager?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: Premier League
+    closingTime: '2026-08-14T23:00:00Z'
+    resolutionTime: '2026-08-30T23:00:00Z'
+    contractId: 1028
+  - question: Will Pep Guardiola still be Manchester City manager on August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: Manchester City official site
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 1029
+  - question: Will Erling Haaland publicly confirm he is staying at Manchester City for the 2026/27 season before August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: BBC Sport
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 1030
+  - question: Will Lamine Yamal score 3 or more goals at the 2026 FIFA World Cup?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: FIFA official
+    closingTime: '2026-07-15T23:00:00Z'
+    resolutionTime: '2026-07-20T23:00:00Z'
+    contractId: 1031
+  - question: Will Iran's national football team play in the 2026 FIFA World Cup opening rounds?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: FIFA official
+    closingTime: '2026-06-10T23:00:00Z'
+    resolutionTime: '2026-06-30T23:00:00Z'
+    contractId: 1032
+  - question: Will John Bolton formally plead guilty in his classified documents case before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: DOJ press release
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 1033
+  - question: Will Somalia's president hold national elections before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: Reuters
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 1034
+  - question: Will the Hezbollah-Israel ceasefire announced June 2026 collapse within 30 days?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: Reuters
+    closingTime: '2026-07-03T23:00:00Z'
+    resolutionTime: '2026-07-05T23:00:00Z'
+    contractId: 1035
+  - question: Will Elias Irizarry be removed from his Pentagon office position before July 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: Department of Defense
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-07-31T23:00:00Z'
+    contractId: 1036
+  - question: Will the 250-foot Trump arch project receive final approval from the National Capital Planning Commission before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: NCPC official
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 1037
+  - question: Will the US Postal Service publicly announce a permanent financial solution before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: USPS press release
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 1038
+  - question: Will Bitcoin miner TeraWulf announce a new AI hosting deal before August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1518770660439-4636190af475?w=800
+    resolutionSource: TeraWulf press release
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 1039
+  - question: Will Anthropic publish another report on AI-enabled cyber threats before August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800
+    resolutionSource: Anthropic blog
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 1040
+  - question: Will Trezor release an official firmware fix for the TROPIC01 vulnerability before July 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800
+    resolutionSource: Trezor blog
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-07-31T23:00:00Z'
+    contractId: 1041
+  - question: Will Coinbase officially launch its Bitcoin/USDC mortgage down payment product before August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800
+    resolutionSource: Coinbase blog
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 1042
+  - question: Will Bybit complete its integration with Western Union's USDPT stablecoin before August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800
+    resolutionSource: Bybit press release
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 1043
+  - question: Will Marjane Satrapi receive a posthumous tribute at the 2026 Cannes Film Festival's special memorial section?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: Cannes Film Festival official
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 1044
+  - question: Will the Marilyn Monroe centenary auction exceed $5 million in total sales?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: Reuters
+    closingTime: '2026-06-30T23:00:00Z'
+    resolutionTime: '2026-07-15T23:00:00Z'
+    contractId: 1045
+  - question: Will Dawa Sherpa give a televised interview about his Everest survival before July 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1474631245212-32dc3c8310c6?w=800
+    resolutionSource: BBC News
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-07-31T23:00:00Z'
+    contractId: 1046
