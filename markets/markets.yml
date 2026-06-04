@@ -6792,3 +6792,143 @@ markets:
     closingTime: '2026-08-30T23:00:00Z'
     resolutionTime: '2026-09-01T23:00:00Z'
     contractId: 969
+  - question: Will IREN announce energization of its 800MW South Australian AI campus before August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1605792657660-596af9009e82?w=800
+    resolutionSource: IREN official announcements
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 970
+  - question: Will England qualify for the 2026 FIFA World Cup by avoiding defeat against Spain on June 5, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: FIFA official
+    closingTime: '2026-06-05T18:00:00Z'
+    resolutionTime: '2026-06-06T12:00:00Z'
+    contractId: 971
+  - question: Will Hewett & Reid win the 2026 French Open men's wheelchair doubles title?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: Roland Garros official site
+    closingTime: '2026-06-06T12:00:00Z'
+    resolutionTime: '2026-06-08T22:00:00Z'
+    contractId: 972
+  - question: Will Cristopher Sánchez throw another scoreless inning streak of 20+ innings before August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: MLB.com
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 973
+  - question: Will Microsoft's new in-house AI image model outperform Google's Nano Banana on LMArena rankings before August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800
+    resolutionSource: LMArena leaderboard
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 974
+  - question: Will Ken Doherty make a public appearance at the 2026 World Snooker Championship as commentator?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: World Snooker Tour
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 975
+  - question: Will FIFA's new offside technology be officially used in the 2026 World Cup opening match?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: FIFA official
+    closingTime: '2026-06-10T23:00:00Z'
+    resolutionTime: '2026-06-12T23:00:00Z'
+    contractId: 976
+  - question: Will Iraq win at least one match in their 2026 World Cup group stage?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: FIFA official
+    closingTime: '2026-06-25T23:00:00Z'
+    resolutionTime: '2026-07-15T23:00:00Z'
+    contractId: 977
+  - question: Will Scott Pelley appear on another major news network within 90 days of his CBS firing?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: Verified network announcements
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-02T12:00:00Z'
+    contractId: 978
+  - question: Will the A7A5 Russian ruble stablecoin be sanctioned by OFAC before August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800
+    resolutionSource: US Treasury OFAC
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 979
+  - question: Will Kirsty Hanson officially complete her transfer to Tottenham before July 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: Tottenham Hotspur official
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 980
+  - question: Will Ederson's £35m transfer from Atalanta to Manchester United be officially completed before July 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: Manchester United official
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 981
+  - question: Will Standard Chartered's acquisition of Zodia Custody be officially completed by August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800
+    resolutionSource: Standard Chartered official announcements
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 982
+  - question: Will Scottie Scheffler win the 2026 Memorial Tournament?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: PGA Tour official
+    closingTime: '2026-06-05T12:00:00Z'
+    resolutionTime: '2026-06-08T23:00:00Z'
+    contractId: 983
+  - question: Will Rory McIlroy play in the 2026 Travelers Championship?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: PGA Tour official
+    closingTime: '2026-06-18T23:00:00Z'
+    resolutionTime: '2026-06-20T12:00:00Z'
+    contractId: 984
+  - question: Will Trump's executive order removing job protections from federal workers face a court injunction before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: US federal court records
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 985
+  - question: Will Robinhood's agentic credit card officially launch to consumers before August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?w=800
+    resolutionSource: Robinhood official announcements
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 986
+  - question: Will Kilmar Armando Abrego Garcia be deported to Costa Rica before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: US Department of Homeland Security
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 987
+  - question: Will the SETI Institute publish a peer-reviewed paper on the 3I/ATLAS radio scan before August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1507668077129-56e32842fceb?w=800
+    resolutionSource: SETI Institute publications
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 988
+  - question: Will Berkshire Hathaway under Greg Abel announce its first major acquisition before August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800
+    resolutionSource: Berkshire Hathaway SEC filings
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 989
