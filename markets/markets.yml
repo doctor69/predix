@@ -7065,3 +7065,122 @@ markets:
     closingTime: '2026-08-30T23:00:00Z'
     resolutionTime: '2026-09-01T12:00:00Z'
     contractId: 1008
+  - question: Will FG Nexus sell additional ETH holdings publicly disclosed before July 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1605792657660-596af9009e82?w=800
+    resolutionSource: FG Nexus disclosures
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-07-31T23:00:00Z'
+    contractId: 1009
+  - question: Will the FTC publicly announce an investigation into a prediction market platform before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: FTC official announcements
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 1010
+  - question: Will Russell Wilson reverse his retirement and sign with an NFL team before August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: NFL.com / ESPN
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 1011
+  - question: Will Wales win their Women's World Cup qualifier against Montenegro on June 5, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: FIFA / BBC Sport
+    closingTime: '2026-06-05T18:00:00Z'
+    resolutionTime: '2026-06-06T23:00:00Z'
+    contractId: 1012
+  - question: Will Elisa Balsamo win a fifth stage at the 2026 Giro d'Italia Women?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: Giro d'Italia Women official results
+    closingTime: '2026-06-14T23:00:00Z'
+    resolutionTime: '2026-06-16T23:00:00Z'
+    contractId: 1013
+  - question: Will FIFA reverse its reusable water bottle ban at World Cup stadiums before August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: FIFA official statements
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 1014
+  - question: Will Aryna Sabalenka win a Grand Slam title before August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: WTA / Grand Slam official results
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 1015
+  - question: Will the UFC arena structure on the White House lawn still be standing on August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: White House / major news outlets
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 1016
+  - question: Will Ukrainian drones strike St Petersburg again before July 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1526470608268-f674ce90ebd4?w=800
+    resolutionSource: Reuters / BBC News
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-07-31T23:00:00Z'
+    contractId: 1017
+  - question: Will the Kushner-backed Albania resort project be officially approved before August 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1526470608268-f674ce90ebd4?w=800
+    resolutionSource: Albanian government announcements
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 1018
+  - question: Will Universal UK theme park construction officially begin before August 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1526470608268-f674ce90ebd4?w=800
+    resolutionSource: UK government / Universal
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 1019
+  - question: Will Paramount's antitrust dismissal motion against the Warner Bros. Discovery merger lawsuit be granted before August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800
+    resolutionSource: US court filings
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 1020
+  - question: Will Rosalía's rescheduled Miami Lux tour date be officially announced before July 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800
+    resolutionSource: Rosalía official channels
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-07-31T23:00:00Z'
+    contractId: 1021
+  - question: Will Charley Crockett officially re-release 'Clovis' on streaming before August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1603190287605-e6ade32fa852?w=800
+    resolutionSource: Spotify / Apple Music
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 1022
+  - question: Will the previously unreleased Prince track 'Stone' debut on the Billboard Hot 100 before August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800
+    resolutionSource: Billboard
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 1023
+  - question: Will a peer-reviewed paper on wildfire-driven US ozone reversal be cited in an EPA regulatory action before August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800
+    resolutionSource: EPA / Science journal
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 1024
+  - question: Will agentic payment transactions on Base exceed 200 million before August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: Base on-chain analytics / Dune
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 1025
