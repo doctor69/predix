@@ -6932,3 +6932,136 @@ markets:
     closingTime: '2026-08-30T23:00:00Z'
     resolutionTime: '2026-09-01T12:00:00Z'
     contractId: 989
+  - question: Will Coinbase launch pre-IPO perpetual futures for a second company beyond SpaceX before August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: Coinbase official announcements
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 990
+  - question: Will Tether's tokenized gold Visa card be officially available in the US before August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1605792657660-596af9009e82?w=800
+    resolutionSource: Tether official announcements
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 991
+  - question: Will Texas win the 2026 Women's College World Series championship?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: NCAA.com
+    closingTime: '2026-06-06T23:00:00Z'
+    resolutionTime: '2026-06-10T23:00:00Z'
+    contractId: 992
+  - question: Will Elliot Anderson complete a transfer to Manchester City before August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: Manchester City FC official
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 993
+  - question: Will Todd Blanche be confirmed by the Senate as permanent US Attorney General before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: US Senate records
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 994
+  - question: Will the US House-passed resolution to pull forces from Iran pass the Senate before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: Congress.gov
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 995
+  - question: Will the Lebanon-Israel ceasefire announced June 2026 hold without a major Hezbollah strike for 30 days?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: Reuters
+    closingTime: '2026-07-03T23:00:00Z'
+    resolutionTime: '2026-07-05T12:00:00Z'
+    contractId: 996
+  - question: Will Trump officially endorse a Vance-Rubio 2028 ticket on Truth Social before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: Truth Social official account
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 997
+  - question: Will the National Park Service complete the gold-covered bridge statues by July 4, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: National Park Service
+    closingTime: '2026-07-03T23:00:00Z'
+    resolutionTime: '2026-07-05T23:00:00Z'
+    contractId: 998
+  - question: Will Marvell Technology be officially added to the S&P 500 before July 15, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800
+    resolutionSource: S&P Dow Jones Indices
+    closingTime: '2026-07-14T23:00:00Z'
+    resolutionTime: '2026-07-16T12:00:00Z'
+    contractId: 999
+  - question: Will Broadcom (AVGO) stock close below its pre-earnings price for 5 consecutive trading days before July 15, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?w=800
+    resolutionSource: Nasdaq
+    closingTime: '2026-07-14T23:00:00Z'
+    resolutionTime: '2026-07-16T12:00:00Z'
+    contractId: 1000
+  - question: Will Ciena (CIEN) stock recover to its pre-earnings price before July 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800
+    resolutionSource: NYSE
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 1001
+  - question: Will Perplexity's hybrid on-device inference system launch publicly before August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1518770660439-4636190af475?w=800
+    resolutionSource: Perplexity official announcements
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 1002
+  - question: Will MoonPay's MoonAgents Desktop app be available on Mac App Store before August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800
+    resolutionSource: Mac App Store
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 1003
+  - question: Will CERN officially announce its next major collider project decision before August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800
+    resolutionSource: CERN official
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 1004
+  - question: Will Canada's generic Ozempic become available in at least 5 provinces before July 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800
+    resolutionSource: Health Canada
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 1005
+  - question: 'Will Olivia Rodrigo''s third studio album debut at #1 on the Billboard 200 before August 31, 2026?'
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: Billboard
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 1006
+  - question: Will 'Scary Movie 6' open above $20M domestic in its first weekend?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1603190287605-e6ade32fa852?w=800
+    resolutionSource: Box Office Mojo
+    closingTime: '2026-06-12T23:00:00Z'
+    resolutionTime: '2026-06-16T12:00:00Z'
+    contractId: 1007
+  - question: Will UK Ofqual publish updated invigilator anti-cheating guidance before August 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: Ofqual official
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 1008
