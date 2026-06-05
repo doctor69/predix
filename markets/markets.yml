@@ -7599,3 +7599,108 @@ markets:
     closingTime: '2026-08-30T23:00:00Z'
     resolutionTime: '2026-09-01T12:00:00Z'
     contractId: 1084
+  - question: Will the US House hold a hearing on the 7 crypto tax bills before July 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1605792657660-596af9009e82?w=800
+    resolutionSource: US House Ways and Means Committee
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-07-31T23:00:00Z'
+    contractId: 1085
+  - question: Will Travala process over 1 million USDC AI-agent hotel bookings on Base before August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1605792657660-596af9009e82?w=800
+    resolutionSource: Travala official announcement
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 1086
+  - question: Will SanDisk stock gain over 50% from its current price before August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?w=800
+    resolutionSource: Nasdaq
+    closingTime: '2026-08-30T20:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 1087
+  - question: Will the Trump administration's Forest Service order opening lands to off-road vehicles take effect before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: US Forest Service Federal Register
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 1088
+  - question: Will Google announce another multi-billion dollar SpaceX compute deal before August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800
+    resolutionSource: Google official statement
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 1089
+  - question: Will Supabase publicly announce another valuation increase above $15B before August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800
+    resolutionSource: Supabase press release
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 1090
+  - question: Will the FBI publicly name additional victim companies of the Silent Ransom Group before August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1518770660439-4636190af475?w=800
+    resolutionSource: FBI public advisory
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 1091
+  - question: Will AirTrunk officially break ground on its first India data center before August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800
+    resolutionSource: AirTrunk official announcement
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 1092
+  - question: Will the International Space Station require an emergency astronaut evacuation due to the air leak before August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800
+    resolutionSource: NASA
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 1093
+  - question: Will the Chicago Bears officially announce a deal to move to Hammond, Indiana before August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: Chicago Bears official announcement
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 1094
+  - question: Will Tony Mowbray win his first match in charge of Blackburn Rovers before August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: BBC Sport
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 1095
+  - question: Will Jonathon Cooper be suspended by the Denver Broncos before July 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: NFL official
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-07-31T23:00:00Z'
+    contractId: 1096
+  - question: Will Marilyn Manson's ex-assistant sexual assault lawsuit be dismissed before August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1603190287605-e6ade32fa852?w=800
+    resolutionSource: Court records
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 1097
+  - question: 'Will ''Avatar: Fire and Ash'' debut as #1 on Disney+ streaming charts in its release week of June 2026?'
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: Disney+/Nielsen
+    closingTime: '2026-06-27T23:00:00Z'
+    resolutionTime: '2026-07-05T23:00:00Z'
+    contractId: 1098
+  - question: Will Google's sterilized mosquito release receive federal EPA approval before August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1507668077129-56e32842fceb?w=800
+    resolutionSource: US EPA
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 1099
