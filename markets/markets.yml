@@ -7480,3 +7480,122 @@ markets:
     closingTime: '2026-08-30T23:00:00Z'
     resolutionTime: '2026-08-31T23:59:00Z'
     contractId: 1067
+  - question: Will the US House hold a floor vote on prediction market restrictions for lawmakers before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: Congress.gov
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 1068
+  - question: Will Jennifer Kupcho win the 2026 US Women's Open?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: USGA official results
+    closingTime: '2026-06-07T16:00:00Z'
+    resolutionTime: '2026-06-09T12:00:00Z'
+    contractId: 1069
+  - question: Will Florentino Perez be re-elected as Real Madrid president on Sunday June 7, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: Real Madrid CF official announcement
+    closingTime: '2026-06-07T08:00:00Z'
+    resolutionTime: '2026-06-08T23:00:00Z'
+    contractId: 1070
+  - question: Will Katie Taylor win her farewell fight against Flora Pili at Croke Park before August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: BBC Sport
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 1071
+  - question: Will the Bear that injured four people in north-east Japan be captured before July 15, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: NHK / Reuters
+    closingTime: '2026-07-14T23:00:00Z'
+    resolutionTime: '2026-07-16T12:00:00Z'
+    contractId: 1072
+  - question: Will ASML's market cap remain the largest in Europe on August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800
+    resolutionSource: CompaniesMarketCap.com
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 1073
+  - question: Will Tesla (TSLA) stock decline more than 25% from its June 5, 2026 closing price before August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800
+    resolutionSource: Yahoo Finance
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 1074
+  - question: Will Meta publicly confirm operational tent-based data centers at a second site before August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1518770660439-4636190af475?w=800
+    resolutionSource: Meta official press release
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 1075
+  - question: Will Mira Murati's startup publicly launch its first product before August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1518770660439-4636190af475?w=800
+    resolutionSource: Company press release / TechCrunch
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 1076
+  - question: Will the NASA-SpaceX Dragon be used as a shelter for ISS astronauts due to Russian module leaks before July 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800
+    resolutionSource: NASA official statements
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 1077
+  - question: Will Marlon Wayans' 'Scary Movie 6' have its first trailer released before August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1603190287605-e6ade32fa852?w=800
+    resolutionSource: Paramount official YouTube
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 1078
+  - question: Will England win the Second Test against New Zealand by August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: ECB / BBC Sport
+    closingTime: '2026-06-10T12:00:00Z'
+    resolutionTime: '2026-06-15T12:00:00Z'
+    contractId: 1079
+  - question: Will JPMorgan & Citi-backed Clearing House officially launch its tokenized deposit network before August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1605792657660-596af9009e82?w=800
+    resolutionSource: The Clearing House press release
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 1080
+  - question: Will the UK FCA take formal action against Hyperliquid before August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800
+    resolutionSource: FCA official register
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 1081
+  - question: Will Goldman Sachs' tokenized real estate fund officially launch on GS DAP before August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: Goldman Sachs press release
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 1082
+  - question: Will a federal appeals court rule on Trump's White House ballroom construction before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: PACER / court filings
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 1083
+  - question: Will Andy Burnham formally announce his entry into a Labour leadership contest before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: BBC News
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 1084
