@@ -7333,3 +7333,150 @@ markets:
     closingTime: '2026-07-30T23:00:00Z'
     resolutionTime: '2026-07-31T23:00:00Z'
     contractId: 1046
+  - question: Will Tom Lee's BitMine acquire more than 100,000 additional ETH before August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1605792657660-596af9009e82?w=800
+    resolutionSource: BitMine public filings
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 1047
+  - question: Will Georgia Hunter Bell win a medal at the 2026 European Athletics Championships?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: European Athletics
+    closingTime: '2026-08-15T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 1048
+  - question: Will Formula 1 announce another contract extension beyond 2037 for any race venue before August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: Formula 1 official site
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 1049
+  - question: Will the Trump administration formally fire Elias Irizarry from his Pentagon position before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: Department of Defense
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 1050
+  - question: Will Senate Republicans restore the $1bn White House ballroom funding before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: Congress.gov
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 1051
+  - question: Will Zelensky and Putin hold a face-to-face meeting before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: Reuters
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 1052
+  - question: Will FIFA refund or honor the free World Cup tickets accidentally issued before July 15, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: FIFA official
+    closingTime: '2026-07-14T23:00:00Z'
+    resolutionTime: '2026-07-15T23:59:00Z'
+    contractId: 1053
+  - question: Will Andy Burnham win the Makerfield by-election before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: BBC News
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 1054
+  - question: Will Circle Internet Group (CRCL) stock close below its pre-Stripe/Visa/Mastercard news price on August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800
+    resolutionSource: NYSE
+    closingTime: '2026-08-30T20:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 1055
+  - question: Will South Korea's KOSPI index close above its current 2026 high before August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800
+    resolutionSource: Korea Exchange
+    closingTime: '2026-08-30T07:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 1056
+  - question: Will Rocket Lab (RKLB) stock decline more than 15% from its current level by July 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800
+    resolutionSource: NASDAQ
+    closingTime: '2026-07-30T20:00:00Z'
+    resolutionTime: '2026-07-31T23:59:00Z'
+    contractId: 1057
+  - question: Will Apple approve a second AI agent on its Messages for Business platform before August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800
+    resolutionSource: Apple Developer
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 1058
+  - question: Will the FCC announce new location data privacy enforcement actions before August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800
+    resolutionSource: FCC
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 1059
+  - question: Will Anthropic's annualized revenue exceed $60 billion by its next public update before August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800
+    resolutionSource: Anthropic public statements
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 1060
+  - question: Will Yahoo Finance officially launch its AI-powered experiences to all users before August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1518770660439-4636190af475?w=800
+    resolutionSource: Yahoo Finance
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 1061
+  - question: Will a peer-reviewed paper on the Illgraben debris flow surge waves be published before August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1507668077129-56e32842fceb?w=800
+    resolutionSource: WSL publications
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 1062
+  - question: Will the Cheviot goats be officially recognized as a distinct breed by a UK conservation body before August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1507668077129-56e32842fceb?w=800
+    resolutionSource: Rare Breeds Survival Trust
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 1063
+  - question: Will Olivia Rodrigo publicly comment again on the ICE video using her song before July 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1603190287605-e6ade32fa852?w=800
+    resolutionSource: Major entertainment news outlets
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-07-31T23:59:00Z'
+    contractId: 1064
+  - question: Will Tinashe's 'Too Easy' chart on the Billboard Hot 100 before August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800
+    resolutionSource: Billboard
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 1065
+  - question: Will Kate Winslet announce a new film project before August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1603190287605-e6ade32fa852?w=800
+    resolutionSource: Variety
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 1066
+  - question: Will the UK Chief of Defence Staff publicly confirm a Russian incursion into UK defences before August 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1526470608268-f674ce90ebd4?w=800
+    resolutionSource: UK Ministry of Defence
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 1067
