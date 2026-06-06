@@ -8068,3 +8068,150 @@ markets:
     closingTime: '2026-08-30T20:00:00Z'
     resolutionTime: '2026-09-01T12:00:00Z'
     contractId: 1151
+  - question: Will Terra Luna Classic (LUNC) trade above $0.0001 on CoinGecko on August 1, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800
+    resolutionSource: CoinGecko
+    closingTime: '2026-07-31T23:00:00Z'
+    resolutionTime: '2026-08-02T12:00:00Z'
+    contractId: 1152
+  - question: Will Meta announce expanding stablecoin creator payments to additional countries before August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800
+    resolutionSource: Meta official announcements
+    closingTime: '2026-08-30T20:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 1153
+  - question: Will Saudi Arabia win their rescheduled World Cup warm-up against Puerto Rico before July 15, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: FIFA
+    closingTime: '2026-07-14T20:00:00Z'
+    resolutionTime: '2026-07-16T12:00:00Z'
+    contractId: 1154
+  - question: Will Exeter Chiefs win the 2026 Premiership Rugby title?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: Premiership Rugby
+    closingTime: '2026-06-20T12:00:00Z'
+    resolutionTime: '2026-06-30T12:00:00Z'
+    contractId: 1155
+  - question: Will David Sullivan officially be replaced as West Ham joint chairman before August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: West Ham United
+    closingTime: '2026-08-30T20:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 1156
+  - question: Will Graham Potter's Sweden win their World Cup opening match in 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: FIFA
+    closingTime: '2026-06-11T12:00:00Z'
+    resolutionTime: '2026-06-30T12:00:00Z'
+    contractId: 1157
+  - question: Will the Justice Department formally drop Trump's $1.8 billion compensation fund before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: DOJ official announcements
+    closingTime: '2026-08-30T20:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 1158
+  - question: Will Bill Pulte announce mass firings at his intelligence agency before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: Reuters
+    closingTime: '2026-08-30T20:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 1159
+  - question: Will Superdrug reinstate the skincare brand removed over Israeli settlement concerns before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: Superdrug
+    closingTime: '2026-08-30T20:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 1160
+  - question: Will the UK MoD officially identify the warship with the technical issue in Norway before July 15, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: UK Ministry of Defence
+    closingTime: '2026-07-14T20:00:00Z'
+    resolutionTime: '2026-07-16T12:00:00Z'
+    contractId: 1161
+  - question: Will Alphabet announce a major capital raise exceeding $10 billion before August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800
+    resolutionSource: SEC EDGAR
+    closingTime: '2026-08-30T20:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 1162
+  - question: Will California's billionaire tax proposal be approved by the legislature before August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?w=800
+    resolutionSource: California Legislature
+    closingTime: '2026-08-30T20:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 1163
+  - question: Will Google's monthly SpaceX compute deal be publicly increased above $1 billion per month before August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800
+    resolutionSource: Reuters
+    closingTime: '2026-08-30T20:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 1164
+  - question: Will the Trump administration's new coal plant initiative break ground on any new plant before August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800
+    resolutionSource: US Department of Energy
+    closingTime: '2026-08-30T20:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 1165
+  - question: Will Founders Fund release a second episode of its tech game show before August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800
+    resolutionSource: Founders Fund
+    closingTime: '2026-08-30T20:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 1166
+  - question: Will Fitbit Air receive a software update removing the AI Health Coach feature before August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800
+    resolutionSource: Google/Fitbit
+    closingTime: '2026-08-30T20:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 1167
+  - question: Will the Te-104 decay measurements result be cited in another peer-reviewed paper before August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800
+    resolutionSource: Google Scholar
+    closingTime: '2026-08-30T20:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 1168
+  - question: Will 'Scary Movie 6' gross over $75 million domestically in its opening weekend?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: Box Office Mojo
+    closingTime: '2026-06-08T12:00:00Z'
+    resolutionTime: '2026-06-10T20:00:00Z'
+    contractId: -1
+  - question: Will Madonna's 'Confessions II' album debut in the top 5 of the Billboard 200?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: Billboard
+    closingTime: '2026-07-10T20:00:00Z'
+    resolutionTime: '2026-07-20T20:00:00Z'
+    contractId: 1169
+  - question: Will 'The Leader' starring Tim Blake Nelson receive a major distribution deal before August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800
+    resolutionSource: Deadline
+    closingTime: '2026-08-30T20:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 1170
+  - question: Will Albania's coastal resort protests result in the project being officially paused before August 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1526470608268-f674ce90ebd4?w=800
+    resolutionSource: Reuters
+    closingTime: '2026-08-30T20:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 1171
