@@ -7970,3 +7970,101 @@ markets:
     closingTime: '2026-08-30T23:00:00Z'
     resolutionTime: '2026-09-01T12:00:00Z'
     contractId: 1137
+  - question: Will the Zcash team release an official patch for the Orchard Pool counterfeiting vulnerability before July 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800
+    resolutionSource: Zcash Foundation official announcements
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-08-01T12:00:00Z'
+    contractId: 1138
+  - question: Will Visa officially announce a commercial launch of stablecoin settlement on Canton before August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800
+    resolutionSource: Visa official announcements
+    closingTime: '2026-08-30T20:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 1139
+  - question: Will Nikol Pashinyan's party win a majority in Armenia's upcoming election before August 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: Central Election Commission of Armenia
+    closingTime: '2026-08-30T20:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 1140
+  - question: Will Anthropic publish a formal policy proposal calling for an AI development slowdown before August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800
+    resolutionSource: Anthropic official publications
+    closingTime: '2026-08-30T20:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 1141
+  - question: Will Supabase publicly disclose paying customer count exceeding 2 million before August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1518770660439-4636190af475?w=800
+    resolutionSource: Supabase official announcements
+    closingTime: '2026-08-30T20:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 1142
+  - question: Will Steven Spielberg's 'Disclosure Day' open above $30M in domestic box office in its opening weekend?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: Box Office Mojo
+    closingTime: '2026-06-12T18:00:00Z'
+    resolutionTime: '2026-06-16T12:00:00Z'
+    contractId: 1143
+  - question: Will Phoebe Bridgers announce a new album release before August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1603190287605-e6ade32fa852?w=800
+    resolutionSource: Phoebe Bridgers official channels
+    closingTime: '2026-08-30T20:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 1144
+  - question: Will the Nasdaq Composite recover to its pre-June 5 selloff level before July 15, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?w=800
+    resolutionSource: Nasdaq
+    closingTime: '2026-07-14T20:00:00Z'
+    resolutionTime: '2026-07-16T12:00:00Z'
+    contractId: 1145
+  - question: Will US crude oil inventories fall below 380 million barrels in any EIA weekly report before August 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800
+    resolutionSource: US Energy Information Administration
+    closingTime: '2026-08-30T20:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 1146
+  - question: Will Trump publicly visit a US farm state again before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: White House schedule announcements
+    closingTime: '2026-08-30T20:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 1147
+  - question: Will Harry Kane be named to England's final 2026 World Cup squad before August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: The FA official announcements
+    closingTime: '2026-08-30T20:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 1148
+  - question: Will Henry Patten win another ATP doubles title before August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: ATP Tour
+    closingTime: '2026-08-30T20:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 1149
+  - question: Will Reed Hastings publicly announce his next venture after Netflix before August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1603190287605-e6ade32fa852?w=800
+    resolutionSource: Reuters/Bloomberg
+    closingTime: '2026-08-30T20:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 1150
+  - question: Will India's Q2 2026 GDP growth print above 6.5% year-over-year?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800
+    resolutionSource: India Ministry of Statistics
+    closingTime: '2026-08-30T20:00:00Z'
+    resolutionTime: '2026-09-01T12:00:00Z'
+    contractId: 1151
