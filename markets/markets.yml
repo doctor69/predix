@@ -7704,3 +7704,122 @@ markets:
     closingTime: '2026-08-30T23:00:00Z'
     resolutionTime: '2026-08-31T23:00:00Z'
     contractId: 1099
+  - question: Will Republic of Ireland defeat France in their qualifier on June 9, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: FIFA official
+    closingTime: '2026-06-09T18:00:00Z'
+    resolutionTime: '2026-06-10T06:00:00Z'
+    contractId: 1100
+  - question: Will Wales defeat Romania in the friendly on June 6, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800
+    resolutionSource: BBC Sport
+    closingTime: '2026-06-06T18:00:00Z'
+    resolutionTime: '2026-06-07T06:00:00Z'
+    contractId: 1101
+  - question: Will Scotland top their Women's World Cup qualifying Group B4 before August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800
+    resolutionSource: UEFA
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 1102
+  - question: Will the WHO confirm Ebola cases exceeding 20,000 in the current outbreak before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: WHO
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 1103
+  - question: Will Nikol Pashinyan win re-election as Armenia's Prime Minister before August 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1526470608268-f674ce90ebd4?w=800
+    resolutionSource: Armenia Election Commission
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 1104
+  - question: Will Anthony Head receive a posthumous BAFTA tribute before August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: BAFTA
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 1105
+  - question: Will Michael Ray Gledhill be deemed mentally competent to stand trial at the June 22, 2026 hearing?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800
+    resolutionSource: LA County Court
+    closingTime: '2026-06-21T23:00:00Z'
+    resolutionTime: '2026-06-23T23:00:00Z'
+    contractId: 1106
+  - question: Will Love Island USA Season 8 cross 2 billion minutes viewed on Peacock before July 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800
+    resolutionSource: NBCUniversal/Nielsen
+    closingTime: '2026-07-30T23:00:00Z'
+    resolutionTime: '2026-07-31T23:00:00Z'
+    contractId: 1107
+  - question: Will IBM publicly respond to the whistleblower data breach lawsuit before August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800
+    resolutionSource: IBM official statement
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 1108
+  - question: Will the FTC drop its audits of X's data handling practices before August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800
+    resolutionSource: FTC
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 1109
+  - question: Will Anthropic publicly state that AI writes over 90% of its internal code before August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800
+    resolutionSource: Anthropic official
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 1110
+  - question: Will the NSA publicly confirm use of Anthropic's Mythos for cyber operations before August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1518770660439-4636190af475?w=800
+    resolutionSource: NSA/DoD
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 1111
+  - question: Will a peer-reviewed paper on the AMOC 'cold blob' weakening be published in Nature or Science before August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1507668077129-56e32842fceb?w=800
+    resolutionSource: Nature/Science journals
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 1112
+  - question: Will NASA officially announce confirmed biosignatures from Cheyava Falls samples before August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800
+    resolutionSource: NASA
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 1113
+  - question: Will the FDA identify the cause of the baby botulism outbreak before August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800
+    resolutionSource: FDA
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 1114
+  - question: Will a peer-reviewed ketogenic diet anorexia recovery trial be published before August 31, 2026?
+    category: Science
+    imageUrl: https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800
+    resolutionSource: PubMed
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 1115
+  - question: Will the DOJ Task Force freeze additional illicit crypto funds exceeding $10M before August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800
+    resolutionSource: US DOJ
+    closingTime: '2026-08-30T23:00:00Z'
+    resolutionTime: '2026-08-31T23:00:00Z'
+    contractId: 1116
