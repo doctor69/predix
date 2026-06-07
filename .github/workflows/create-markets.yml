@@ -1,9 +1,9 @@
 name: Create Markets
 
 on:
-  # Auto-generate + deploy new markets every 4 hours
-  schedule:
-    - cron: '0 */4 * * *'
+  # PAUSED — trigger manually via workflow_dispatch when ready
+  # schedule:
+  #   - cron: '0 */4 * * *'
 
   # Fire immediately when markets.yml is edited on main (manual additions)
   push:

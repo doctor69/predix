@@ -52,7 +52,8 @@ interface NewsItem {
 const MARKETS_FILE     = path.resolve(__dirname, "../../markets/markets.yml");
 const MARKETS_PER_RUN  = parseInt(process.env.MARKETS_PER_RUN  ?? "40");
 const MAX_NEWS_AGE_H   = parseInt(process.env.MAX_NEWS_AGE_HOURS ?? "72");
-const DEDUP_THRESHOLD  = 0.55; // word-overlap ratio above which we consider a duplicate
+const DEDUP_THRESHOLD  = 0.55;
+const MAX_PENDING_BACKLOG = parseInt(process.env.MAX_PENDING_BACKLOG ?? "80"); // skip generation if this many undeployed markets already exist
 
 // ─── RSS Feed Sources ────────────────────────────────────────────────────────
 
@@ -267,7 +268,7 @@ Return ONLY a raw JSON array — no markdown fences, no explanation. Schema for 
 }`;
 
   const msg = await client.messages.create({
-    model: "claude-opus-4-7",
+    model: "claude-haiku-4-5-20251001",
     max_tokens: 8192,
     messages: [{ role: "user", content: prompt }],
   });
@@ -320,6 +321,14 @@ async function main(): Promise<void> {
   data.markets ??= [];
   const existingQuestions = data.markets.map((m) => m.question);
   console.log(`  Existing markets in YAML: ${existingQuestions.length}`);
+
+  // Skip if too many markets are already pending deployment (save API cost)
+  const pendingCount = data.markets.filter((m) => m.contractId === null || m.contractId === undefined).length;
+  if (pendingCount >= MAX_PENDING_BACKLOG) {
+    console.log(`  Backlog: ${pendingCount} markets pending deployment (limit ${MAX_PENDING_BACKLOG}) — skipping generation.`);
+    return;
+  }
+  console.log(`  Pending deployment: ${pendingCount} (backlog limit: ${MAX_PENDING_BACKLOG})`);
 
   // Fetch RSS feeds
   console.log("\n  Fetching RSS feeds...");
