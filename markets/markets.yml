@@ -8215,3 +8215,94 @@ markets:
     closingTime: '2026-08-30T20:00:00Z'
     resolutionTime: '2026-09-01T12:00:00Z'
     contractId: 1171
+  - question: Will Kraken's tokenized SpaceX equity (xStocks) launch publicly before August 31, 2026?
+    category: Crypto
+    imageUrl: https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800
+    resolutionSource: Kraken official announcements
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 1172
+  - question: Will any 2026 World Cup group stage game be delayed by more than 30 minutes due to weather?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800
+    resolutionSource: FIFA official match reports
+    closingTime: '2026-07-01T23:59:00Z'
+    resolutionTime: '2026-07-15T23:59:00Z'
+    contractId: 1173
+  - question: Will Simone Biles publicly confirm a return to competitive gymnastics before August 31, 2026?
+    category: Sports
+    imageUrl: https://images.unsplash.com/photo-1540747913346-19212a4f434a?w=800
+    resolutionSource: USA Gymnastics
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 1174
+  - question: Will Trump pardon another former US Congressman before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: White House announcements
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 1175
+  - question: Will the FBI publicly disclose more analyst firings tied to the Catholic extremists memo before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800
+    resolutionSource: FBI / DOJ
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 1176
+  - question: Will Section 702 surveillance authority be reauthorized by Congress before August 31, 2026?
+    category: Politics
+    imageUrl: https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800
+    resolutionSource: Congress.gov
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 1177
+  - question: Will the top US high-yield savings APY exceed 4.25% on a major comparison site before July 31, 2026?
+    category: Finance
+    imageUrl: https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?w=800
+    resolutionSource: Bankrate
+    closingTime: '2026-07-30T23:59:00Z'
+    resolutionTime: '2026-07-31T23:59:00Z'
+    contractId: 1178
+  - question: Will OpenAI's Lockdown Mode reach general availability for ChatGPT users before August 31, 2026?
+    category: Tech
+    imageUrl: https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800
+    resolutionSource: OpenAI Blog
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 1179
+  - question: Will Olivia Rodrigo's duet with Robert Smith debut in the Billboard Hot 100 top 10?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: Billboard
+    closingTime: '2026-06-20T23:59:00Z'
+    resolutionTime: '2026-06-27T23:59:00Z'
+    contractId: 1180
+  - question: Will Charlie Puth announce a rescheduled date for his cancelled Orlando show before July 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1603190287605-e6ade32fa852?w=800
+    resolutionSource: Charlie Puth official socials
+    closingTime: '2026-07-30T23:59:00Z'
+    resolutionTime: '2026-07-31T23:59:00Z'
+    contractId: 1181
+  - question: Will Ariana Grande's 'Eternal Sunshine' tour gross over $100 million by August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: Billboard Boxscore
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 1182
+  - question: Will Netflix's 'Ghostbusters' animated series release a trailer before August 31, 2026?
+    category: Entertainment
+    imageUrl: https://images.unsplash.com/photo-1509909756405-be0199881695?w=800
+    resolutionSource: Netflix official
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 1183
+  - question: Will Pope Leo make another international trip before August 31, 2026?
+    category: Global
+    imageUrl: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800
+    resolutionSource: Vatican News
+    closingTime: '2026-08-30T23:59:00Z'
+    resolutionTime: '2026-08-31T23:59:00Z'
+    contractId: 1184
