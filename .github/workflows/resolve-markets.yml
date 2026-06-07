@@ -1,9 +1,9 @@
 name: Resolve Markets
 
 on:
-  # Check for markets to resolve every 2 hours
-  schedule:
-    - cron: '0 */2 * * *'
+  # PAUSED — trigger manually via workflow_dispatch when ready
+  # schedule:
+  #   - cron: '0 */2 * * *'
 
   # Fire immediately when markets.yml is updated (admin sets outcome: yes/no)
   push:
